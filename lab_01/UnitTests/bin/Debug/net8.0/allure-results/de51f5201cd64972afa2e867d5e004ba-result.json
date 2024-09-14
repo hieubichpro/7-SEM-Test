@@ -1,0 +1,64 @@
+{
+  "uuid": "d19e87eb-0c1a-426f-891b-58e59f2673a1",
+  "historyId": "e3bf21ef17b375f8fae352c74c70a53c",
+  "testCaseId": "ae7b70de66b9be6c5292476ede92d12c",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.ClubServiceUnitTests.TestInsertClubSuccess()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.ClubServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.ClubServiceUnitTests.TestInsertClubSuccess"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.ClubServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "Match Service unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "Match Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.ClubServiceUnitTests.TestInsertClubSuccess",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Assert.Equal() Failure: Values differ\r\nExpected: 11\r\nActual:   10",
+    "trace": "   at Xunit.Assert.Equal[T](T expected, T actual, IEqualityComparer`1 comparer) in /_/src/xunit.assert/Asserts/EqualityAsserts.cs:line 137\r\n   at Xunit.Assert.Equal[T](T expected, T actual) in /_/src/xunit.assert/Asserts/EqualityAsserts.cs:line 82\r\n   at UnitTests.UnitTests.TestBL.ClubServiceUnitTests.TestInsertClubSuccess() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\ClubServiceUnitTests.cs:line 38\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726316145189,
+  "stop": 1726316145195
+}

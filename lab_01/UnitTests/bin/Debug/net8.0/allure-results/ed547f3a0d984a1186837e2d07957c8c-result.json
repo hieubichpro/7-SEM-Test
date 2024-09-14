@@ -1,0 +1,64 @@
+{
+  "uuid": "b859e1bf-0f81-4e39-b878-1583ddce2a1a",
+  "historyId": "4a99e950662922372b15dcdcc237def0",
+  "testCaseId": "764592769d22d53fc8cfc96d2f1bf7d3",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.UserServiceTests.TestRegisterSuccess()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceTests.TestRegisterSuccess"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "User Service unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "User Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.UserServiceTests.TestRegisterSuccess",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "\r\nExpected invocation on the mock once, but was 0 times: m => m.create(User)\r\n\r\nPerformed invocations:\r\n\r\n   Mock<IUserRepository:1> (m):\r\n\r\n      IUserRepository.create(User)\r\n",
+    "trace": "   at Moq.Mock.Verify(Mock mock, LambdaExpression expression, Times times, String failMessage) in /_/src/Moq/Mock.cs:line 332\r\n   at Moq.Mock`1.Verify(Expression`1 expression, Times times) in /_/src/Moq/Mock`1.cs:line 727\r\n   at UnitTests.UnitTests.TestBL.UserServiceTests.TestRegisterSuccess() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\UserServiceTests.cs:line 63\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726320186019,
+  "stop": 1726320186262
+}

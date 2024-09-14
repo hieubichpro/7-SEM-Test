@@ -1,0 +1,42 @@
+2024-09-11 13:37:34Z [Information] login started
+2024-09-11 13:37:34Z [Information] started read user by login
+2024-09-11 13:37:34Z [Information] ended read user by login
+2024-09-11 13:37:35Z [Information] login sucess
+2024-09-11 16:05:46Z [Information] register started
+2024-09-11 16:05:46Z [Information] started read user by login
+2024-09-11 16:05:46Z [Information] ended read user by login
+2024-09-11 16:05:47Z [Information] started create user
+2024-09-11 16:05:47Z [Information] ended create user
+2024-09-11 16:05:47Z [Information] register success
+2024-09-11 16:06:06Z [Information] login started
+2024-09-11 16:06:06Z [Information] started read user by login
+2024-09-11 16:06:06Z [Information] ended read user by login
+2024-09-11 16:06:06Z [Error] user doesn't exists
+2024-09-11 16:06:46Z [Information] login started
+2024-09-11 16:06:46Z [Information] started read user by login
+2024-09-11 16:06:46Z [Information] ended read user by login
+2024-09-11 16:06:47Z [Information] login sucess
+2024-09-12 15:41:48Z [Information] register started
+2024-09-12 15:41:48Z [Information] started read user by login
+2024-09-12 15:41:48Z [Information] ended read user by login
+2024-09-12 15:41:49Z [Information] started create user
+2024-09-12 15:41:50Z [Information] ended create user
+2024-09-12 15:41:50Z [Information] register success
+2024-09-12 15:42:43Z [Information] login started
+2024-09-12 15:42:43Z [Information] started read user by login
+2024-09-12 15:42:43Z [Information] ended read user by login
+2024-09-12 15:42:43Z [Error] password not correct
+2024-09-12 15:42:57Z [Information] login started
+2024-09-12 15:42:57Z [Information] started read user by login
+2024-09-12 15:42:57Z [Information] ended read user by login
+2024-09-12 15:42:58Z [Information] login sucess
+2024-09-12 21:30:43Z [Information] register started
+2024-09-12 21:30:43Z [Information] started read user by login
+2024-09-12 21:30:44Z [Information] ended read user by login
+2024-09-12 21:30:46Z [Information] started create user
+2024-09-12 21:30:46Z [Information] ended create user
+2024-09-12 21:30:46Z [Information] register success
+2024-09-12 21:31:04Z [Information] login started
+2024-09-12 21:31:04Z [Information] started read user by login
+2024-09-12 21:31:04Z [Information] ended read user by login
+2024-09-12 21:31:04Z [Information] login sucess

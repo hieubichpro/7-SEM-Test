@@ -1,0 +1,64 @@
+{
+  "uuid": "2c1976e5-10a0-4e06-97e3-1b7513aa007c",
+  "historyId": "d0988f5a8964cc99144eb0e340ae38de",
+  "testCaseId": "c13b577722863779331f794364f975ab",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.UserServiceTests.TestDeleteUserSuccess()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceTests.TestDeleteUserSuccess"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "User Service unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.UserServiceTests.TestDeleteUserSuccess",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Не существует такого пользователя",
+    "trace": "   at lab_03.BL.Services.UserService.deleteUser(User user) in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Services\\UserService.cs:line 85\r\n   at UnitTests.UnitTests.TestBL.UserServiceTests.TestDeleteUserSuccess() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\UserServiceTests.cs:line 170\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726152259640,
+  "stop": 1726152259755
+}

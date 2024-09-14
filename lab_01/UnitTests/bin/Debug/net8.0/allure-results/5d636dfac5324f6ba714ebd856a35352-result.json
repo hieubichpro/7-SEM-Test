@@ -1,0 +1,52 @@
+{
+  "uuid": "e9600a39-747f-48d7-8d27-82c948bae695",
+  "historyId": "44927f8b801ff9130e42bfbf97a36164",
+  "testCaseId": "cc49391cdbe525ea841b94a2f9c08438",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestDA.UserRepositoryUnitTests.TestReadById()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests.TestReadById"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests.TestReadById",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Assert.Equal() Failure: Values differ\r\nExpected: User { Id = 1, Login = \"logintest 1\", Name = \"nametest 1\", Password = \"passwordtest 1\", Role = \"test\" }\r\nActual:   User { Id = 1, Login = \"logintest 1\", Name = \"nametest 1\", Password = \"passwordtest 1\", Role = \"test\" }",
+    "trace": "   at Xunit.Assert.Equal[T](T expected, T actual, IEqualityComparer`1 comparer) in /_/src/xunit.assert/Asserts/EqualityAsserts.cs:line 137\r\n   at Xunit.Assert.Equal[T](T expected, T actual) in /_/src/xunit.assert/Asserts/EqualityAsserts.cs:line 82\r\n   at UnitTests.UnitTests.TestDA.UserRepositoryUnitTests.TestReadById() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestDA\\UserRepositoryUnitTests.cs:line 34\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726311067719,
+  "stop": 1726311068154
+}

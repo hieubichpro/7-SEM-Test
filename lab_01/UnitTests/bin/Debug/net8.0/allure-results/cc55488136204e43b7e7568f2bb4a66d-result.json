@@ -1,0 +1,63 @@
+{
+  "uuid": "ea6d0bd1-d6d1-4c75-86ca-62bed5897e9d",
+  "historyId": "d0988f5a8964cc99144eb0e340ae38de",
+  "testCaseId": "c13b577722863779331f794364f975ab",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.UserServiceTests.TestDeleteUserSuccess()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceTests.TestDeleteUserSuccess"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "User Service unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "User Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.UserServiceTests.TestDeleteUserSuccess",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726316049470,
+  "stop": 1726316049477
+}

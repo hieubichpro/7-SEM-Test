@@ -1,0 +1,51 @@
+{
+  "uuid": "cd3836b9-08aa-491a-8ff4-de4d7b50d79e",
+  "historyId": "44927f8b801ff9130e42bfbf97a36164",
+  "testCaseId": "cc49391cdbe525ea841b94a2f9c08438",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestDA.UserRepositoryUnitTests.TestReadById()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests.TestReadById"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests.TestReadById",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726311359054,
+  "stop": 1726311359648
+}

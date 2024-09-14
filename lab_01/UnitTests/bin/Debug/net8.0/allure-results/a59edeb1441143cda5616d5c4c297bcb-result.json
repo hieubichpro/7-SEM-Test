@@ -1,0 +1,64 @@
+{
+  "uuid": "a60ec97d-f43f-4a7b-8f99-16831bb155d9",
+  "historyId": "6b908fbb9867c33b60503068e68b1273",
+  "testCaseId": "627bed50e82c9fcac56567b4d9dc2145",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.MatchServiceUnitTests.TestEnterScoreFailure()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests.TestEnterScoreFailure"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "Match Service unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "Match Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests.TestEnterScoreFailure",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Assert.Throws() Failure: No exception was thrown\r\nExpected: typeof(lab_01.BL.Exceptions.MatchNotFoundException)",
+    "trace": "   at Xunit.Assert.Throws(Type exceptionType, Exception exception) in /_/src/xunit.assert/Asserts/ExceptionAsserts.cs:line 34\r\n   at Xunit.Assert.Throws[T](Action testCode) in /_/src/xunit.assert/Asserts/ExceptionAsserts.cs:line 100\r\n   at UnitTests.UnitTests.TestBL.MatchServiceUnitTests.TestEnterScoreFailure() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\MatchServiceUnitTests.cs:line 104\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726155267678,
+  "stop": 1726155267767
+}

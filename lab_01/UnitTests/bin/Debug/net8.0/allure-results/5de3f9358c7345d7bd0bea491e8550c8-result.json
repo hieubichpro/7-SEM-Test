@@ -1,0 +1,64 @@
+{
+  "uuid": "3a2d7fb9-99d7-417b-8fed-68c80761aadc",
+  "historyId": "281ed3ea4a636c86374daeef5949b78b",
+  "testCaseId": "75eaf3f9913fbae9faad4f65535640f8",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.ClubServiceUnitTests.TestDeleteClubFailure()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.ClubServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.ClubServiceUnitTests.TestDeleteClubFailure"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.ClubServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "Match Service unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "Match Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.ClubServiceUnitTests.TestDeleteClubFailure",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "\r\nExpected invocation on the mock once, but was 0 times: m => m.delete(Club)\r\n\r\nPerformed invocations:\r\n\r\n   Mock<IClubRepository:1> (m):\r\n\r\n      IClubRepository.readbyId(100)\r\n",
+    "trace": "   at Moq.Mock.Verify(Mock mock, LambdaExpression expression, Times times, String failMessage) in /_/src/Moq/Mock.cs:line 332\r\n   at Moq.Mock`1.Verify(Expression`1 expression, Times times) in /_/src/Moq/Mock`1.cs:line 727\r\n   at UnitTests.UnitTests.TestBL.ClubServiceUnitTests.TestDeleteClubFailure() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\ClubServiceUnitTests.cs:line 149\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726176410728,
+  "stop": 1726176410915
+}

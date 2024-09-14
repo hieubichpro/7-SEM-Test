@@ -1,0 +1,820 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\bl\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\unittests\\testbl\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testbl\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\unittests\\testbl\\clubserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testbl\\clubserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\unittests\\testbl\\leagueserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testbl\\leagueserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\unittests\\testbl\\matchserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testbl\\matchserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\da\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\da\\repositories\\matchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\repositories\\matchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\builders\\userbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\builders\\userbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\bl\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\fixture\\servicefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\fixture\\servicefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\unittests\\testda\\userrepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testda\\userrepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\unittests\\testda\\matchrepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testda\\matchrepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\fixture\\dbfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\fixture\\dbfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\da\\repositories\\clubleaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\repositories\\clubleaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\bl\\irepositories\\iclubleaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\irepositories\\iclubleaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\bl\\services\\matchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\services\\matchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\unittests\\testda\\leaguerepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testda\\leaguerepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\bl\\irepositories\\imatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\irepositories\\imatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\unittests\\testda\\clubrepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testda\\clubrepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\bl\\irepositories\\ileaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\irepositories\\ileaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\da\\repositories\\clubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\repositories\\clubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\bl\\irepositories\\iclubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\irepositories\\iclubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\objectmothers\\userobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\objectmothers\\userobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\techui\\techui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\techui\\techui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\da\\dbcontext\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\dbcontext\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\da\\dbcontext\\inmemory\\inmemorydbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\dbcontext\\inmemory\\inmemorydbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\da\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\bl\\services\\leagueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\services\\leagueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\bl\\services\\clubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\services\\clubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\da\\repositories\\leaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\repositories\\leaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\builders\\matchbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\builders\\matchbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\objectmothers\\matchobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\objectmothers\\matchobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\builders\\clubbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\builders\\clubbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\builders\\leaguebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\builders\\leaguebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\objectmothers\\leagueobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\objectmothers\\leagueobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\objectmothers\\clubobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\objectmothers\\clubobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\bl\\exceptions\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\exceptions\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\bl\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\bl\\models\\league.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\models\\league.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\lab_01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\lab_01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\logs\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\logs\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\dbsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\dbsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\da\\dbcontext\\postgresql\\pgsqldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\dbcontext\\postgresql\\pgsqldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\bl\\models\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\models\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\bl\\models\\clubleague.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\models\\clubleague.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\7-sem-hieu\\7-sem-testing\\lab_01\\lab_01\\bl\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "lab_01\\DA\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwB0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T14:56:05.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServiceFixture.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\Fixture\\ServiceFixture.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Fixture\\ServiceFixture.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\Fixture\\ServiceFixture.cs",
+              "RelativeToolTip": "UnitTests\\Fixture\\ServiceFixture.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T08:12:30.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\UserServiceTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestBL\\UserServiceTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\UserServiceTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestBL\\UserServiceTests.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwE0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T07:57:05.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Services\\UserService.cs",
+              "RelativeToolTip": "lab_01\\BL\\Services\\UserService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwC4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:56:25.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\IRepositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\IRepositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\IRepositories\\IUserRepository.cs",
+              "RelativeToolTip": "lab_01\\BL\\IRepositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:56:34.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\Builders\\UserBuilder.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Builders\\UserBuilder.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\Builders\\UserBuilder.cs",
+              "RelativeToolTip": "UnitTests\\Builders\\UserBuilder.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wBAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:21:30.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MatchRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\Repositories\\MatchRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\Repositories\\MatchRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\Repositories\\MatchRepository.cs",
+              "RelativeToolTip": "lab_01\\DA\\Repositories\\MatchRepository.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:24:36.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MatchServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\MatchServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestBL\\MatchServiceUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\MatchServiceUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestBL\\MatchServiceUnitTests.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwB8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T14:57:42.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeagueServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\LeagueServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestBL\\LeagueServiceUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\LeagueServiceUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestBL\\LeagueServiceUnitTests.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAwIIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T21:28:32.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClubServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\ClubServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestBL\\ClubServiceUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\ClubServiceUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestBL\\ClubServiceUnitTests.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAmwHcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T16:12:06.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepositoryUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestDA\\UserRepositoryUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestDA\\UserRepositoryUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestDA\\UserRepositoryUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestDA\\UserRepositoryUnitTests.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwCQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T10:21:41.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MatchRepositoryUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestDA\\MatchRepositoryUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestDA\\MatchRepositoryUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestDA\\MatchRepositoryUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestDA\\MatchRepositoryUnitTests.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T11:51:54.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DBFixture.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\Fixture\\DBFixture.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Fixture\\DBFixture.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\Fixture\\DBFixture.cs",
+              "RelativeToolTip": "UnitTests\\Fixture\\DBFixture.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwFQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T05:31:57.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClubLeagueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\Repositories\\ClubLeagueRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\Repositories\\ClubLeagueRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\Repositories\\ClubLeagueRepository.cs",
+              "RelativeToolTip": "lab_01\\DA\\Repositories\\ClubLeagueRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T14:56:17.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IClubLeagueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\IRepositories\\IClubLeagueRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\IRepositories\\IClubLeagueRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\IRepositories\\IClubLeagueRepository.cs",
+              "RelativeToolTip": "lab_01\\BL\\IRepositories\\IClubLeagueRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:54:12.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MatchService.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Services\\MatchService.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Services\\MatchService.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Services\\MatchService.cs",
+              "RelativeToolTip": "lab_01\\BL\\Services\\MatchService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAjwC4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:56:24.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LeagueRepositoryUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestDA\\LeagueRepositoryUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestDA\\LeagueRepositoryUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestDA\\LeagueRepositoryUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestDA\\LeagueRepositoryUnitTests.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAowBAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T11:29:37.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClubRepositoryUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestDA\\ClubRepositoryUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestDA\\ClubRepositoryUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestDA\\ClubRepositoryUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestDA\\ClubRepositoryUnitTests.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAQwD4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T11:11:32.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ClubRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\Repositories\\ClubRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\Repositories\\ClubRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\Repositories\\ClubRepository.cs",
+              "RelativeToolTip": "lab_01\\DA\\Repositories\\ClubRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:56:57.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IClubRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\IRepositories\\IClubRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\IRepositories\\IClubRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\IRepositories\\IClubRepository.cs",
+              "RelativeToolTip": "lab_01\\BL\\IRepositories\\IClubRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:54:13.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IMatchRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\IRepositories\\IMatchRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\IRepositories\\IMatchRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\IRepositories\\IMatchRepository.cs",
+              "RelativeToolTip": "lab_01\\BL\\IRepositories\\IMatchRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:54:18.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ILeagueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\IRepositories\\ILeagueRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\IRepositories\\ILeagueRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\IRepositories\\ILeagueRepository.cs",
+              "RelativeToolTip": "lab_01\\BL\\IRepositories\\ILeagueRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:54:17.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TechUI.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\TechUI\\TechUI.cs",
+              "RelativeDocumentMoniker": "lab_01\\TechUI\\TechUI.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\TechUI\\TechUI.cs",
+              "RelativeToolTip": "lab_01\\TechUI\\TechUI.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T12:28:27.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserObjectMother.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\ObjectMothers\\UserObjectMother.cs",
+              "RelativeDocumentMoniker": "UnitTests\\ObjectMothers\\UserObjectMother.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\ObjectMothers\\UserObjectMother.cs",
+              "RelativeToolTip": "UnitTests\\ObjectMothers\\UserObjectMother.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA6wBsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:46:15.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "dbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\dbContext\\dbContextFactory.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\dbContext\\dbContextFactory.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\dbContext\\dbContextFactory.cs",
+              "RelativeToolTip": "lab_01\\DA\\dbContext\\dbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T13:30:50.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\Program.cs",
+              "RelativeDocumentMoniker": "lab_01\\Program.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\Program.cs",
+              "RelativeToolTip": "lab_01\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:53:27.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InMemoryDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\dbContext\\InMemory\\InMemoryDbContextFactory.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\dbContext\\InMemory\\InMemoryDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\dbContext\\InMemory\\InMemoryDbContextFactory.cs",
+              "RelativeToolTip": "lab_01\\DA\\dbContext\\InMemory\\InMemoryDbContextFactory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T13:36:24.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\dbContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\dbContext\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\dbContext\\AppDbContext.cs",
+              "RelativeToolTip": "lab_01\\DA\\dbContext\\AppDbContext.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAuwEIAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T15:25:50.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LeagueService.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Services\\LeagueService.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Services\\LeagueService.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Services\\LeagueService.cs",
+              "RelativeToolTip": "lab_01\\BL\\Services\\LeagueService.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAmwHgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:57:46.838Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ClubService.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Services\\ClubService.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Services\\ClubService.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Services\\ClubService.cs",
+              "RelativeToolTip": "lab_01\\BL\\Services\\ClubService.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAWwCQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T13:03:56.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LeagueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\Repositories\\LeagueRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\Repositories\\LeagueRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\Repositories\\LeagueRepository.cs",
+              "RelativeToolTip": "lab_01\\DA\\Repositories\\LeagueRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:42:15.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MatchBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\Builders\\MatchBuilder.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Builders\\MatchBuilder.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\Builders\\MatchBuilder.cs",
+              "RelativeToolTip": "UnitTests\\Builders\\MatchBuilder.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAhwBEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:38:23.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MatchObjectMother.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\ObjectMothers\\MatchObjectMother.cs",
+              "RelativeDocumentMoniker": "UnitTests\\ObjectMothers\\MatchObjectMother.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\ObjectMothers\\MatchObjectMother.cs",
+              "RelativeToolTip": "UnitTests\\ObjectMothers\\MatchObjectMother.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:52:21.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ClubBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\Builders\\ClubBuilder.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Builders\\ClubBuilder.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\Builders\\ClubBuilder.cs",
+              "RelativeToolTip": "UnitTests\\Builders\\ClubBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:35:03.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ClubObjectMother.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\ObjectMothers\\ClubObjectMother.cs",
+              "RelativeDocumentMoniker": "UnitTests\\ObjectMothers\\ClubObjectMother.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\ObjectMothers\\ClubObjectMother.cs",
+              "RelativeToolTip": "UnitTests\\ObjectMothers\\ClubObjectMother.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:54:40.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LeagueObjectMother.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\ObjectMothers\\LeagueObjectMother.cs",
+              "RelativeDocumentMoniker": "UnitTests\\ObjectMothers\\LeagueObjectMother.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\ObjectMothers\\LeagueObjectMother.cs",
+              "RelativeToolTip": "UnitTests\\ObjectMothers\\LeagueObjectMother.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:55:30.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LeagueBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\Builders\\LeagueBuilder.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Builders\\LeagueBuilder.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\Builders\\LeagueBuilder.cs",
+              "RelativeToolTip": "UnitTests\\Builders\\LeagueBuilder.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:30:12.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Exceptions.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Exceptions\\Exceptions.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Exceptions\\Exceptions.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Exceptions\\Exceptions.cs",
+              "RelativeToolTip": "lab_01\\BL\\Exceptions\\Exceptions.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCgAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T11:27:30.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UnitTests.csproj",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests.csproj",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests.csproj",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests.csproj",
+              "RelativeToolTip": "UnitTests\\UnitTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-11T15:14:29.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "log.txt",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\logs\\log.txt",
+              "RelativeDocumentMoniker": "lab_01\\logs\\log.txt",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\logs\\log.txt",
+              "RelativeToolTip": "lab_01\\logs\\log.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-09-11T13:37:45.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "pgSqlDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\dbContext\\PostgreSQL\\pgSqlDbContextFactory.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\dbContext\\PostgreSQL\\pgSqlDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\DA\\dbContext\\PostgreSQL\\pgSqlDbContextFactory.cs",
+              "RelativeToolTip": "lab_01\\DA\\dbContext\\PostgreSQL\\pgSqlDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T13:46:23.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Match.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Models\\Match.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Models\\Match.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Models\\Match.cs",
+              "RelativeToolTip": "lab_01\\BL\\Models\\Match.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:57:23.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "League.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Models\\League.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Models\\League.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Models\\League.cs",
+              "RelativeToolTip": "lab_01\\BL\\Models\\League.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:51:38.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "lab_01.csproj",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\lab_01.csproj",
+              "RelativeDocumentMoniker": "lab_01\\lab_01.csproj",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\lab_01.csproj",
+              "RelativeToolTip": "lab_01\\lab_01.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-05T12:53:44.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "dbsettings.json",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\dbsettings.json",
+              "RelativeDocumentMoniker": "lab_01\\dbsettings.json",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\dbsettings.json",
+              "RelativeToolTip": "lab_01\\dbsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-09T14:40:37.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ClubLeague.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Models\\ClubLeague.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Models\\ClubLeague.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Models\\ClubLeague.cs",
+              "RelativeToolTip": "lab_01\\BL\\Models\\ClubLeague.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:54:56.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Club.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Models\\Club.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Models\\Club.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Models\\Club.cs",
+              "RelativeToolTip": "lab_01\\BL\\Models\\Club.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:55:46.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Models\\User.cs",
+              "RelativeToolTip": "lab_01\\BL\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:57:23.067Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

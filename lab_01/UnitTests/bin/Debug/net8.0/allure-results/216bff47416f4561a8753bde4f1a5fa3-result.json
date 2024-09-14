@@ -1,0 +1,64 @@
+{
+  "uuid": "a96208e4-d1db-440b-8e06-6d3ee32e33d3",
+  "historyId": "ad97e8a990bb99e0fc4446a9e16ff283",
+  "testCaseId": "bb23d80ef6382679e037f660adc22e09",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.MatchServiceUnitTests.TestGetNameClubByIDFailure()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests.TestGetNameClubByIDFailure"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "Match Service unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "Match Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests.TestGetNameClubByIDFailure",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "\r\nExpected invocation on the mock once, but was 0 times: m => m.readbyId(100)\r\n\r\nPerformed invocations:\r\n\r\n   Mock<IClubRepository:1> (m):\r\n\r\n      IClubRepository.readbyId(1)\r\n",
+    "trace": "   at Moq.Mock.Verify(Mock mock, LambdaExpression expression, Times times, String failMessage) in /_/src/Moq/Mock.cs:line 332\r\n   at Moq.Mock`1.Verify[TResult](Expression`1 expression, Times times) in /_/src/Moq/Mock`1.cs:line 825\r\n   at UnitTests.UnitTests.TestBL.MatchServiceUnitTests.TestGetNameClubByIDFailure() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\MatchServiceUnitTests.cs:line 59\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726154275017,
+  "stop": 1726154275139
+}

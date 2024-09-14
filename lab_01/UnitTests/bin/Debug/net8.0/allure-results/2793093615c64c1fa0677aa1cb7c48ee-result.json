@@ -1,0 +1,63 @@
+{
+  "uuid": "23b696b7-a3cf-4617-a4a3-ad09c0bcd6ea",
+  "historyId": "cc9a3fb65fed66c6397cadfabf9c9d95",
+  "testCaseId": "ef55ea48388192f401bd8300cef19120",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.MatchServiceUnitTests.TestGetMatchByIdLeague()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests.TestGetMatchByIdLeague"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "Match Service unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "Match Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests.TestGetMatchByIdLeague",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726320396993,
+  "stop": 1726320397101
+}

@@ -1,0 +1,63 @@
+{
+  "uuid": "ef4c88f8-8d68-4e5c-84c7-7a978f9312aa",
+  "historyId": "b86aa32c79f76f5b82841c41f0b5288d",
+  "testCaseId": "a9515eccf8d39093b447d597689ab9ef",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.LeagueServiceUnitTests.TestGetByIdSuccess()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests.TestGetByIdSuccess"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "League Service unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "League Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests.TestGetByIdSuccess",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726316145128,
+  "stop": 1726316145141
+}

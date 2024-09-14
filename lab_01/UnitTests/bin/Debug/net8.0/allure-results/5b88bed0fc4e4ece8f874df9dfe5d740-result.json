@@ -1,0 +1,64 @@
+{
+  "uuid": "45412e4f-e502-4320-aee1-48793fe6527e",
+  "historyId": "2301b4e1bd30ab91ce81129f85a1fcce",
+  "testCaseId": "6a3fdeab9851d542765e13222c1ade99",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.LeagueServiceUnitTests.TestInsertLeagueSuccess()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests.TestInsertLeagueSuccess"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "League Service unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "League Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests.TestInsertLeagueSuccess",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "\r\nExpected invocation on the mock once, but was 0 times: m => m.create(League)\r\n\r\nPerformed invocations:\r\n\r\n   Mock<ILeagueRepository:7> (m):\r\n\r\n      ILeagueRepository.readbyName(\"aaa\")\r\n      ILeagueRepository.create(League)\r\n",
+    "trace": "   at Moq.Mock.Verify(Mock mock, LambdaExpression expression, Times times, String failMessage) in /_/src/Moq/Mock.cs:line 332\r\n   at Moq.Mock`1.Verify(Expression`1 expression, Times times) in /_/src/Moq/Mock`1.cs:line 727\r\n   at UnitTests.UnitTests.TestBL.LeagueServiceUnitTests.TestInsertLeagueSuccess() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\LeagueServiceUnitTests.cs:line 42\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726316049436,
+  "stop": 1726316049446
+}
