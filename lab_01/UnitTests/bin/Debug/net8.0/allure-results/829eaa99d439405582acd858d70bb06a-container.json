@@ -1,0 +1,12 @@
+{
+  "uuid": "da7f7fe4-52c0-48d9-92b0-0d092cbee599",
+  "name": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests",
+  "children": [
+    "436c8cca-9bd0-4ff9-9935-2f92d58a8b23"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1726320984687,
+  "stop": 1726320984704
+}

@@ -1,0 +1,28 @@
+{
+  "uuid": "69a0fe13-6f79-4e86-b09f-06f78981df39",
+  "name": "UnitTests.UnitTests.TestBL.DestroyMethod.ClubServiceUnitTests",
+  "children": [
+    "341e9782-2f81-4a9b-a456-3b853c0ebe24"
+  ],
+  "befores": [
+    {
+      "name": ".ctor",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726582153799,
+      "stop": 1726582153799
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1726582153799,
+  "stop": 1726582153804
+}

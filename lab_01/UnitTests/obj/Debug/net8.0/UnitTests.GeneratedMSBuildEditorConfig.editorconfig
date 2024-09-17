@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UnitTests
-build_property.ProjectDir = C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\7-SEM-Testing\lab_01\UnitTests\
+build_property.ProjectDir = C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\7-SEM-Test\lab_01\UnitTests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

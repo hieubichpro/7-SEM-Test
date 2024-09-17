@@ -21,7 +21,7 @@ namespace UnitTests.Fixture
         { 
 
         }
-        public List<User> AddUsers(int cnt)
+        public List<User> AddUsers(int cnt = 10)
         {
             var users = new List<User>();
             for (int i = 0; i < cnt; i++)
@@ -37,7 +37,7 @@ namespace UnitTests.Fixture
             db_context.SaveChanges();
             return users;
         }
-        public List<Club> AddClubs(int cnt)
+        public List<Club> AddClubs(int cnt = 10)
         {
             var clubs = new List<Club>();
             for (int i = 0;i < cnt;i++)
@@ -50,7 +50,7 @@ namespace UnitTests.Fixture
 
             return clubs;
         }
-        public List<League> AddLeagues(int cnt)
+        public List<League> AddLeagues(int cnt = 10)
         {
             var leagues = new List<League>();
             for (int i = 0; i < cnt; i++)
@@ -63,14 +63,14 @@ namespace UnitTests.Fixture
 
             return leagues;
         }
-        public List<Match> AddMatches(int cnt)
+        public List<Match> AddMatches(int cnt = 10)
         {
             var matches = new List<Match>();
             for (int i = 0; i < cnt; i++)
             {
                 matches.Add(matchOM.CreateMatch()
                                     .WithId(i + 1)
-                                    .WithIdLeague(i + 1)
+                                    .WithIdLeague(1)
                                     .WithIdHome(i + 1)
                                     .WithIdGuest(i + 1)
                                     .WithGoalHome(i + 1)

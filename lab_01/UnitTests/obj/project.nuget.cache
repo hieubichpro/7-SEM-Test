@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8X3O4r9jAfc=",
+  "dgSpecHash": "AgHYcvu/quw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_01\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abcd2\\.nuget\\packages\\allure.net.commons\\2.12.1\\allure.net.commons.2.12.1.nupkg.sha512",
     "C:\\Users\\abcd2\\.nuget\\packages\\allure.xunit\\2.12.1\\allure.xunit.2.12.1.nupkg.sha512",
@@ -152,7 +152,7 @@
     "C:\\Users\\abcd2\\.nuget\\packages\\xunit.extensibility.core\\2.5.3\\xunit.extensibility.core.2.5.3.nupkg.sha512",
     "C:\\Users\\abcd2\\.nuget\\packages\\xunit.extensibility.execution\\2.5.3\\xunit.extensibility.execution.2.5.3.nupkg.sha512",
     "C:\\Users\\abcd2\\.nuget\\packages\\xunit.runner.utility\\2.4.1\\xunit.runner.utility.2.4.1.nupkg.sha512",
-    "C:\\Users\\abcd2\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.3\\xunit.runner.visualstudio.2.5.3.nupkg.sha512"
+    "C:\\Users\\abcd2\\.nuget\\packages\\xunit.runner.visualstudio\\2.8.2\\xunit.runner.visualstudio.2.8.2.nupkg.sha512"
   ],
   "logs": []
 }
