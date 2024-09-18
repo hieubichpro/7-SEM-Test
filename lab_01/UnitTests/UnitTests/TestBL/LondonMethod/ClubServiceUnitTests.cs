@@ -16,8 +16,9 @@ using UnitTests.ObjectMothers;
 namespace UnitTests.UnitTests.TestBL
 {
 [AllureOwner("Hieu Bauman")]
-[AllureSuite("Match Services Unit tests")]
-[AllureSubSuite("Match Service unit tests London Method")]
+    [AllureParentSuite("Services Unit tests")]
+    [AllureSuite("ClubServices Unit tests")]
+[AllureSubSuite("ClubService unit tests London Method")]
     public class ClubServiceUnitTests
     {
         private ClubObjectMother clubOM = new ClubObjectMother();

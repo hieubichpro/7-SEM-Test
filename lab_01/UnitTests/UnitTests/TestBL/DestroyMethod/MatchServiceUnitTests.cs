@@ -18,8 +18,9 @@ using UnitTests.ObjectMothers;
 namespace UnitTests.UnitTests.TestBL.DestroyMethod
 {
     [AllureOwner("Hieu Bauman")]
-    [AllureSuite("Match Services Unit tests")]
-    [AllureSubSuite("Match Service unit tests Destroit Method")]
+    [AllureParentSuite("Services Unit tests")]
+    [AllureSuite("MatchServices Unit tests")]
+    [AllureSubSuite("MatchService unit tests Destroit Method")]
     public class MatchServiceUnitTests
     {
         private DBFixture fixture = new DBFixture();

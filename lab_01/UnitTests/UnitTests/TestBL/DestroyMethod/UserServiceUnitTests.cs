@@ -15,8 +15,9 @@ using Xunit;
 namespace UnitTests.UnitTests.TestBL.DestroyMethod
 {
     [AllureOwner("Hieu Bauman")]
-    [AllureSuite("User Services Unit tests")]
-    [AllureSubSuite("User Service unit tests Destroit Method")]
+    [AllureParentSuite("Services Unit tests")]
+    [AllureSuite("UserServices Unit tests")]
+    [AllureSubSuite("UserService unit tests Destroit Method")]
     public class UserServiceUnitTests
     {
         private DBFixture fixture = new DBFixture();

@@ -17,8 +17,9 @@ using UnitTests.ObjectMothers;
 namespace UnitTests.UnitTests.TestBL
 {
     [AllureOwner("Hieu Bauman")]
-    [AllureSuite("Match Services Unit tests")]
-    [AllureSubSuite("Match Service unit tests London Method")]
+    [AllureParentSuite("Services Unit tests")]
+    [AllureSuite("MatchServices Unit tests")]
+    [AllureSubSuite("MatchService unit tests London Method")]
     public class MatchServiceUnitTests
     {
         private ServiceFixture fixture = new ServiceFixture();

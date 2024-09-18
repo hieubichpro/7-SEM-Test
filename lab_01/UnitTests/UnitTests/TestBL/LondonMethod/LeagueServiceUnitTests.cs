@@ -18,8 +18,9 @@ using Xunit;
 namespace UnitTests.UnitTests.TestBL
 {
 [AllureOwner("Hieu Bauman")]
-[AllureSuite("League Services Unit tests")]
-//[AllureSubSuite("League Service unit tests London Method")]
+    [AllureParentSuite("Services Unit tests")]
+    [AllureSuite("LeagueServices Unit tests")]
+[AllureSubSuite("LeagueService unit tests London Method")]
     public class LeagueServiceUnitTests
     {
         private LeagueObjectMother leagueOM = new LeagueObjectMother();

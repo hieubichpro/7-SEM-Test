@@ -14,8 +14,9 @@ using Xunit;
 namespace UnitTests.UnitTests.TestBL
 {
 [AllureOwner("Hieu Bauman")]
-[AllureSuite("User Services Unit tests")]
-[AllureSubSuite("User Service unit tests London Method")]
+    [AllureParentSuite("Services Unit tests")]
+    [AllureSuite("UserServices Unit tests")]
+[AllureSubSuite("UserService unit tests London Method")]
     public class UserServiceUnitTests
     {
         private ServiceFixture fixture = new ServiceFixture();

@@ -1,4 +1,5 @@
-﻿using lab_03.BL.IRepositories;
+﻿using Allure.Xunit.Attributes;
+using lab_03.BL.IRepositories;
 using lab_03.BL.Services;
 using lab_04.DA;
 using Microsoft.Extensions.Logging.Abstractions;
@@ -12,6 +13,9 @@ using UnitTests.ObjectMothers;
 
 namespace UnitTests.UnitTests.TestDA
 {
+    [AllureOwner("Hieu Bauman")]
+    [AllureSuite("DA Unit Tests")]
+    [AllureSubSuite("UserRepositoty Unit tests")]
     public class UserRepositoryUnitTests
     {
         private IUserRepository _userRepository;

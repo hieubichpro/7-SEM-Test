@@ -30,4 +30,10 @@
     <ProjectReference Include="..\lab_01\lab_01.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="allureConfig.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

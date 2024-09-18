@@ -261,3 +261,4 @@ C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\7-SEM-Test\lab_01\UnitTests\obj\Debug
 C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\7-SEM-Test\lab_01\UnitTests\obj\Debug\net8.0\UnitTests.genruntimeconfig.cache
 C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\7-SEM-Test\lab_01\UnitTests\obj\Debug\net8.0\ref\UnitTests.dll
 C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\7-SEM-Test\lab_01\UnitTests\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\7-SEM-Test\lab_01\UnitTests\bin\Debug\net8.0\allureConfig.json
