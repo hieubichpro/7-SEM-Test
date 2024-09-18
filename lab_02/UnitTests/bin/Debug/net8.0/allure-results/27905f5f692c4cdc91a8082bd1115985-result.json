@@ -1,0 +1,52 @@
+{
+  "uuid": "3e1669d5-3d5b-4bd6-b6d3-aca58ddb7da0",
+  "historyId": "d6790fcdc9a56d26f408335696ec0691",
+  "testCaseId": "99a41dba2d6ec926483031734b32ec6a",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestDA.UserRepositoryUnitTests.TestUpdate()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests.TestUpdate"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests.TestUpdate",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Assert.Equal() Failure: Values differ\r\nExpected: User { Id = 1, Login = \"testt\", Name = \"abc\", Password = \"123\", Role = \"Referee\" }\r\nActual:   User { Id = 1, Login = \"testt\", Name = \"abc\", Password = \"123\", Role = \"Referee\" }",
+    "trace": "   at Xunit.Assert.Equal[T](T expected, T actual, IEqualityComparer`1 comparer) in /_/src/xunit.assert/Asserts/EqualityAsserts.cs:line 137\r\n   at Xunit.Assert.Equal[T](T expected, T actual) in /_/src/xunit.assert/Asserts/EqualityAsserts.cs:line 82\r\n   at UnitTests.UnitTests.TestDA.UserRepositoryUnitTests.TestUpdate() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestDA\\UserRepositoryUnitTests.cs:line 76\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726311964228,
+  "stop": 1726311964703
+}

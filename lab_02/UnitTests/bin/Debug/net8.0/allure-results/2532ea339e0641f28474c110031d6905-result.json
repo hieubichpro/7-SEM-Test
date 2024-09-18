@@ -1,0 +1,51 @@
+{
+  "uuid": "3a976ce1-a85c-4ee7-bfb0-77e789c09f92",
+  "historyId": "95c2757650e3c9f152cb2c968f02a774",
+  "testCaseId": "c7b3e9545b72f17cb499148f19687714",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestDA.ClubRepositoryUnitTests.TestDelete()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestDA.ClubRepositoryUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestDA.ClubRepositoryUnitTests.TestDelete"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestDA.ClubRepositoryUnitTests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestDA.ClubRepositoryUnitTests.TestDelete",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726320336921,
+  "stop": 1726320336934
+}

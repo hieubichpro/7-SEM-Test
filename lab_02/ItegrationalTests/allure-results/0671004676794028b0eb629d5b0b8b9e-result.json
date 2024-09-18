@@ -1,0 +1,51 @@
+{
+  "uuid": "6896d2b6-7ea5-40d7-81e3-6732c2b15e12",
+  "historyId": "94ec752400794c60171160ff9dc85e42",
+  "testCaseId": "fa018f65606b4364b170b3493410df8c",
+  "fullName": "ItegrationalTests:ItegrationalTests.IntegrationalTests.UserIntegrationTests.TestGetAll()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "ItegrationalTests.IntegrationalTests.UserIntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ItegrationalTests.IntegrationalTests.UserIntegrationTests.TestGetAll"
+    },
+    {
+      "name": "package",
+      "value": "ItegrationalTests.IntegrationalTests.UserIntegrationTests"
+    }
+  ],
+  "links": [],
+  "name": "ItegrationalTests.IntegrationalTests.UserIntegrationTests.TestGetAll",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726672180458,
+  "stop": 1726672181216
+}

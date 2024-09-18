@@ -1,0 +1,67 @@
+{
+  "uuid": "ea63b1f4-21d2-42a5-a89a-a10801732971",
+  "historyId": "60f2daf8a278fe54b40a6f86283a4e35",
+  "testCaseId": "995515223e622caf2e75cbc99edeb3bf",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.UserServiceUnitTests.TestLoginSuccess()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceUnitTests.TestLoginSuccess"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Services Unit tests"
+    },
+    {
+      "name": "subSuite",
+      "value": "UserService unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "UserServices Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.UserServiceUnitTests.TestLoginSuccess",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726663043353,
+  "stop": 1726663043359
+}

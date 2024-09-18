@@ -1,0 +1,59 @@
+{
+  "uuid": "17bdb203-c304-40bb-aa0d-a09cffa84a0c",
+  "historyId": "ebad740bdd4f4fddce7a7ef5af2b96aa",
+  "testCaseId": "c7b6b15ea8423057270787edfa42aed7",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.LeagueServiceUnitTests.TestInsertLeagueFailure()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests.TestInsertLeagueFailure"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "suite",
+      "value": "League Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests.TestInsertLeagueFailure",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726661342552,
+  "stop": 1726661342556
+}

@@ -1,0 +1,67 @@
+{
+  "uuid": "48d58bef-b683-4fbe-81d0-a4d372fe681e",
+  "historyId": "098261f8c9a705daeb923f18764079fd",
+  "testCaseId": "12d9fef2cbf77d922e0fe4cfb9321338",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.DestroyMethod.ClubServiceUnitTests.TestDeleteClubFailureDestroitMethod()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.ClubServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.ClubServiceUnitTests.TestDeleteClubFailureDestroitMethod"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.ClubServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Services Unit tests"
+    },
+    {
+      "name": "subSuite",
+      "value": "ClubService unit tests Destroit Method"
+    },
+    {
+      "name": "suite",
+      "value": "ClubServices Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.DestroyMethod.ClubServiceUnitTests.TestDeleteClubFailureDestroitMethod",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726663048428,
+  "stop": 1726663048429
+}

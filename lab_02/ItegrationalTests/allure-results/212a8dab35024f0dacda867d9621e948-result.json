@@ -1,0 +1,52 @@
+{
+  "uuid": "f5616821-5dbd-4511-8fa1-d918a1aca2b8",
+  "historyId": "40345ca723f4c24a7960cb609e7c4384",
+  "testCaseId": "dd1a95a1662aacba535b3303ebf62e63",
+  "fullName": "ItegrationalTests:ItegrationalTests.IntegrationalTests.MatchIntegrationTests.TestGetMatchByIdLeague()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "ItegrationalTests.IntegrationalTests.MatchIntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ItegrationalTests.IntegrationalTests.MatchIntegrationTests.TestGetMatchByIdLeague"
+    },
+    {
+      "name": "package",
+      "value": "ItegrationalTests.IntegrationalTests.MatchIntegrationTests"
+    }
+  ],
+  "links": [],
+  "name": "ItegrationalTests.IntegrationalTests.MatchIntegrationTests.TestGetMatchByIdLeague",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Column 'goal_home_club' is null.",
+    "trace": "   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)\r\n   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)\r\n   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)\r\n   at Npgsql.NpgsqlDataReader.GetInt32(Int32 ordinal)\r\n   at lambda_method44(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()\r\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\r\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\r\n   at lab_04.DA.MatchRepository.readByIdLeague(Int32 id_league) in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_02\\lab_01\\DA\\Repositories\\MatchRepository.cs:line 70\r\n   at ItegrationalTests.IntegrationalTests.MatchIntegrationTests.TestGetMatchByIdLeague() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_02\\ItegrationalTests\\IntegrationalTests\\MatchIntegrationTests.cs:line 37\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726673388841,
+  "stop": 1726673389488
+}

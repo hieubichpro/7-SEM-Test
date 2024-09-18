@@ -1,0 +1,51 @@
+{
+  "uuid": "f9158d6d-ea15-435f-951e-f19c770aa733",
+  "historyId": "3f682c7a1f23ca36c27f48db279941a5",
+  "testCaseId": "f6628e1423c10d82161d937d15c7a21e",
+  "fullName": "ItegrationalTests:ItegrationalTests.IntegrationalTests.MatchIntegrationTests.TestGetNameClubById()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "ItegrationalTests.IntegrationalTests.MatchIntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ItegrationalTests.IntegrationalTests.MatchIntegrationTests.TestGetNameClubById"
+    },
+    {
+      "name": "package",
+      "value": "ItegrationalTests.IntegrationalTests.MatchIntegrationTests"
+    }
+  ],
+  "links": [],
+  "name": "ItegrationalTests.IntegrationalTests.MatchIntegrationTests.TestGetNameClubById",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726673061724,
+  "stop": 1726673062650
+}

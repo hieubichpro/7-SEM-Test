@@ -1,0 +1,12 @@
+{
+  "uuid": "0781df69-4f09-43d7-a7d6-613887670b1a",
+  "name": "UnitTests.UnitTests.TestDA.ClubRepositoryUnitTests",
+  "children": [
+    "63e5bffd-e6ba-4897-bb74-dafa96da8c3f"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1726582157194,
+  "stop": 1726582157210
+}

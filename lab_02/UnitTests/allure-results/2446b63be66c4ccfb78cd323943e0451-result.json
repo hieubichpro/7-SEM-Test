@@ -1,0 +1,67 @@
+{
+  "uuid": "6a9b499b-150d-47da-9b7e-00f5ae4d0ebf",
+  "historyId": "6b908fbb9867c33b60503068e68b1273",
+  "testCaseId": "627bed50e82c9fcac56567b4d9dc2145",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.MatchServiceUnitTests.TestEnterScoreFailure()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests.TestEnterScoreFailure"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Services Unit tests"
+    },
+    {
+      "name": "subSuite",
+      "value": "MatchService unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "MatchServices Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.MatchServiceUnitTests.TestEnterScoreFailure",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726662555098,
+  "stop": 1726662555103
+}

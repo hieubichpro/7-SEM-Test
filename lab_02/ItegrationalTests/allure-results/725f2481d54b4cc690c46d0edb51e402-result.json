@@ -1,0 +1,52 @@
+{
+  "uuid": "b5379d35-dd1a-4206-b397-72535fc42c5a",
+  "historyId": "da4336540d3727642da24f47fc1a037d",
+  "testCaseId": "23e5f2234a24c88e90e7d86e81e31ff5",
+  "fullName": "ItegrationalTests:ItegrationalTests.IntegrationalTests.UserIntegrationTests.TestRegister()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "ItegrationalTests.IntegrationalTests.UserIntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ItegrationalTests.IntegrationalTests.UserIntegrationTests.TestRegister"
+    },
+    {
+      "name": "package",
+      "value": "ItegrationalTests.IntegrationalTests.UserIntegrationTests"
+    }
+  ],
+  "links": [],
+  "name": "ItegrationalTests.IntegrationalTests.UserIntegrationTests.TestRegister",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "failed while create user",
+    "trace": "   at lab_04.DA.UserRepository.create(User user) in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_02\\lab_01\\DA\\Repositories\\UserRepository.cs:line 65\r\n   at lab_03.BL.Services.UserService.Register(String login, String password, String role, String name) in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_02\\lab_01\\BL\\Services\\UserService.cs:line 49\r\n   at ItegrationalTests.IntegrationalTests.UserIntegrationTests.TestRegister() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_02\\ItegrationalTests\\IntegrationalTests\\UserIntegrationTests.cs:line 45\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726671297574,
+  "stop": 1726671298473
+}

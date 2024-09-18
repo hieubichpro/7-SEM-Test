@@ -1,0 +1,63 @@
+{
+  "uuid": "44a53638-0257-4cda-ae73-6fb12d5b65f9",
+  "historyId": "23aecc7e873f9499c5b26234b58131fa",
+  "testCaseId": "0e2090f46cc34d50e0d0a5871f001458",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestDA.LeagueRepositoryUnitTests.TestCreate()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestDA.LeagueRepositoryUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestDA.LeagueRepositoryUnitTests.TestCreate"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestDA.LeagueRepositoryUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "LeagueRepositoty Unit tests"
+    },
+    {
+      "name": "suite",
+      "value": "DA Unit Tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestDA.LeagueRepositoryUnitTests.TestCreate",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726663043846,
+  "stop": 1726663043867
+}

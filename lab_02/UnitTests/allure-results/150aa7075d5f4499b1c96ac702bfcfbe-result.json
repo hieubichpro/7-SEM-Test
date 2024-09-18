@@ -1,0 +1,67 @@
+{
+  "uuid": "0110fbbd-acb2-4db4-a356-cc6c189b696e",
+  "historyId": "6d51b367caba42043ac2d122edfa6930",
+  "testCaseId": "9838384746809c185db9b8a6b4e21e13",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.DestroyMethod.LeagueServiceUnitTests.TestGetByIdSuccessDestroitMethod()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.LeagueServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.LeagueServiceUnitTests.TestGetByIdSuccessDestroitMethod"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.LeagueServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Services Unit tests"
+    },
+    {
+      "name": "subSuite",
+      "value": "LeagueService unit tests Destroit Method"
+    },
+    {
+      "name": "suite",
+      "value": "LeagueServices Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.DestroyMethod.LeagueServiceUnitTests.TestGetByIdSuccessDestroitMethod",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726662554848,
+  "stop": 1726662554851
+}

@@ -1,0 +1,51 @@
+{
+  "uuid": "e4791f66-184d-4295-b511-20d15d34bda3",
+  "historyId": "aa89216e90364463319138aa26b6bd02",
+  "testCaseId": "3af1c5846a6d6010c310814e828e5173",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestDA.MatchRepositoryUnitTests.TestCreate()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestDA.MatchRepositoryUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestDA.MatchRepositoryUnitTests.TestCreate"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestDA.MatchRepositoryUnitTests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestDA.MatchRepositoryUnitTests.TestCreate",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726661342688,
+  "stop": 1726661343028
+}

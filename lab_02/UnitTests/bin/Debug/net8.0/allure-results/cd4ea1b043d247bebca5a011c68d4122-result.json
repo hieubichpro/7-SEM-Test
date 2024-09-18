@@ -1,0 +1,64 @@
+{
+  "uuid": "7c0c628e-66b8-4682-b31c-d5ac774aad53",
+  "historyId": "c1c1a6a96cb83beeca8c3d686fb219b6",
+  "testCaseId": "44f50acadbca2061150df0566d45a885",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.DestroyMethod.UserServiceUnitTests.TestRegisterSuccessDestroitMethod()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.UserServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.UserServiceUnitTests.TestRegisterSuccessDestroitMethod"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.UserServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "User Service unit tests Destroit Method"
+    },
+    {
+      "name": "suite",
+      "value": "User Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.DestroyMethod.UserServiceUnitTests.TestRegisterSuccessDestroitMethod",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Assert.Equivalent() Failure: Mismatched member list\r\nExpected: [\"Capacity\", \"Count\"]\r\nActual:   [\"Id\", \"Login\", \"Password\", \"Role\", \"Name\"]",
+    "trace": "   at Xunit.Assert.Equivalent(Object expected, Object actual, Boolean strict) in /_/src/xunit.assert/Asserts/EquivalenceAsserts.cs:line 41\r\n   at UnitTests.UnitTests.TestBL.DestroyMethod.UserServiceUnitTests.TestRegisterSuccessDestroitMethod() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_01\\UnitTests\\UnitTests\\TestBL\\DestroyMethod\\UserServiceUnitTests.cs:line 59\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726504708866,
+  "stop": 1726504709943
+}

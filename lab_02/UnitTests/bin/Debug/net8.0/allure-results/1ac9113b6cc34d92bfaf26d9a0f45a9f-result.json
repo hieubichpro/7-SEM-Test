@@ -1,0 +1,52 @@
+{
+  "uuid": "b8df051b-ca97-40cd-bfa1-d053fa0509d4",
+  "historyId": "34b5e9bfc663df865356f2ae85136b1e",
+  "testCaseId": "62df6677b82335196f80cafc012a788c",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestDA.ClubRepositoryUnitTests.TestReadByName()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestDA.ClubRepositoryUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestDA.ClubRepositoryUnitTests.TestReadByName"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestDA.ClubRepositoryUnitTests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestDA.ClubRepositoryUnitTests.TestReadByName",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Assert.Equivalent() Failure\r\nExpected: Club { Id = 1, Name = \"nametest 1\" }\r\nActual:   null",
+    "trace": "   at Xunit.Assert.Equivalent(Object expected, Object actual, Boolean strict) in /_/src/xunit.assert/Asserts/EquivalenceAsserts.cs:line 41\r\n   at UnitTests.UnitTests.TestDA.ClubRepositoryUnitTests.TestReadByName() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestDA\\ClubRepositoryUnitTests.cs:line 33\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726312555848,
+  "stop": 1726312556590
+}

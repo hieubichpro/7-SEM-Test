@@ -1,0 +1,52 @@
+{
+  "uuid": "403fe40b-63a9-43e3-a3d8-ba976b18f70d",
+  "historyId": "7878a928c09f83044f245ba921e0e916",
+  "testCaseId": "b23632590f253109eb6d49c0caa8bc4c",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestDA.UserRepositoryUnitTests.TestReadByRole()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests.TestReadByRole"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestDA.UserRepositoryUnitTests.TestReadByRole",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Assert.Equal() Failure: Collections differ\r\n                                   ↓ (pos 0)\r\nExpected: WhereListIterator<User> [User { Id = 1, Login = \"logintest 1\", Name = \"nametest 1\", Password = \"passwordtest 1\", Role = \"Referee\" }, User { Id = 2, Login = \"logintest 2\", Name = \"nametest 2\", Password = \"passwordtest 2\", Role = \"Referee\" }, User { Id = 3, Login = \"logintest 3\", Name = \"nametest 3\", Password = \"passwordtest 3\", Role = \"Referee\" }, User { Id = 4, Login = \"logintest 4\", Name = \"nametest 4\", Password = \"passwordtest 4\", Role = \"Referee\" }, User { Id = 5, Login = \"logintest 5\", Name = \"nametest 5\", Password = \"passwordtest 5\", Role = \"Referee\" }, ···]\r\nActual:   List<User>              [User { Id = 1, Login = \"logintest 1\", Name = \"nametest 1\", Password = \"passwordtest 1\", Role = \"Referee\" }, User { Id = 2, Login = \"logintest 2\", Name = \"nametest 2\", Password = \"passwordtest 2\", Role = \"Referee\" }, User { Id = 3, Login = \"logintest 3\", Name = \"nametest 3\", Password = \"passwordtest 3\", Role = \"Referee\" }, User { Id = 4, Login = \"logintest 4\", Name = \"nametest 4\", Password = \"passwordtest 4\", Role = \"Referee\" }, User { Id = 5, Login = \"logintest 5\", Name = \"nametest 5\", Password = \"passwordtest 5\", Role = \"Referee\" }, ···]\r\n                                   ↑ (pos 0)",
+    "trace": "   at Xunit.Assert.Equal[T](T expected, T actual, IEqualityComparer`1 comparer) in /_/src/xunit.assert/Asserts/EqualityAsserts.cs:line 244\r\n   at Xunit.Assert.Equal[T](IEnumerable`1 expected, IEnumerable`1 actual) in /_/src/xunit.assert/Asserts/CollectionAsserts.cs:line 453\r\n   at UnitTests.UnitTests.TestDA.UserRepositoryUnitTests.TestReadByRole() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestDA\\UserRepositoryUnitTests.cs:line 54\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726316049777,
+  "stop": 1726316049798
+}

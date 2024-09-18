@@ -1,0 +1,28 @@
+{
+  "uuid": "691c6f08-6629-4a13-9e26-f7b180793be4",
+  "name": "UnitTests.UnitTests.TestBL.ClubServiceUnitTests",
+  "children": [
+    "a21c7fba-cf04-41d4-a074-18bf302253cc"
+  ],
+  "befores": [
+    {
+      "name": ".ctor",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726658943354,
+      "stop": 1726658943354
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1726658943354,
+  "stop": 1726658943360
+}

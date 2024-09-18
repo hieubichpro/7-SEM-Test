@@ -1,0 +1,67 @@
+{
+  "uuid": "902b78f3-1a68-4f0a-8350-466dcde6b1ca",
+  "historyId": "ae1aa50f089244870c59ae6eb347216c",
+  "testCaseId": "2a493344262c476c5aee539fedd921f8",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.ClubServiceUnitTests.TestModifyClubSuccess()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.ClubServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.ClubServiceUnitTests.TestModifyClubSuccess"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.ClubServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Services Unit tests"
+    },
+    {
+      "name": "subSuite",
+      "value": "ClubService unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "ClubServices Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.ClubServiceUnitTests.TestModifyClubSuccess",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726663043293,
+  "stop": 1726663043299
+}

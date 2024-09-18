@@ -1,0 +1,67 @@
+{
+  "uuid": "f6971ad3-92e4-4936-8b54-cbb01980e5a3",
+  "historyId": "94348291f151e9ef7c52886b7de2d85f",
+  "testCaseId": "d7d1a13ce6342476e38674ca91a210aa",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.UserServiceUnitTests.TestRegisterFailure()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceUnitTests.TestRegisterFailure"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Services Unit tests"
+    },
+    {
+      "name": "subSuite",
+      "value": "UserService unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "UserServices Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.UserServiceUnitTests.TestRegisterFailure",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726663047880,
+  "stop": 1726663047888
+}

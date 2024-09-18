@@ -1,0 +1,59 @@
+{
+  "uuid": "e8a877e5-6e76-45ee-8788-c0e4df8e3755",
+  "historyId": "a506fb23965bb0f518f66a23d9868c21",
+  "testCaseId": "ac03bdd5618a206c38f605bc3fc84cef",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.DestroyMethod.LeagueServiceUnitTests.TestInsertLeagueFailureDestroitMethod()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.LeagueServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.LeagueServiceUnitTests.TestInsertLeagueFailureDestroitMethod"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.LeagueServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "suite",
+      "value": "League Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.DestroyMethod.LeagueServiceUnitTests.TestInsertLeagueFailureDestroitMethod",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726661643178,
+  "stop": 1726661643191
+}

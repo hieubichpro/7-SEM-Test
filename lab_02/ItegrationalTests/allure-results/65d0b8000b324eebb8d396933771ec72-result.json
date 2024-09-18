@@ -1,0 +1,51 @@
+{
+  "uuid": "153e8ebb-bc7b-4241-9d53-d36f3ead72f3",
+  "historyId": "4aef310d72bf864a6d416f6e3d0239be",
+  "testCaseId": "cddad19c7c7c763069316d0a5210e22a",
+  "fullName": "ItegrationalTests:ItegrationalTests.IntegrationalTests.UserIntegrationTests.TestLogin()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "ItegrationalTests.IntegrationalTests.UserIntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ItegrationalTests.IntegrationalTests.UserIntegrationTests.TestLogin"
+    },
+    {
+      "name": "package",
+      "value": "ItegrationalTests.IntegrationalTests.UserIntegrationTests"
+    }
+  ],
+  "links": [],
+  "name": "ItegrationalTests.IntegrationalTests.UserIntegrationTests.TestLogin",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726671842582,
+  "stop": 1726671842594
+}

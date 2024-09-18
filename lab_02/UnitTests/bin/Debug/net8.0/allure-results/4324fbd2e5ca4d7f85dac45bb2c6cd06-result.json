@@ -1,0 +1,64 @@
+{
+  "uuid": "85c153f9-50f1-490a-b7c2-cf0d938a94b9",
+  "historyId": "1b063e9db1cc3711209a67ed3fe8f76f",
+  "testCaseId": "4a7bf57dce3958e38cee23d95c30809e",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.LeagueServiceUnitTests.TestDeleteLeagueFailure()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests.TestDeleteLeagueFailure"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "League Service unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "League Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.LeagueServiceUnitTests.TestDeleteLeagueFailure",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Assert.Throws() Failure: Exception type was not an exact match\r\nExpected: typeof(lab_01.BL.Exceptions.LeagueExistException)\r\nActual:   typeof(lab_01.BL.Exceptions.LeagueNotFoundException)\nНе существует такой лиги",
+    "trace": "   at Xunit.Assert.Throws(Type exceptionType, Exception exception) in /_/src/xunit.assert/Asserts/ExceptionAsserts.cs:line 37\r\n   at Xunit.Assert.Throws[T](Action testCode) in /_/src/xunit.assert/Asserts/ExceptionAsserts.cs:line 100\r\n   at UnitTests.UnitTests.TestBL.LeagueServiceUnitTests.TestDeleteLeagueFailure() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\LeagueServiceUnitTests.cs:line 87\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\n   at lab_03.BL.Services.LeagueService.deleteLeague(League league) in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\lab_01\\BL\\Services\\LeagueService.cs:line 62\r\n   at UnitTests.UnitTests.TestBL.LeagueServiceUnitTests.<>c__DisplayClass6_0.<TestDeleteLeagueFailure>b__2() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\LeagueServiceUnitTests.cs:line 87\r\n   at Xunit.Assert.RecordException(Action testCode) in /_/src/xunit.assert/Asserts/Record.cs:line 36"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726260034141,
+  "stop": 1726260034230
+}

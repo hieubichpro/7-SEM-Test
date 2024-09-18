@@ -1,0 +1,67 @@
+{
+  "uuid": "d7dc8a70-a123-423c-8730-b4de2a7664d5",
+  "historyId": "904f0955cd244861d7d809da453f7893",
+  "testCaseId": "36b498308552fd1f6bcf453c9ac2f57d",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.DestroyMethod.UserServiceUnitTests.TestLoginFailureDestroitMethod()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.UserServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.UserServiceUnitTests.TestLoginFailureDestroitMethod"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.UserServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Services Unit tests"
+    },
+    {
+      "name": "subSuite",
+      "value": "UserService unit tests Destroit Method"
+    },
+    {
+      "name": "suite",
+      "value": "UserServices Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.DestroyMethod.UserServiceUnitTests.TestLoginFailureDestroitMethod",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726663043821,
+  "stop": 1726663043841
+}

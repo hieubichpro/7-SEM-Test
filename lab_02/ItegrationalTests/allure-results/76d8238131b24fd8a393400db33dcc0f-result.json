@@ -1,0 +1,52 @@
+{
+  "uuid": "c30c9843-435f-49e1-b16b-90852ebebdd6",
+  "historyId": "ff71d81553873cc85d0f9c6673ca7f60",
+  "testCaseId": "bd558e69f4176b00bb2ae056238cd91b",
+  "fullName": "ItegrationalTests:ItegrationalTests.IntegrationalTests.MatchIntegrationTests.TestGetById()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "ItegrationalTests.IntegrationalTests.MatchIntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ItegrationalTests.IntegrationalTests.MatchIntegrationTests.TestGetById"
+    },
+    {
+      "name": "package",
+      "value": "ItegrationalTests.IntegrationalTests.MatchIntegrationTests"
+    }
+  ],
+  "links": [],
+  "name": "ItegrationalTests.IntegrationalTests.MatchIntegrationTests.TestGetById",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Column 'goal_home_club' is null.",
+    "trace": "   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)\r\n   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)\r\n   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)\r\n   at Npgsql.NpgsqlDataReader.GetInt32(Int32 ordinal)\r\n   at lambda_method44(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)\r\n   at lambda_method45(Closure, QueryContext)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)\r\n   at lab_04.DA.MatchRepository.readByID(Int32 id) in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_02\\lab_01\\DA\\Repositories\\MatchRepository.cs:line 78\r\n   at ItegrationalTests.IntegrationalTests.MatchIntegrationTests.TestGetById() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_02\\ItegrationalTests\\IntegrationalTests\\MatchIntegrationTests.cs:line 48\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726673293273,
+  "stop": 1726673294202
+}

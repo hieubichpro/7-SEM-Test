@@ -1,0 +1,52 @@
+{
+  "uuid": "e28f5af0-32c1-4ae1-b14a-b54442bdee58",
+  "historyId": "94ec752400794c60171160ff9dc85e42",
+  "testCaseId": "fa018f65606b4364b170b3493410df8c",
+  "fullName": "ItegrationalTests:ItegrationalTests.IntegrationalTests.UserIntegrationTests.TestGetAll()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "ItegrationalTests.IntegrationalTests.UserIntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ItegrationalTests.IntegrationalTests.UserIntegrationTests.TestGetAll"
+    },
+    {
+      "name": "package",
+      "value": "ItegrationalTests.IntegrationalTests.UserIntegrationTests"
+    }
+  ],
+  "links": [],
+  "name": "ItegrationalTests.IntegrationalTests.UserIntegrationTests.TestGetAll",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Assert.Equal() Failure: Values differ\r\nExpected: 12\r\nActual:   10",
+    "trace": "   at Xunit.Assert.Equal[T](T expected, T actual, IEqualityComparer`1 comparer) in /_/src/xunit.assert/Asserts/EqualityAsserts.cs:line 137\r\n   at Xunit.Assert.Equal[T](T expected, T actual) in /_/src/xunit.assert/Asserts/EqualityAsserts.cs:line 82\r\n   at ItegrationalTests.IntegrationalTests.UserIntegrationTests.TestGetAll() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_02\\ItegrationalTests\\IntegrationalTests\\UserIntegrationTests.cs:line 68\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726672012117,
+  "stop": 1726672012900
+}

@@ -1,0 +1,67 @@
+{
+  "uuid": "22fb2086-476d-453f-b2e6-205512f0da26",
+  "historyId": "c58eceb50f9ad24eff28585406762ae2",
+  "testCaseId": "852a22549ba62dd0060a14b8eb7a1f79",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.DestroyMethod.MatchServiceUnitTests.TestGetByIdSuccess()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.MatchServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.MatchServiceUnitTests.TestGetByIdSuccess"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.MatchServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Services Unit tests"
+    },
+    {
+      "name": "subSuite",
+      "value": "MatchService unit tests Destroit Method"
+    },
+    {
+      "name": "suite",
+      "value": "MatchServices Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.DestroyMethod.MatchServiceUnitTests.TestGetByIdSuccess",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": ""
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726663048545,
+  "stop": 1726663048547
+}

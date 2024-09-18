@@ -1,0 +1,64 @@
+{
+  "uuid": "1ed99756-a104-495d-be31-4e2628fbf257",
+  "historyId": "4d895566c67e7cb3e775b2278059dab9",
+  "testCaseId": "92a6cb4e0629d3bc97f732d537d77c58",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.DestroyMethod.ClubServiceUnitTests.TestGetAllDestroitMethod()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.ClubServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.ClubServiceUnitTests.TestGetAllDestroitMethod"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.ClubServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "Match Service unit tests Destroit Method"
+    },
+    {
+      "name": "suite",
+      "value": "Match Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.DestroyMethod.ClubServiceUnitTests.TestGetAllDestroitMethod",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Assert.Equal() Failure: Collections differ\r\n           ↓ (pos 0)\r\nExpected: [Club { Id = 1, Name = \"nametest 1\" }, Club { Id = 2, Name = \"nametest 2\" }, Club { Id = 3, Name = \"nametest 3\" }, Club { Id = 4, Name = \"nametest 4\" }, Club { Id = 5, Name = \"nametest 5\" }, ···]\r\nActual:   [Club { Id = 1, Name = \"nametest 1\" }, Club { Id = 2, Name = \"nametest 2\" }, Club { Id = 3, Name = \"nametest 3\" }, Club { Id = 4, Name = \"nametest 4\" }, Club { Id = 5, Name = \"nametest 5\" }, ···]\r\n           ↑ (pos 0)",
+    "trace": "   at Xunit.Assert.Equal[T](T expected, T actual, IEqualityComparer`1 comparer) in /_/src/xunit.assert/Asserts/EqualityAsserts.cs:line 244\r\n   at Xunit.Assert.Equal[T](T expected, T actual) in /_/src/xunit.assert/Asserts/EqualityAsserts.cs:line 82\r\n   at UnitTests.UnitTests.TestBL.DestroyMethod.ClubServiceUnitTests.TestGetAllDestroitMethod() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_01\\UnitTests\\UnitTests\\TestBL\\DestroyMethod\\ClubServiceUnitTests.cs:line 83\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726581748061,
+  "stop": 1726581748490
+}

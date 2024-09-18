@@ -1,0 +1,64 @@
+{
+  "uuid": "3a805a10-c9e1-4520-a8d8-0ca956819175",
+  "historyId": "46b13b67a9ff5e490012920e1844de55",
+  "testCaseId": "d8f126ca39f828a5ebbbce20c9a117bd",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.UserServiceTests.TestGetUserByIdFailure()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceTests.TestGetUserByIdFailure"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.UserServiceTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "User Service unit tests London Method"
+    },
+    {
+      "name": "suite",
+      "value": "Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.UserServiceTests.TestGetUserByIdFailure",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Assert.Throws() Failure: No exception was thrown\r\nExpected: typeof(lab_01.BL.Exceptions.UserExistException)",
+    "trace": "   at Xunit.Assert.Throws(Type exceptionType, Exception exception) in /_/src/xunit.assert/Asserts/ExceptionAsserts.cs:line 34\r\n   at Xunit.Assert.Throws[T](Func`1 testCode) in /_/src/xunit.assert/Asserts/ExceptionAsserts.cs:line 117\r\n   at UnitTests.UnitTests.TestBL.UserServiceTests.TestGetUserByIdFailure() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Testing\\lab_01\\UnitTests\\UnitTests\\TestBL\\UserServiceTests.cs:line 157\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726151982859,
+  "stop": 1726151983370
+}

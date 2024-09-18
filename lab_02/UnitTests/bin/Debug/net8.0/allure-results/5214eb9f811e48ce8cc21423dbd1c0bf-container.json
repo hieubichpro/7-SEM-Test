@@ -1,0 +1,28 @@
+{
+  "uuid": "e795f045-a8e7-4491-9888-52c0cd2708d2",
+  "name": "UnitTests.UnitTests.TestBL.UserServiceUnitTests",
+  "children": [
+    "a3eb4603-f190-4651-a8bc-f6a264be04cf"
+  ],
+  "befores": [
+    {
+      "name": ".ctor",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726584126528,
+      "stop": 1726584126528
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1726584126508,
+  "stop": 1726584126541
+}

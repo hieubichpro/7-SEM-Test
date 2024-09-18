@@ -1,0 +1,64 @@
+{
+  "uuid": "71e59af3-82ea-4848-a741-28a0c987eb0a",
+  "historyId": "3ee92fc24c1e8bbf2b4acade54a103fc",
+  "testCaseId": "33c91fc01c67461a412a3b8adae1b217",
+  "fullName": "UnitTests:UnitTests.UnitTests.TestBL.DestroyMethod.MatchServiceUnitTests.TestGetMatchByIdLeague()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.MatchServiceUnitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.MatchServiceUnitTests.TestGetMatchByIdLeague"
+    },
+    {
+      "name": "package",
+      "value": "UnitTests.UnitTests.TestBL.DestroyMethod.MatchServiceUnitTests"
+    },
+    {
+      "name": "owner",
+      "value": "Hieu Bauman"
+    },
+    {
+      "name": "subSuite",
+      "value": "Match Service unit tests Destroit Method"
+    },
+    {
+      "name": "suite",
+      "value": "Match Services Unit tests"
+    }
+  ],
+  "links": [],
+  "name": "UnitTests.UnitTests.TestBL.DestroyMethod.MatchServiceUnitTests.TestGetMatchByIdLeague",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Assert.Equal() Failure: Collections differ\r\n           ↓ (pos 0)\r\nExpected: [Match { GoalGuestTeam = 1, GoalHomeTeam = 1, Id = 1, IdGuestTeam = 1, IdHomeTeam = 1, ··· }, Match { GoalGuestTeam = 2, GoalHomeTeam = 2, Id = 2, IdGuestTeam = 2, IdHomeTeam = 2, ··· }, Match { GoalGuestTeam = 3, GoalHomeTeam = 3, Id = 3, IdGuestTeam = 3, IdHomeTeam = 3, ··· }, Match { GoalGuestTeam = 4, GoalHomeTeam = 4, Id = 4, IdGuestTeam = 4, IdHomeTeam = 4, ··· }, Match { GoalGuestTeam = 5, GoalHomeTeam = 5, Id = 5, IdGuestTeam = 5, IdHomeTeam = 5, ··· }, ···]\r\nActual:   [Match { GoalGuestTeam = 1, GoalHomeTeam = 1, Id = 1, IdGuestTeam = 1, IdHomeTeam = 1, ··· }, Match { GoalGuestTeam = 2, GoalHomeTeam = 2, Id = 2, IdGuestTeam = 2, IdHomeTeam = 2, ··· }, Match { GoalGuestTeam = 3, GoalHomeTeam = 3, Id = 3, IdGuestTeam = 3, IdHomeTeam = 3, ··· }, Match { GoalGuestTeam = 4, GoalHomeTeam = 4, Id = 4, IdGuestTeam = 4, IdHomeTeam = 4, ··· }, Match { GoalGuestTeam = 5, GoalHomeTeam = 5, Id = 5, IdGuestTeam = 5, IdHomeTeam = 5, ··· }, ···]\r\n           ↑ (pos 0)",
+    "trace": "   at Xunit.Assert.Equal[T](T expected, T actual, IEqualityComparer`1 comparer) in /_/src/xunit.assert/Asserts/EqualityAsserts.cs:line 244\r\n   at Xunit.Assert.Equal[T](T expected, T actual) in /_/src/xunit.assert/Asserts/EqualityAsserts.cs:line 82\r\n   at UnitTests.UnitTests.TestBL.DestroyMethod.MatchServiceUnitTests.TestGetMatchByIdLeague() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_01\\UnitTests\\UnitTests\\TestBL\\DestroyMethod\\MatchServiceUnitTests.cs:line 70\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726580119143,
+  "stop": 1726580119195
+}
