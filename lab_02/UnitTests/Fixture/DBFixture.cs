@@ -42,7 +42,7 @@ namespace UnitTests.Fixture
             var clubs = new List<Club>();
             for (int i = 0;i < cnt;i++)
             {
-                clubs.Add(clubOM.CreateClub().WithId(i + 1).WithName($"nametest {i + 1}").BuildCoreModel());
+                clubs.Add(clubOM.CreateClub().WithId(i + 1).WithIdLeague(1).WithName($"nametest {i + 1}").BuildCoreModel());
             }
             using var db_context = _dbContextFactory.get_db_context();
             db_context.clubs.AddRange(clubs);

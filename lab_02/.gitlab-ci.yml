@@ -1,0 +1,108 @@
+services:
+  - postgres:latest
+
+variables:
+  POSTGRES_DB: TestTestTest
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: 123456789
+  DATABASE_URL: "Host=postgres;Port=5432;Username=postgres;Password=123456789;Database=TestTestTest"
+
+stages:
+  - build
+  - unit-tests
+  - integrational-tests
+  - e2e-tests
+
+mybuild:
+  image: mcr.microsoft.com/dotnet/sdk:8.0
+  stage: build
+  tags:
+    - iu7runner
+  script:
+    - dotnet publish lab_01/lab_01.csproj -c Release -o srcPublish
+
+  artifacts:
+    expire_in: 1 hour
+    when: on_success
+    paths:
+      - srcPublish
+
+unit-tests:
+  image: mcr.microsoft.com/dotnet/sdk:8.0
+  stage: unit-tests
+  allow_failure: true
+  tags:
+    - iu7runner
+  needs:
+    - mybuild
+  script:
+    - dotnet test UnitTests/UnitTests.csproj
+  after_script:
+    - echo $CI_JOB_STATUS > ./allure-results/tests.res
+    - echo "UNIT TESTS RESULT" $CI_JOB_STATUS
+
+  artifacts:
+    expire_in: 1 hour
+    when: always
+    paths:
+      - ./allure-results
+
+integrational-tests:
+  image: mcr.microsoft.com/dotnet/sdk:8.0
+  stage: integrational-tests
+  tags:
+    - iu7runner
+  allow_failure: true
+  needs:
+    - mybuild
+    - job: unit-tests
+      artifacts: true
+
+  script:
+    - UNIT_TESTS_RESULT=$(cat ./allure-results/tests.res)
+    - echo "UNIT TESTS RESULT:" $UNIT_TESTS_RESULT
+    - |
+      if [ "$UNIT_TESTS_RESULT" = "success" ]; then
+        SKIP="false"
+      else
+        SKIP="true"
+      fi
+    - echo "SKIP INTEGRATIONAL TESTS:" $SKIP
+    - dotnet test ItegrationalTests/ItegrationalTests.csproj --environment skip=$SKIP
+  after_script:
+    - ITESTS_RESULT=$CI_JOB_STATUS
+    - echo $CI_JOB_STATUS > ./allure-results/tests.res
+
+  artifacts:
+    expire_in: 1 hour
+    when: always
+    paths:
+      - ./allure-results
+
+e2e-tests:
+  image: mcr.microsoft.com/dotnet/sdk:8.0
+  stage: e2e-tests
+  tags:
+    - iu7runner
+  allow_failure: true
+  needs:
+    - mybuild
+    - job: integrational-tests
+      artifacts: true
+
+  script:
+    - ITESTS_RESULT=$(cat ./allure-results/tests.res)
+    - echo "INTEGRATIONAL TESTS RESULT:" $ITESTS_RESULT
+    - |
+      if [ "$ITESTS_RESULT" = "success" ]; then
+        SKIP="false"
+      else
+        SKIP="true"
+      fi
+    - echo "SKIP E2E TESTS:" $SKIP
+    - dotnet test E2ETests/E2ETests.csproj --environment skip=$SKIP
+  artifacts:
+    expire_in: 1 hour
+    when: always
+    paths:
+      - ./allure-results

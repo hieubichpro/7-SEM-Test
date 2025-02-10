@@ -5,8 +5,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using lab_03.BL.IRepositories;
 using lab_04.DA;
-using lab_9.BL.IRepositories;
-using lab_9.DA;
 using lab_03.BL.Services;
 using lab_03.BL.Models;
 using Microsoft.Extensions.Logging;
@@ -38,7 +36,6 @@ namespace UI
                 services.AddSingleton(configuration);
 
                 services.AddScoped<IUserRepository, UserRepository>();
-                services.AddScoped<IClubLeagueRepository, ClubLeagueRepository>();
                 services.AddScoped<IClubRepository, ClubRepository>();
                 services.AddScoped<ILeagueRepository, LeagueRepository>();
                 services.AddScoped<IMatchRepository, MatchRepository>();

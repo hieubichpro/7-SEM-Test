@@ -1,0 +1,646 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 6 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\obj\Release\net8.0/" /p:OutDir="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\bin\Release\net8.0/" /p:OutputPath="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\bin\Release\net8.0/" in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8
+// command took 4.14 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\obj\Release\net8.0/" /p:OutDir="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\bin\Release\net8.0/" /p:OutputPath="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\bin\Release\net8.0/" --output "C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\bin\Release\net8.0/" in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8
+// command took 8.03 sec and exited with 0
+// ***** Done, took 00:00:12 (12.45 sec)   *****
+// Found 6 benchmarks:
+//   Compare.NpgslInsert: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+//   Compare.NpgslSelect: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+//   Compare.DapperInsert: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+//   Compare.DapperSelect: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+//   Compare.EfCoreSelect: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+//   Compare.EfCoreInsert: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Compare.NpgslInsert: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 0da99ea5-d409-43cd-ad5e-9780c5d954f8.dll --anonymousPipes 2208 2068 --benchmarkName Benchmark.Compare.Compare.NpgslInsert --job "IterationCount=2, LaunchCount=1" --benchmarkId 0 in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX-512F+CD+BW+DQ+VL+VBMI,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-GEZILM(IterationCount=2, LaunchCount=1)
+
+[testcontainers.org 00:00:00.41] Connected to Docker:
+  Host: npipe://./pipe/docker_engine
+  Server Version: 26.1.4
+  Kernel Version: 5.15.153.1-microsoft-standard-WSL2
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 3.76 GB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+[testcontainers.org 00:00:01.17] Docker container d8f90264e348 created
+[testcontainers.org 00:00:01.27] Start Docker container d8f90264e348
+[testcontainers.org 00:00:05.90] Wait for Docker container d8f90264e348 to complete readiness checks
+[testcontainers.org 00:00:05.91] Docker container d8f90264e348 ready
+[testcontainers.org 00:00:06.08] Docker container ea4051cf8a7d created
+[testcontainers.org 00:00:06.12] Start Docker container ea4051cf8a7d
+[testcontainers.org 00:00:07.83] Wait for Docker container ea4051cf8a7d to complete readiness checks
+[testcontainers.org 00:00:07.84] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container ea4051cf8a7d
+[testcontainers.org 00:00:09.05] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container ea4051cf8a7d
+[testcontainers.org 00:00:10.19] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container ea4051cf8a7d
+[testcontainers.org 00:00:10.27] Docker container ea4051cf8a7d ready
+OverheadJitting  1: 1 op, 175000.00 ns, 175.0000 us/op
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> Npgsql.PostgresException (0x80004005): 42804: column "role" is of type integer but expression is of type text
+
+POSITION: 71
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Benchmark.Repositories.Npgsql.NpgsqlUserRepository.InsertUser(String login, String password, String role, String name) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Repositories\Npgsql\NpgsqlUserRepository.cs:line 31
+   at Benchmark.Compare.Compare.NpgslInsert() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Compare\Compare.cs:line 37
+   at BenchmarkDotNet.Helpers.AwaitHelper.GetResult(Task task)
+   at BenchmarkDotNet.Autogenerated.Runnable_0.<.ctor>b__3_4() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 198
+   at BenchmarkDotNet.Autogenerated.Runnable_0.WorkloadActionNoUnroll(Int64 invokeCount) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 312
+   at BenchmarkDotNet.Engines.Engine.Measure(Action`1 action, Int64 invokeCount)
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineFactory.Jit(Engine engine, Int32 jitIndex, Int32 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineFactory.CreateReadyToRun(EngineParameters engineParameters)
+   at BenchmarkDotNet.Autogenerated.Runnable_0.Run(IHost host, String benchmarkName) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 177
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42804
+    MessageText: column "role" is of type integer but expression is of type text
+    Hint: You will need to rewrite or cast the expression.
+    Position: 71
+    File: parse_target.c
+    Line: 585
+    Routine: transformAssignedExpr
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 57
+// AfterAll
+No Workload Results were obtained from the run.
+// Benchmark Process 9956 has exited with code -1.
+
+// ** Remained 5 (83,3 %) benchmark(s) to run. Estimated finish 2024-11-29 16:57 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Compare.NpgslSelect: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 0da99ea5-d409-43cd-ad5e-9780c5d954f8.dll --anonymousPipes 1736 1332 --benchmarkName Benchmark.Compare.Compare.NpgslSelect --job "IterationCount=2, LaunchCount=1" --benchmarkId 1 in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX-512F+CD+BW+DQ+VL+VBMI,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-FJLUXQ(IterationCount=2, LaunchCount=1)
+
+[testcontainers.org 00:00:00.20] Connected to Docker:
+  Host: npipe://./pipe/docker_engine
+  Server Version: 26.1.4
+  Kernel Version: 5.15.153.1-microsoft-standard-WSL2
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 3.76 GB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+[testcontainers.org 00:00:00.41] Docker container 5a845c1f2591 created
+[testcontainers.org 00:00:00.46] Start Docker container 5a845c1f2591
+[testcontainers.org 00:00:01.85] Wait for Docker container 5a845c1f2591 to complete readiness checks
+[testcontainers.org 00:00:01.86] Docker container 5a845c1f2591 ready
+[testcontainers.org 00:00:01.93] Docker container 722799c439f8 created
+[testcontainers.org 00:00:01.96] Start Docker container 722799c439f8
+[testcontainers.org 00:00:03.31] Wait for Docker container 722799c439f8 to complete readiness checks
+[testcontainers.org 00:00:03.33] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container 722799c439f8
+[testcontainers.org 00:00:04.42] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container 722799c439f8
+[testcontainers.org 00:00:04.49] Docker container 722799c439f8 ready
+OverheadJitting  1: 1 op, 240400.00 ns, 240.4000 us/op
+WorkloadJitting  1: 1 op, 8674600.00 ns, 8.6746 ms/op
+
+OverheadJitting  2: 16 op, 431600.00 ns, 26.9750 us/op
+WorkloadJitting  2: 16 op, 11704000.00 ns, 731.5000 us/op
+
+WorkloadPilot    1: 16 op, 10268800.00 ns, 641.8000 us/op
+WorkloadPilot    2: 32 op, 18769900.00 ns, 586.5594 us/op
+WorkloadPilot    3: 64 op, 40701500.00 ns, 635.9609 us/op
+WorkloadPilot    4: 128 op, 81375900.00 ns, 635.7492 us/op
+WorkloadPilot    5: 256 op, 181396800.00 ns, 708.5813 us/op
+WorkloadPilot    6: 512 op, 446509100.00 ns, 872.0881 us/op
+WorkloadPilot    7: 1024 op, 698641700.00 ns, 682.2673 us/op
+
+OverheadWarmup   1: 1024 op, 7300.00 ns, 7.1289 ns/op
+OverheadWarmup   2: 1024 op, 6000.00 ns, 5.8594 ns/op
+OverheadWarmup   3: 1024 op, 5800.00 ns, 5.6641 ns/op
+OverheadWarmup   4: 1024 op, 6000.00 ns, 5.8594 ns/op
+OverheadWarmup   5: 1024 op, 6200.00 ns, 6.0547 ns/op
+OverheadWarmup   6: 1024 op, 6700.00 ns, 6.5430 ns/op
+OverheadWarmup   7: 1024 op, 5800.00 ns, 5.6641 ns/op
+OverheadWarmup   8: 1024 op, 5700.00 ns, 5.5664 ns/op
+OverheadWarmup   9: 1024 op, 5800.00 ns, 5.6641 ns/op
+OverheadWarmup  10: 1024 op, 5900.00 ns, 5.7617 ns/op
+
+OverheadActual   1: 1024 op, 5900.00 ns, 5.7617 ns/op
+OverheadActual   2: 1024 op, 5900.00 ns, 5.7617 ns/op
+OverheadActual   3: 1024 op, 6300.00 ns, 6.1523 ns/op
+OverheadActual   4: 1024 op, 5600.00 ns, 5.4688 ns/op
+OverheadActual   5: 1024 op, 5800.00 ns, 5.6641 ns/op
+OverheadActual   6: 1024 op, 6300.00 ns, 6.1523 ns/op
+OverheadActual   7: 1024 op, 6100.00 ns, 5.9570 ns/op
+OverheadActual   8: 1024 op, 5900.00 ns, 5.7617 ns/op
+OverheadActual   9: 1024 op, 5900.00 ns, 5.7617 ns/op
+OverheadActual  10: 1024 op, 5400.00 ns, 5.2734 ns/op
+OverheadActual  11: 1024 op, 5700.00 ns, 5.5664 ns/op
+OverheadActual  12: 1024 op, 5500.00 ns, 5.3711 ns/op
+OverheadActual  13: 1024 op, 5400.00 ns, 5.2734 ns/op
+OverheadActual  14: 1024 op, 5600.00 ns, 5.4688 ns/op
+OverheadActual  15: 1024 op, 5600.00 ns, 5.4688 ns/op
+OverheadActual  16: 1024 op, 5300.00 ns, 5.1758 ns/op
+OverheadActual  17: 1024 op, 6900.00 ns, 6.7383 ns/op
+OverheadActual  18: 1024 op, 5700.00 ns, 5.5664 ns/op
+OverheadActual  19: 1024 op, 5500.00 ns, 5.3711 ns/op
+
+WorkloadWarmup   1: 1024 op, 718458500.00 ns, 701.6196 us/op
+WorkloadWarmup   2: 1024 op, 619139700.00 ns, 604.6286 us/op
+WorkloadWarmup   3: 1024 op, 623551400.00 ns, 608.9369 us/op
+WorkloadWarmup   4: 1024 op, 613855800.00 ns, 599.4686 us/op
+WorkloadWarmup   5: 1024 op, 615123000.00 ns, 600.7061 us/op
+WorkloadWarmup   6: 1024 op, 819241200.00 ns, 800.0402 us/op
+WorkloadWarmup   7: 1024 op, 744253800.00 ns, 726.8104 us/op
+
+// BeforeActualRun
+WorkloadActual   1: 1024 op, 687929600.00 ns, 671.8063 us/op
+WorkloadActual   2: 1024 op, 601406000.00 ns, 587.3105 us/op
+
+// AfterActualRun
+WorkloadResult   1: 1024 op, 687923900.00 ns, 671.8007 us/op
+WorkloadResult   2: 1024 op, 601400300.00 ns, 587.3050 us/op
+// GC:  0 0 0 4011216 1024
+// Threading:  6087 0 1024
+
+[testcontainers.org 00:00:13.18] Delete Docker container 722799c439f8
+// AfterAll
+// Benchmark Process 23288 has exited with code 0.
+
+Mean = 629.553 μs, StdErr = 42.248 μs (6.71%), N = 2, StdDev = 59.747 μs
+Min = 587.305 μs, Q1 = 608.429 μs, Median = 629.553 μs, Q3 = 650.677 μs, Max = 671.801 μs
+IQR = 42.248 μs, LowerFence = 545.057 μs, UpperFence = 714.049 μs
+ConfidenceInterval = [-26,266.243 μs; 27,525.348 μs] (CI 99.9%), Margin = 26,895.796 μs (4272.21% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+
+// ** Remained 4 (66,7 %) benchmark(s) to run. Estimated finish 2024-11-29 16:58 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Compare.DapperInsert: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 0da99ea5-d409-43cd-ad5e-9780c5d954f8.dll --anonymousPipes 1868 2324 --benchmarkName Benchmark.Compare.Compare.DapperInsert --job "IterationCount=2, LaunchCount=1" --benchmarkId 2 in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX-512F+CD+BW+DQ+VL+VBMI,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-XNQEZO(IterationCount=2, LaunchCount=1)
+
+[testcontainers.org 00:00:00.15] Connected to Docker:
+  Host: npipe://./pipe/docker_engine
+  Server Version: 26.1.4
+  Kernel Version: 5.15.153.1-microsoft-standard-WSL2
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 3.76 GB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+[testcontainers.org 00:00:00.33] Docker container ae421874a161 created
+[testcontainers.org 00:00:00.37] Start Docker container ae421874a161
+[testcontainers.org 00:00:01.71] Wait for Docker container ae421874a161 to complete readiness checks
+[testcontainers.org 00:00:01.72] Docker container ae421874a161 ready
+[testcontainers.org 00:00:01.78] Docker container 96283c2a0bec created
+[testcontainers.org 00:00:01.79] Start Docker container 96283c2a0bec
+[testcontainers.org 00:00:03.10] Wait for Docker container 96283c2a0bec to complete readiness checks
+[testcontainers.org 00:00:03.11] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container 96283c2a0bec
+[testcontainers.org 00:00:04.18] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container 96283c2a0bec
+[testcontainers.org 00:00:04.23] Docker container 96283c2a0bec ready
+OverheadJitting  1: 1 op, 151600.00 ns, 151.6000 us/op
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> Npgsql.PostgresException (0x80004005): 42804: column "role" is of type integer but expression is of type text
+
+POSITION: 71
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Benchmark.Repositories.Dapper.DapperUserRepository.InsertUser(String login, String password, String role, String name) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Repositories\Dapper\DapperUserRepository.cs:line 23
+   at Benchmark.Compare.Compare.DapperInsert() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Compare\Compare.cs:line 53
+   at BenchmarkDotNet.Helpers.AwaitHelper.GetResult(Task task)
+   at BenchmarkDotNet.Autogenerated.Runnable_2.<.ctor>b__3_4() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 589
+   at BenchmarkDotNet.Autogenerated.Runnable_2.WorkloadActionNoUnroll(Int64 invokeCount) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 703
+   at BenchmarkDotNet.Engines.Engine.Measure(Action`1 action, Int64 invokeCount)
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineFactory.Jit(Engine engine, Int32 jitIndex, Int32 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineFactory.CreateReadyToRun(EngineParameters engineParameters)
+   at BenchmarkDotNet.Autogenerated.Runnable_2.Run(IHost host, String benchmarkName) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 568
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42804
+    MessageText: column "role" is of type integer but expression is of type text
+    Hint: You will need to rewrite or cast the expression.
+    Position: 71
+    File: parse_target.c
+    Line: 585
+    Routine: transformAssignedExpr
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 57
+// AfterAll
+No Workload Results were obtained from the run.
+// Benchmark Process 23112 has exited with code -1.
+
+// ** Remained 3 (50,0 %) benchmark(s) to run. Estimated finish 2024-11-29 16:57 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Compare.DapperSelect: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 0da99ea5-d409-43cd-ad5e-9780c5d954f8.dll --anonymousPipes 2460 1404 --benchmarkName Benchmark.Compare.Compare.DapperSelect --job "IterationCount=2, LaunchCount=1" --benchmarkId 3 in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX-512F+CD+BW+DQ+VL+VBMI,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-BVNFHC(IterationCount=2, LaunchCount=1)
+
+[testcontainers.org 00:00:00.13] Connected to Docker:
+  Host: npipe://./pipe/docker_engine
+  Server Version: 26.1.4
+  Kernel Version: 5.15.153.1-microsoft-standard-WSL2
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 3.76 GB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+[testcontainers.org 00:00:00.29] Docker container 8ef13ec986c3 created
+[testcontainers.org 00:00:00.34] Start Docker container 8ef13ec986c3
+[testcontainers.org 00:00:01.60] Wait for Docker container 8ef13ec986c3 to complete readiness checks
+[testcontainers.org 00:00:01.61] Docker container 8ef13ec986c3 ready
+[testcontainers.org 00:00:01.66] Docker container ac16fd14c233 created
+[testcontainers.org 00:00:01.67] Start Docker container ac16fd14c233
+[testcontainers.org 00:00:02.96] Wait for Docker container ac16fd14c233 to complete readiness checks
+[testcontainers.org 00:00:02.97] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container ac16fd14c233
+[testcontainers.org 00:00:03.04] Docker container ac16fd14c233 ready
+OverheadJitting  1: 1 op, 227900.00 ns, 227.9000 us/op
+WorkloadJitting  1: 1 op, 55806800.00 ns, 55.8068 ms/op
+
+WorkloadPilot    1: 2 op, 4271300.00 ns, 2.1357 ms/op
+WorkloadPilot    2: 3 op, 4152200.00 ns, 1.3841 ms/op
+WorkloadPilot    3: 4 op, 4199200.00 ns, 1.0498 ms/op
+WorkloadPilot    4: 5 op, 5429100.00 ns, 1.0858 ms/op
+WorkloadPilot    5: 6 op, 6843800.00 ns, 1.1406 ms/op
+WorkloadPilot    6: 7 op, 8383700.00 ns, 1.1977 ms/op
+WorkloadPilot    7: 8 op, 8026600.00 ns, 1.0033 ms/op
+WorkloadPilot    8: 9 op, 7863800.00 ns, 873.7556 us/op
+WorkloadPilot    9: 10 op, 8640400.00 ns, 864.0400 us/op
+WorkloadPilot   10: 11 op, 9012200.00 ns, 819.2909 us/op
+WorkloadPilot   11: 12 op, 10509800.00 ns, 875.8167 us/op
+WorkloadPilot   12: 13 op, 9896200.00 ns, 761.2462 us/op
+WorkloadPilot   13: 14 op, 11144300.00 ns, 796.0214 us/op
+WorkloadPilot   14: 15 op, 11369900.00 ns, 757.9933 us/op
+WorkloadPilot   15: 16 op, 10459100.00 ns, 653.6938 us/op
+WorkloadPilot   16: 32 op, 19676000.00 ns, 614.8750 us/op
+WorkloadPilot   17: 64 op, 41703400.00 ns, 651.6156 us/op
+WorkloadPilot   18: 128 op, 85226100.00 ns, 665.8289 us/op
+WorkloadPilot   19: 256 op, 203631700.00 ns, 795.4363 us/op
+WorkloadPilot   20: 512 op, 388032800.00 ns, 757.8766 us/op
+WorkloadPilot   21: 1024 op, 726812100.00 ns, 709.7774 us/op
+
+WorkloadWarmup   1: 1024 op, 952950000.00 ns, 930.6152 us/op
+WorkloadWarmup   2: 1024 op, 758303800.00 ns, 740.5311 us/op
+WorkloadWarmup   3: 1024 op, 608839900.00 ns, 594.5702 us/op
+WorkloadWarmup   4: 1024 op, 730003200.00 ns, 712.8938 us/op
+WorkloadWarmup   5: 1024 op, 801292400.00 ns, 782.5121 us/op
+WorkloadWarmup   6: 1024 op, 666288400.00 ns, 650.6723 us/op
+WorkloadWarmup   7: 1024 op, 709072000.00 ns, 692.4531 us/op
+WorkloadWarmup   8: 1024 op, 850902500.00 ns, 830.9595 us/op
+WorkloadWarmup   9: 1024 op, 656981000.00 ns, 641.5830 us/op
+
+// BeforeActualRun
+WorkloadActual   1: 1024 op, 918278300.00 ns, 896.7562 us/op
+WorkloadActual   2: 1024 op, 769722400.00 ns, 751.6820 us/op
+
+// AfterActualRun
+WorkloadResult   1: 1024 op, 918278300.00 ns, 896.7562 us/op
+WorkloadResult   2: 1024 op, 769722400.00 ns, 751.6820 us/op
+// GC:  0 0 0 4687488 1024
+// Threading:  6069 1 1024
+
+[testcontainers.org 00:00:14.25] Delete Docker container ac16fd14c233
+// AfterAll
+// Benchmark Process 22128 has exited with code 0.
+
+Mean = 824.219 μs, StdErr = 72.537 μs (8.80%), N = 2, StdDev = 102.583 μs
+Min = 751.682 μs, Q1 = 787.951 μs, Median = 824.219 μs, Q3 = 860.488 μs, Max = 896.756 μs
+IQR = 72.537 μs, LowerFence = 679.145 μs, UpperFence = 969.293 μs
+ConfidenceInterval = [-45,354.270 μs; 47,002.708 μs] (CI 99.9%), Margin = 46,178.489 μs (5602.70% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+
+// ** Remained 2 (33,3 %) benchmark(s) to run. Estimated finish 2024-11-29 16:57 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Compare.EfCoreSelect: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 0da99ea5-d409-43cd-ad5e-9780c5d954f8.dll --anonymousPipes 2412 1968 --benchmarkName Benchmark.Compare.Compare.EfCoreSelect --job "IterationCount=2, LaunchCount=1" --benchmarkId 4 in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX-512F+CD+BW+DQ+VL+VBMI,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-ISETOM(IterationCount=2, LaunchCount=1)
+
+[testcontainers.org 00:00:00.20] Connected to Docker:
+  Host: npipe://./pipe/docker_engine
+  Server Version: 26.1.4
+  Kernel Version: 5.15.153.1-microsoft-standard-WSL2
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 3.76 GB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+[testcontainers.org 00:00:00.44] Docker container c1b7f3462afc created
+[testcontainers.org 00:00:00.53] Start Docker container c1b7f3462afc
+[testcontainers.org 00:00:01.85] Wait for Docker container c1b7f3462afc to complete readiness checks
+[testcontainers.org 00:00:01.86] Docker container c1b7f3462afc ready
+[testcontainers.org 00:00:01.92] Docker container b61ac74f0674 created
+[testcontainers.org 00:00:01.93] Start Docker container b61ac74f0674
+[testcontainers.org 00:00:03.23] Wait for Docker container b61ac74f0674 to complete readiness checks
+[testcontainers.org 00:00:03.24] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container b61ac74f0674
+[testcontainers.org 00:00:03.33] Docker container b61ac74f0674 ready
+OverheadJitting  1: 1 op, 273600.00 ns, 273.6000 us/op
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> Npgsql.PostgresException (0x80004005): 42P01: relation "users" does not exist
+
+POSITION: 56
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Benchmark.Repositories.EfCore.EfUserRepository.SelectUser(String login) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Repositories\EfCore\EfUserRepository.cs:line 31
+   at Benchmark.Repositories.EfCore.EfUserRepository.SelectUser(String login) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Repositories\EfCore\EfUserRepository.cs:line 31
+   at Benchmark.Compare.Compare.EfCoreSelect() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Compare\Compare.cs:line 72
+   at BenchmarkDotNet.Helpers.AwaitHelper.GetResult[T](Task`1 task)
+   at BenchmarkDotNet.Autogenerated.Runnable_4.<.ctor>b__3_4() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 980
+   at BenchmarkDotNet.Autogenerated.Runnable_4.WorkloadActionNoUnroll(Int64 invokeCount) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 1096
+   at BenchmarkDotNet.Engines.Engine.Measure(Action`1 action, Int64 invokeCount)
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineFactory.Jit(Engine engine, Int32 jitIndex, Int32 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineFactory.CreateReadyToRun(EngineParameters engineParameters)
+   at BenchmarkDotNet.Autogenerated.Runnable_4.Run(IHost host, String benchmarkName) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 959
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "users" does not exist
+    Position: 56
+    File: parse_relation.c
+    Line: 1449
+    Routine: parserOpenTable
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 57
+// AfterAll
+No Workload Results were obtained from the run.
+// Benchmark Process 21584 has exited with code -1.
+
+// ** Remained 1 (16,7 %) benchmark(s) to run. Estimated finish 2024-11-29 16:57 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Compare.EfCoreInsert: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 0da99ea5-d409-43cd-ad5e-9780c5d954f8.dll --anonymousPipes 2276 1404 --benchmarkName Benchmark.Compare.Compare.EfCoreInsert --job "IterationCount=2, LaunchCount=1" --benchmarkId 5 in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX-512F+CD+BW+DQ+VL+VBMI,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-XFJXFJ(IterationCount=2, LaunchCount=1)
+
+[testcontainers.org 00:00:00.14] Connected to Docker:
+  Host: npipe://./pipe/docker_engine
+  Server Version: 26.1.4
+  Kernel Version: 5.15.153.1-microsoft-standard-WSL2
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 3.76 GB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+[testcontainers.org 00:00:00.31] Docker container cfd1450acffb created
+[testcontainers.org 00:00:00.35] Start Docker container cfd1450acffb
+[testcontainers.org 00:00:01.67] Wait for Docker container cfd1450acffb to complete readiness checks
+[testcontainers.org 00:00:01.68] Docker container cfd1450acffb ready
+[testcontainers.org 00:00:01.74] Docker container 6b88a901f8a9 created
+[testcontainers.org 00:00:01.75] Start Docker container 6b88a901f8a9
+[testcontainers.org 00:00:03.05] Wait for Docker container 6b88a901f8a9 to complete readiness checks
+[testcontainers.org 00:00:03.06] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container 6b88a901f8a9
+[testcontainers.org 00:00:03.14] Docker container 6b88a901f8a9 ready
+OverheadJitting  1: 1 op, 172400.00 ns, 172.4000 us/op
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 42P01: relation "users" does not exist
+
+POSITION: 13
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "users" does not exist
+    Position: 13
+    File: parse_relation.c
+    Line: 1449
+    Routine: parserOpenTable
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Benchmark.Repositories.EfCore.EfUserRepository.InsertUser(String login, String password, String role, String name) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Repositories\EfCore\EfUserRepository.cs:line 21
+   at Benchmark.Repositories.EfCore.EfUserRepository.InsertUser(String login, String password, String role, String name) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Repositories\EfCore\EfUserRepository.cs:line 23
+   at Benchmark.Compare.Compare.EfCoreInsert() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Compare\Compare.cs:line 84
+   at BenchmarkDotNet.Helpers.AwaitHelper.GetResult(Task task)
+   at BenchmarkDotNet.Autogenerated.Runnable_5.<.ctor>b__3_4() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 1178
+   at BenchmarkDotNet.Autogenerated.Runnable_5.WorkloadActionNoUnroll(Int64 invokeCount) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 1292
+   at BenchmarkDotNet.Engines.Engine.Measure(Action`1 action, Int64 invokeCount)
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineFactory.Jit(Engine engine, Int32 jitIndex, Int32 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineFactory.CreateReadyToRun(EngineParameters engineParameters)
+   at BenchmarkDotNet.Autogenerated.Runnable_5.Run(IHost host, String benchmarkName) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 1157
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\0da99ea5-d409-43cd-ad5e-9780c5d954f8\0da99ea5-d409-43cd-ad5e-9780c5d954f8.notcs:line 57
+// AfterAll
+No Workload Results were obtained from the run.
+// Benchmark Process 23688 has exited with code -1.
+
+// ** Remained 0 (0,0 %) benchmark(s) to run. Estimated finish 2024-11-29 16:57 (0h 0m from now) **
+Successfully reverted power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Benchmark.Compare.Compare-report.csv
+  BenchmarkDotNet.Artifacts\results\Benchmark.Compare.Compare-report-github.md
+  BenchmarkDotNet.Artifacts\results\Benchmark.Compare.Compare-report.html
+  BenchmarkDotNet.Artifacts\results\Benchmark.Compare.Compare-report-default.md
+  BenchmarkDotNet.Artifacts\results\Benchmark.Compare.Compare-measurements.csv
+RPlotExporter couldn't find Rscript.exe in your PATH and no R_HOME environment variable is defined
+  BenchmarkDotNet.Artifacts\results\BuildPlots.R
+
+// * Detailed results *
+Compare.NpgslInsert: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+Runtime = .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+There are not any results runs
+
+Compare.NpgslSelect: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+Runtime = .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 629.553 μs, StdErr = 42.248 μs (6.71%), N = 2, StdDev = 59.747 μs
+Min = 587.305 μs, Q1 = 608.429 μs, Median = 629.553 μs, Q3 = 650.677 μs, Max = 671.801 μs
+IQR = 42.248 μs, LowerFence = 545.057 μs, UpperFence = 714.049 μs
+ConfidenceInterval = [-26,266.243 μs; 27,525.348 μs] (CI 99.9%), Margin = 26,895.796 μs (4272.21% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+-------------------- Histogram --------------------
+[567.312 μs ; 691.794 μs) | @@
+---------------------------------------------------
+
+Compare.DapperInsert: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+Runtime = .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+There are not any results runs
+
+Compare.DapperSelect: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+Runtime = .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+Mean = 824.219 μs, StdErr = 72.537 μs (8.80%), N = 2, StdDev = 102.583 μs
+Min = 751.682 μs, Q1 = 787.951 μs, Median = 824.219 μs, Q3 = 860.488 μs, Max = 896.756 μs
+IQR = 72.537 μs, LowerFence = 679.145 μs, UpperFence = 969.293 μs
+ConfidenceInterval = [-45,354.270 μs; 47,002.708 μs] (CI 99.9%), Margin = 46,178.489 μs (5602.70% of Mean)
+Skewness = 0, Kurtosis = 0.25, MValue = 2
+-------------------- Histogram --------------------
+[717.355 μs ; 931.083 μs) | @@
+---------------------------------------------------
+
+Compare.EfCoreSelect: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+Runtime = .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+There are not any results runs
+
+Compare.EfCoreInsert: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+Runtime = .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+There are not any results runs
+
+// * Summary *
+
+BenchmarkDotNet v0.14.0, Windows 10 (10.0.19045.5131/22H2/2022Update)
+11th Gen Intel Core i7-1165G7 2.80GHz, 1 CPU, 8 logical and 4 physical cores
+.NET SDK 8.0.400
+  [Host]     : .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+  Job-WUUDAZ : .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+
+IterationCount=2  LaunchCount=1  
+
+| Method       | Mean     | Error       | StdDev    | Allocated |
+|------------- |---------:|------------:|----------:|----------:|
+| NpgslInsert  |       NA |          NA |        NA |        NA |
+| NpgslSelect  | 629.6 μs | 26,895.8 μs |  59.75 μs |   3.83 KB |
+| DapperInsert |       NA |          NA |        NA |        NA |
+| DapperSelect | 824.2 μs | 46,178.5 μs | 102.58 μs |   4.47 KB |
+| EfCoreSelect |       NA |          NA |        NA |        NA |
+| EfCoreInsert |       NA |          NA |        NA |        NA |
+
+Benchmarks with issues:
+  Compare.NpgslInsert: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+  Compare.DapperInsert: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+  Compare.EfCoreSelect: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+  Compare.EfCoreInsert: Job-WUUDAZ(IterationCount=2, LaunchCount=1)
+
+// * Warnings *
+Environment
+  Summary -> Detected error exit code from one of the benchmarks. It might be caused by following antivirus software:
+        - Windows Defender (windowsdefender://)
+Use InProcessEmitToolchain or InProcessNoEmitToolchain to avoid new process creation.
+
+
+// * Legends *
+  Mean      : Arithmetic mean of all measurements
+  Error     : Half of 99.9% confidence interval
+  StdDev    : Standard deviation of all measurements
+  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  1 μs      : 1 Microsecond (0.000001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:00:53 (53.37 sec), executed benchmarks: 6
+
+Global total time: 00:01:06 (66.2 sec), executed benchmarks: 6
+// * Artifacts cleanup *
+Artifacts cleanup is finished

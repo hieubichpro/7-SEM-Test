@@ -1,0 +1,338 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 4 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\obj\Release\net8.0/" /p:OutDir="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0/" /p:OutputPath="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0/" in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8
+// command took 1.63 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\obj\Release\net8.0/" /p:OutDir="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0/" /p:OutputPath="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0/" --output "C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0/" in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8
+// command took 5.83 sec and exited with 0
+// ***** Done, took 00:00:07 (7.57 sec)   *****
+// Found 4 benchmarks:
+//   Compare.NpgslInsert: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+//   Compare.NpgslSelect: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+//   Compare.DapperInsert: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+//   Compare.DapperSelect: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Compare.NpgslInsert: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.dll --anonymousPipes 1556 2208 --benchmarkName Benchmark.Compare.Compare.NpgslInsert --job "IterationCount=10, LaunchCount=1" --benchmarkId 0 in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX-512F+CD+BW+DQ+VL+VBMI,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-ZFYRIX(IterationCount=10, LaunchCount=1)
+
+[testcontainers.org 00:00:00.19] Connected to Docker:
+  Host: npipe://./pipe/docker_engine
+  Server Version: 26.1.4
+  Kernel Version: 5.15.153.1-microsoft-standard-WSL2
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 3.76 GB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+[testcontainers.org 00:00:00.36] Docker container b8b8ae8de324 created
+[testcontainers.org 00:00:00.41] Start Docker container b8b8ae8de324
+[testcontainers.org 00:00:01.73] Wait for Docker container b8b8ae8de324 to complete readiness checks
+[testcontainers.org 00:00:01.73] Docker container b8b8ae8de324 ready
+[testcontainers.org 00:00:01.80] Docker container bdf86dc5c8c0 created
+[testcontainers.org 00:00:01.84] Start Docker container bdf86dc5c8c0
+[testcontainers.org 00:00:03.20] Wait for Docker container bdf86dc5c8c0 to complete readiness checks
+[testcontainers.org 00:00:03.21] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container bdf86dc5c8c0
+[testcontainers.org 00:00:03.28] Docker container bdf86dc5c8c0 ready
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0\setup.sql'.
+File name: 'C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0\setup.sql'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllTextAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at Benchmark.Setup.DBSetup.Init() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Setup\DBSetup.cs:line 27
+   at Benchmark.Compare.Compare.GlobalSetup() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Compare\Compare.cs:line 29
+   at BenchmarkDotNet.Helpers.AwaitHelper.GetResult(Task task)
+   at BenchmarkDotNet.Autogenerated.Runnable_0.<.ctor>b__3_0() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.notcs:line 193
+   at BenchmarkDotNet.Engines.EngineFactory.CreateReadyToRun(EngineParameters engineParameters)
+   at BenchmarkDotNet.Autogenerated.Runnable_0.Run(IHost host, String benchmarkName) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.notcs:line 177
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.notcs:line 57
+// AfterAll
+No Workload Results were obtained from the run.
+// Benchmark Process 18828 has exited with code -1.
+
+// ** Remained 3 (75,0 %) benchmark(s) to run. Estimated finish 2024-11-29 16:30 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Compare.NpgslSelect: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.dll --anonymousPipes 2192 2200 --benchmarkName Benchmark.Compare.Compare.NpgslSelect --job "IterationCount=10, LaunchCount=1" --benchmarkId 1 in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX-512F+CD+BW+DQ+VL+VBMI,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-SDISNW(IterationCount=10, LaunchCount=1)
+
+[testcontainers.org 00:00:00.15] Connected to Docker:
+  Host: npipe://./pipe/docker_engine
+  Server Version: 26.1.4
+  Kernel Version: 5.15.153.1-microsoft-standard-WSL2
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 3.76 GB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+[testcontainers.org 00:00:00.32] Docker container 49940aa44b15 created
+[testcontainers.org 00:00:00.37] Start Docker container 49940aa44b15
+[testcontainers.org 00:00:01.76] Wait for Docker container 49940aa44b15 to complete readiness checks
+[testcontainers.org 00:00:01.77] Docker container 49940aa44b15 ready
+[testcontainers.org 00:00:01.83] Docker container b74f98557119 created
+[testcontainers.org 00:00:01.84] Start Docker container b74f98557119
+[testcontainers.org 00:00:03.18] Wait for Docker container b74f98557119 to complete readiness checks
+[testcontainers.org 00:00:03.19] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container b74f98557119
+[testcontainers.org 00:00:04.29] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container b74f98557119
+[testcontainers.org 00:00:04.35] Docker container b74f98557119 ready
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0\setup.sql'.
+File name: 'C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0\setup.sql'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllTextAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at Benchmark.Setup.DBSetup.Init() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Setup\DBSetup.cs:line 27
+   at Benchmark.Compare.Compare.GlobalSetup() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Compare\Compare.cs:line 29
+   at BenchmarkDotNet.Helpers.AwaitHelper.GetResult(Task task)
+   at BenchmarkDotNet.Autogenerated.Runnable_1.<.ctor>b__3_0() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.notcs:line 386
+   at BenchmarkDotNet.Engines.EngineFactory.CreateReadyToRun(EngineParameters engineParameters)
+   at BenchmarkDotNet.Autogenerated.Runnable_1.Run(IHost host, String benchmarkName) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.notcs:line 370
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.notcs:line 57
+// AfterAll
+No Workload Results were obtained from the run.
+// Benchmark Process 16956 has exited with code -1.
+
+// ** Remained 2 (50,0 %) benchmark(s) to run. Estimated finish 2024-11-29 16:30 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Compare.DapperInsert: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.dll --anonymousPipes 2204 2276 --benchmarkName Benchmark.Compare.Compare.DapperInsert --job "IterationCount=10, LaunchCount=1" --benchmarkId 2 in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX-512F+CD+BW+DQ+VL+VBMI,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-LSZLDJ(IterationCount=10, LaunchCount=1)
+
+[testcontainers.org 00:00:00.16] Connected to Docker:
+  Host: npipe://./pipe/docker_engine
+  Server Version: 26.1.4
+  Kernel Version: 5.15.153.1-microsoft-standard-WSL2
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 3.76 GB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+[testcontainers.org 00:00:00.35] Docker container ab1450c47ac3 created
+[testcontainers.org 00:00:00.40] Start Docker container ab1450c47ac3
+[testcontainers.org 00:00:01.72] Wait for Docker container ab1450c47ac3 to complete readiness checks
+[testcontainers.org 00:00:01.73] Docker container ab1450c47ac3 ready
+[testcontainers.org 00:00:01.80] Docker container d1d437d64dc1 created
+[testcontainers.org 00:00:01.83] Start Docker container d1d437d64dc1
+[testcontainers.org 00:00:03.17] Wait for Docker container d1d437d64dc1 to complete readiness checks
+[testcontainers.org 00:00:03.18] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container d1d437d64dc1
+[testcontainers.org 00:00:04.29] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container d1d437d64dc1
+[testcontainers.org 00:00:04.34] Docker container d1d437d64dc1 ready
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0\setup.sql'.
+File name: 'C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0\setup.sql'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllTextAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at Benchmark.Setup.DBSetup.Init() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Setup\DBSetup.cs:line 27
+   at Benchmark.Compare.Compare.GlobalSetup() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Compare\Compare.cs:line 29
+   at BenchmarkDotNet.Helpers.AwaitHelper.GetResult(Task task)
+   at BenchmarkDotNet.Autogenerated.Runnable_2.<.ctor>b__3_0() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.notcs:line 584
+   at BenchmarkDotNet.Engines.EngineFactory.CreateReadyToRun(EngineParameters engineParameters)
+   at BenchmarkDotNet.Autogenerated.Runnable_2.Run(IHost host, String benchmarkName) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.notcs:line 568
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.notcs:line 57
+// AfterAll
+No Workload Results were obtained from the run.
+// Benchmark Process 22988 has exited with code -1.
+
+// ** Remained 1 (25,0 %) benchmark(s) to run. Estimated finish 2024-11-29 16:30 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Compare.DapperSelect: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.dll --anonymousPipes 2156 2220 --benchmarkName Benchmark.Compare.Compare.DapperSelect --job "IterationCount=10, LaunchCount=1" --benchmarkId 3 in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX-512F+CD+BW+DQ+VL+VBMI,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-JFVOQL(IterationCount=10, LaunchCount=1)
+
+[testcontainers.org 00:00:00.17] Connected to Docker:
+  Host: npipe://./pipe/docker_engine
+  Server Version: 26.1.4
+  Kernel Version: 5.15.153.1-microsoft-standard-WSL2
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 3.76 GB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+[testcontainers.org 00:00:00.35] Docker container 8e9ad68bfc9b created
+[testcontainers.org 00:00:00.40] Start Docker container 8e9ad68bfc9b
+[testcontainers.org 00:00:02.23] Wait for Docker container 8e9ad68bfc9b to complete readiness checks
+[testcontainers.org 00:00:02.24] Docker container 8e9ad68bfc9b ready
+[testcontainers.org 00:00:02.30] Docker container 36eb3be0342f created
+[testcontainers.org 00:00:02.32] Start Docker container 36eb3be0342f
+[testcontainers.org 00:00:03.60] Wait for Docker container 36eb3be0342f to complete readiness checks
+[testcontainers.org 00:00:03.61] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container 36eb3be0342f
+[testcontainers.org 00:00:03.67] Docker container 36eb3be0342f ready
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.IO.FileNotFoundException: Could not find file 'C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0\setup.sql'.
+File name: 'C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\bin\Release\net8.0\setup.sql'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllTextAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at Benchmark.Setup.DBSetup.Init() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Setup\DBSetup.cs:line 27
+   at Benchmark.Compare.Compare.GlobalSetup() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Compare\Compare.cs:line 29
+   at BenchmarkDotNet.Helpers.AwaitHelper.GetResult(Task task)
+   at BenchmarkDotNet.Autogenerated.Runnable_3.<.ctor>b__3_0() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.notcs:line 777
+   at BenchmarkDotNet.Engines.EngineFactory.CreateReadyToRun(EngineParameters engineParameters)
+   at BenchmarkDotNet.Autogenerated.Runnable_3.Run(IHost host, String benchmarkName) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.notcs:line 761
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8\22f937cb-3f00-4dfe-b895-40ca5c5ab3d8.notcs:line 57
+// AfterAll
+No Workload Results were obtained from the run.
+// Benchmark Process 21400 has exited with code -1.
+
+// ** Remained 0 (0,0 %) benchmark(s) to run. Estimated finish 2024-11-29 16:30 (0h 0m from now) **
+Successfully reverted power plan (GUID: 49ef8fc0-bb7f-488e-b6a0-f1fc77ec649b FriendlyName: Dell)
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Benchmark.Compare.Compare-report.csv
+  BenchmarkDotNet.Artifacts\results\Benchmark.Compare.Compare-report-github.md
+  BenchmarkDotNet.Artifacts\results\Benchmark.Compare.Compare-report.html
+  BenchmarkDotNet.Artifacts\results\Benchmark.Compare.Compare-report-default.md
+  BenchmarkDotNet.Artifacts\results\Benchmark.Compare.Compare-measurements.csv
+RPlotExporter couldn't find Rscript.exe in your PATH and no R_HOME environment variable is defined
+  BenchmarkDotNet.Artifacts\results\BuildPlots.R
+
+// * Detailed results *
+Compare.NpgslInsert: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+Runtime = .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+There are not any results runs
+
+Compare.NpgslSelect: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+Runtime = .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+There are not any results runs
+
+Compare.DapperInsert: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+Runtime = .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+There are not any results runs
+
+Compare.DapperSelect: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+Runtime = .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+There are not any results runs
+
+// * Summary *
+
+BenchmarkDotNet v0.14.0, Windows 10 (10.0.19045.5131/22H2/2022Update)
+11th Gen Intel Core i7-1165G7 2.80GHz, 1 CPU, 8 logical and 4 physical cores
+.NET SDK 8.0.400
+  [Host]     : .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+  Job-PTVVGO : .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+
+IterationCount=10  LaunchCount=1  
+
+| Method       | Mean | Error |
+|------------- |-----:|------:|
+| NpgslInsert  |   NA |    NA |
+| NpgslSelect  |   NA |    NA |
+| DapperInsert |   NA |    NA |
+| DapperSelect |   NA |    NA |
+
+Benchmarks with issues:
+  Compare.NpgslInsert: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+  Compare.NpgslSelect: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+  Compare.DapperInsert: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+  Compare.DapperSelect: Job-PTVVGO(IterationCount=10, LaunchCount=1)
+
+// * Warnings *
+Environment
+  Summary -> Detected error exit code from one of the benchmarks. It might be caused by following antivirus software:
+        - Windows Defender (windowsdefender://)
+Use InProcessEmitToolchain or InProcessNoEmitToolchain to avoid new process creation.
+
+
+// * Legends *
+  Mean  : Arithmetic mean of all measurements
+  Error : Half of 99.9% confidence interval
+  1 ns  : 1 Nanosecond (0.000000001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:00:17 (17.03 sec), executed benchmarks: 4
+
+Global total time: 00:00:24 (24.88 sec), executed benchmarks: 4
+// * Artifacts cleanup *
+Artifacts cleanup is finished

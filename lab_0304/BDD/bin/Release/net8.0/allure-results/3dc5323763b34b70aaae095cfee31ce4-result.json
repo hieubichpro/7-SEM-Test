@@ -1,0 +1,52 @@
+{
+  "uuid": "f401386e-00a4-42e9-a2da-1f0d8bb2ddaa",
+  "historyId": "4ab66b01cf1a0171ad2bf8b6cdbc9700",
+  "testCaseId": "d4f3069e99a093180c72b156deecabaa",
+  "fullName": "BDD:BDD.Features.EmailTwoFactoryAuthFeature.SignIn()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "BDD.Features.EmailTwoFactoryAuthFeature"
+    },
+    {
+      "name": "testMethod",
+      "value": "SignIn"
+    },
+    {
+      "name": "package",
+      "value": "BDD.Features.EmailTwoFactoryAuthFeature"
+    }
+  ],
+  "links": [],
+  "name": "SignIn",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Parameter count mismatch! The binding method 'BDD:BDD.StepDefinitions.EmailTwoFactoryAuthStepDefinitions.GivenUserEntersCode(String)' should have 0 parameters",
+    "trace": "   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.GetExecuteArguments(BindingMatch match)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\r\n   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()\r\n   at BDD.Features.EmailTwoFactoryAuthFeature.ScenarioCleanup()\r\n   at BDD.Features.EmailTwoFactoryAuthFeature.SignIn() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\lab_04\\BDD\\Features\\EmailTwoFactoryAuth.feature:line 16\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1732882071336,
+  "stop": 1732882075874
+}

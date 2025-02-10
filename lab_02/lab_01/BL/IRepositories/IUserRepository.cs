@@ -8,6 +8,7 @@ namespace lab_03.BL.IRepositories
         User? readById(int id);
         User? readByLogin(string login);
         List<User> readByRole(string role);
+        List<User> readAll();
         void create(User user);
         void update(User user);
         void delete(User user);

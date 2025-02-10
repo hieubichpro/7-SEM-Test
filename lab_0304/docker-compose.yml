@@ -1,0 +1,12 @@
+# version: "3.7"
+services:
+  postgres:
+    image: postgres
+    container_name: postgres_test
+    restart: on-failure
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456789
+      POSTGRES_DB: TestTestTest
+    ports:
+      - "5432:5432"

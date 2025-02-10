@@ -21,25 +21,14 @@ namespace UnitTests.UnitTests.TestBL.DestroyMethod
     [AllureParentSuite("Services Unit tests")]
     [AllureSuite("ClubServices Unit tests")]
     [AllureSubSuite("ClubService unit tests Destroit Method")]
+    [TestCaseOrderer(ordererTypeName: "UnitTests.Order.RandomOrder",
+        ordererAssemblyName: "UnitTests")]
     public class ClubServiceUnitTests
     {
         private ClubObjectMother clubOM = new ClubObjectMother();
         private DBFixture fixture = new DBFixture();
         [AllureBefore]
         public ClubServiceUnitTests() { }
-        //[Fact]
-        //public void TestInsertClubSuccessDestroitMethod()
-        //{
-        //    var clubs = fixture.AddClubs(10);
-        //    var club = clubOM.CreateClub().WithId(100).WithName("newname").BuildCoreModel();
-        //    IClubRepository _clubRepo = new ClubRepository(fixture._dbContextFactory, NullLogger<ClubRepository>.Instance);
-        //    var clubService = new ClubService(_clubRepo, NullLogger<ClubService>.Instance);
-
-        //    clubService.insertClub(club.Name);
-
-        //    var actual = _clubRepo.readAll();
-        //    Assert.Equal(11, clubs.Count);
-        //}
         [Fact]
         public void TestInsertClubFailureDestroitMethod()
         {

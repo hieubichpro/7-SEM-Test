@@ -9,7 +9,7 @@
     "ConnectionString": "Server=localhost;Database=PPO2024;Username=postgres;Password=123456789"
   },
   "Serilog": {
-    "Using": [ "Serilog.Sinks.Console", "Serilog.Sinks.File" ],
+    "Using": ["Serilog.Sinks.Console", "Serilog.Sinks.File"],
     "MinimumLevel": "Debug",
     "WriteTo": [
       { "Name": "Console" },
@@ -22,5 +22,4 @@
       }
     ]
   }
-
 }

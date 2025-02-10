@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+  postgres:
+    container_name: league-postgres
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456789
+      POSTGRES_DB: PPO2024
+      PGDATA: /var/lib/postgresql/data/
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    networks:
+      - postgres
+
+  pgadmin4:
+    container_name: league-pgadmin4
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: pg@admin.com
+      PGADMIN_DEFAULT_PASSWORD: aaa
+    ports:
+      - "5050:5050"
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+    depends_on:
+      - "postgres"
+    networks:
+      - postgres
+
+  backend: # rest api
+    build: .
+    container_name: league-backend
+    depends_on:
+      - "postgres"
+    ports:
+      - "8080:80"
+    networks:
+      - postgres
+
+networks:
+  postgres:
+    driver: bridge
+
+volumes:
+  postgres:
+  pgadmin:

@@ -7,6 +7,7 @@ using lab_03.BL.IRepositories;
 using lab_03.BL.Models;
 using Microsoft.Extensions.Logging;
 using Npgsql;
+using Serilog;
 
 namespace lab_04.DA
 {
@@ -34,6 +35,14 @@ namespace lab_04.DA
             logger.LogInformation("ended read user by login");
             return db_context.users.FirstOrDefault(u => u.Login == login);
         }
+        public List<User> readAll()
+        {
+            logger.LogInformation("started read all users");
+            using var db_context = _dbContextFactory.get_db_context();
+            logger.LogInformation("ended read all users");
+            return db_context.users.ToList();
+        }
+
         public List<User> readByRole(string role)
         {
             logger.LogInformation("started read user by role");

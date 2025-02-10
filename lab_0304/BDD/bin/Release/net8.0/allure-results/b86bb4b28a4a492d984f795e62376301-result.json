@@ -1,0 +1,52 @@
+{
+  "uuid": "08601138-5cbf-4d9b-bbf7-bb2a1a0ff5d3",
+  "historyId": "5e1b66f4a523b1af7ae776694e84498f",
+  "testCaseId": "2184b229e8789d5ea03ded5ceef7c9d0",
+  "fullName": "BDD:BDD.Features.EmailTwoFactoryAuthFeature.ChangePassword()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "BDD.Features.EmailTwoFactoryAuthFeature"
+    },
+    {
+      "name": "testMethod",
+      "value": "ChangePassword"
+    },
+    {
+      "name": "package",
+      "value": "BDD.Features.EmailTwoFactoryAuthFeature"
+    }
+  ],
+  "links": [],
+  "name": "ChangePassword",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Ambiguous step definitions found for step 'Given user enters the received code': BDD:BDD.StepDefinitions.EmailTwoFactoryAuthStepDefinitions.GivenUserEntersCode(), BDD:BDD.StepDefinitions.EmailTwoFactoryAuthStepDefinitions.GivenUserEntersCode1()",
+    "trace": "   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.GetStepMatch(StepInstance stepInstance)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\r\n   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()\r\n   at BDD.Features.EmailTwoFactoryAuthFeature.ScenarioCleanup()\r\n   at BDD.Features.EmailTwoFactoryAuthFeature.ChangePassword() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\lab_04\\BDD\\Features\\EmailTwoFactoryAuth.feature:line 19\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1732883073203,
+  "stop": 1732883077064
+}

@@ -16,6 +16,8 @@ namespace UnitTests.UnitTests.TestDA
     [AllureOwner("Hieu Bauman")]
     [AllureSuite("DA Unit Tests")]
     [AllureSubSuite("UserRepositoty Unit tests")]
+    [TestCaseOrderer(ordererTypeName: "UnitTests.Order.RandomOrder",
+        ordererAssemblyName: "UnitTests")]
     public class UserRepositoryUnitTests
     {
         private IUserRepository _userRepository;

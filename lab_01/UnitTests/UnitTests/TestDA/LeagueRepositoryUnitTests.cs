@@ -15,6 +15,8 @@ namespace UnitTests.UnitTests.TestDA
     [AllureOwner("Hieu Bauman")]
     [AllureSuite("DA Unit Tests")]
     [AllureSubSuite("LeagueRepositoty Unit tests")]
+    [TestCaseOrderer(ordererTypeName: "UnitTests.Order.RandomOrder",
+        ordererAssemblyName: "UnitTests")]
     public class LeagueRepositoryUnitTests
     {
         private DBFixture _dbFixture;

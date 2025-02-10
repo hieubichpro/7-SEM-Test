@@ -1,0 +1,52 @@
+{
+  "uuid": "7e85994b-2b45-48f9-b27c-4cd5febb2212",
+  "historyId": "4ab66b01cf1a0171ad2bf8b6cdbc9700",
+  "testCaseId": "d4f3069e99a093180c72b156deecabaa",
+  "fullName": "BDD:BDD.Features.EmailTwoFactoryAuthFeature.SignIn()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "BDD.Features.EmailTwoFactoryAuthFeature"
+    },
+    {
+      "name": "testMethod",
+      "value": "SignIn"
+    },
+    {
+      "name": "package",
+      "value": "BDD.Features.EmailTwoFactoryAuthFeature"
+    }
+  ],
+  "links": [],
+  "name": "SignIn",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Value cannot be null. (Parameter 'logger')",
+    "trace": "   at System.ThrowHelper.Throw(String paramName)\r\n   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, EventId eventId, Exception exception, String message, Object[] args)\r\n   at Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(ILogger logger, String message, Object[] args)\r\n   at lab_04.DA.UserRepository.create(User user) in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\lab_04\\lab_01\\DA\\Repositories\\UserRepository.cs:line 55\r\n   at BDD.StepDefinitions.EmailTwoFactoryAuthStepDefinitions..ctor() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\lab_04\\BDD\\StepDefinitions\\EmailTwoFactoryAuthStepDefinitions.cs:line 46\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1732880200423,
+  "stop": 1732880202455
+}

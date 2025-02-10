@@ -30,6 +30,7 @@ namespace UnitTests.UnitTests.TestDA
         [Fact]
         public void TestReadById()
         {
+            //_dbFixture._dbContextFactory.printName();
             var users = _dbFixture.AddUsers(10);
             var expected = users[0];
 
@@ -40,6 +41,8 @@ namespace UnitTests.UnitTests.TestDA
         [Fact]
         public void TestReadByLogin()
         {
+            //_dbFixture._dbContextFactory.printName();
+
             var users = _dbFixture.AddUsers(10);
             var expected = users.First();
 
@@ -50,6 +53,8 @@ namespace UnitTests.UnitTests.TestDA
         [Fact]
         public void TestReadByRole()
         {
+            //_dbFixture._dbContextFactory.printName();
+
             var users = _dbFixture.AddUsers(10);
             var expected = users.Where(u => u.Role == "Referee").ToList();
 
@@ -60,6 +65,8 @@ namespace UnitTests.UnitTests.TestDA
         [Fact]
         public void TestDelete()
         {
+            //_dbFixture._dbContextFactory.printName();
+
             var users = _dbFixture.AddUsers(10);
             var user = users.First();
 
@@ -71,6 +78,8 @@ namespace UnitTests.UnitTests.TestDA
         [Fact]
         public void TestUpdate()
         {
+            //_dbFixture._dbContextFactory.printName();
+
             var users = _dbFixture.AddUsers(10);
             var user = _userObjectMother.CreateUser(users.First().Id, "abc").WithLogin("testt").WithPassword("123").BuildCoreModel();
 
@@ -82,6 +91,8 @@ namespace UnitTests.UnitTests.TestDA
         [Fact]
         public void TestCreate()
         {
+            //_dbFixture._dbContextFactory.printName();
+
             var users = _dbFixture.AddUsers(10);
             var user = _userObjectMother.CreateReferee().BuildCoreModel();
 

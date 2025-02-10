@@ -1,0 +1,52 @@
+{
+  "uuid": "2e17ffcd-74ea-4d60-b426-d545a31fec43",
+  "historyId": "5e1b66f4a523b1af7ae776694e84498f",
+  "testCaseId": "2184b229e8789d5ea03ded5ceef7c9d0",
+  "fullName": "BDD:BDD.Features.EmailTwoFactoryAuthFeature.ChangePassword()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "BDD.Features.EmailTwoFactoryAuthFeature"
+    },
+    {
+      "name": "testMethod",
+      "value": "ChangePassword"
+    },
+    {
+      "name": "package",
+      "value": "BDD.Features.EmailTwoFactoryAuthFeature"
+    }
+  ],
+  "links": [],
+  "name": "ChangePassword",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No such host is known.",
+    "trace": "   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 startingTimestamp)\r\n   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)\r\n   at Npgsql.Internal.NpgsqlConnector.Connect(NpgsqlTimeout timeout)\r\n   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)\r\n   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)\r\n   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.UnpooledDataSource.Get(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlConnection.Open()\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)\r\n   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists(Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists(Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlDatabaseCreator.Exists()\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureDeleted()\r\n   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureDeleted()\r\n   at lab_01.DA.dbContext.PostgreSQL.pgSqlDbContextFactory..ctor(String connectionStr) in C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\dbContext\\PostgreSQL\\pgSqlDbContextFactory.cs:line 26\r\n   at BDD.StepDefinitions.EmailTwoFactoryAuthStepDefinitions..ctor() in C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\BDD\\StepDefinitions\\EmailTwoFactoryAuthStepDefinitions.cs:line 21\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1736112964463,
+  "stop": 1736112967829
+}

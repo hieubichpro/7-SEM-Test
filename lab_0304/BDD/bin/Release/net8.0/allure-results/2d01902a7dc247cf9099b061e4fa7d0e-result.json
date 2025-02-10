@@ -1,0 +1,51 @@
+{
+  "uuid": "ae66293d-ef67-4a71-9b89-f7c42f8d7401",
+  "historyId": "4ab66b01cf1a0171ad2bf8b6cdbc9700",
+  "testCaseId": "d4f3069e99a093180c72b156deecabaa",
+  "fullName": "BDD:BDD.Features.EmailTwoFactoryAuthFeature.SignIn()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "BDD.Features.EmailTwoFactoryAuthFeature"
+    },
+    {
+      "name": "testMethod",
+      "value": "SignIn"
+    },
+    {
+      "name": "package",
+      "value": "BDD.Features.EmailTwoFactoryAuthFeature"
+    }
+  ],
+  "links": [],
+  "name": "SignIn",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Given user enters the login information\r\n-> done: EmailTwoFactoryAuthStepDefinitions.GivenUserEntersTheLoginInformation() (2,1s)\r\nWhen user sends a login request\r\n-> done: EmailTwoFactoryAuthStepDefinitions.WhenUserSendsALoginRequest() (0,0s)\r\nThen system should send the code to the email\r\n-> done: EmailTwoFactoryAuthStepDefinitions.ThenSystemShouldSendTheCodeToTheEmail() (0,0s)\r\n"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1732880591800,
+  "stop": 1732880593884
+}

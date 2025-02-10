@@ -1,0 +1,51 @@
+{
+  "uuid": "6272a406-a3fb-4d3d-a3c3-3a76782b4860",
+  "historyId": "5e1b66f4a523b1af7ae776694e84498f",
+  "testCaseId": "2184b229e8789d5ea03ded5ceef7c9d0",
+  "fullName": "BDD:BDD.Features.EmailTwoFactoryAuthFeature.ChangePassword()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "BDD.Features.EmailTwoFactoryAuthFeature"
+    },
+    {
+      "name": "testMethod",
+      "value": "ChangePassword"
+    },
+    {
+      "name": "package",
+      "value": "BDD.Features.EmailTwoFactoryAuthFeature"
+    }
+  ],
+  "links": [],
+  "name": "ChangePassword",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Given user enters new password\r\n-> done: EmailTwoFactoryAuthStepDefinitions.GivenUserEntersNewPassword() (2,2s)\r\nWhen user send a change password request\r\n-> done: EmailTwoFactoryAuthStepDefinitions.WhenUserSendsAChangePasswordRequest() (1,2s)\r\nThen system should send the code to emaill\r\n-> done: EmailTwoFactoryAuthStepDefinitions.ThenSystemShouldSendTheCodeToTheEmail1() (0,0s)\r\nGiven user enters the received codee\r\n-> done: EmailTwoFactoryAuthStepDefinitions.GivenUserEntersCode1() (0,0s)\r\nWhen user sends a confirmation codee\r\n-> done: EmailTwoFactoryAuthStepDefinitions.WhenUserSendsAConfirmCode1() (0,0s)\r\nThen system confirms the new password\r\n-> done: EmailTwoFactoryAuthStepDefinitions.ThenSystemConfirmTheEmail1() (0,0s)\r\n"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1732907798792,
+  "stop": 1732907802251
+}

@@ -18,6 +18,8 @@ namespace UnitTests.UnitTests.TestBL.DestroyMethod
     [AllureParentSuite("Services Unit tests")]
     [AllureSuite("UserServices Unit tests")]
     [AllureSubSuite("UserService unit tests Destroit Method")]
+    [TestCaseOrderer(ordererTypeName: "UnitTests.Order.RandomOrder",
+        ordererAssemblyName: "UnitTests")]
     public class UserServiceUnitTests
     {
         private DBFixture fixture = new DBFixture();

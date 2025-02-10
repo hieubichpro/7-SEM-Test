@@ -11,10 +11,12 @@ namespace UnitTests.Builders
     {
         private int _id;
         private string _name;
+        private int _idLeague;
         public ClubBuilder()
         {
             _id = 1;
             _name = "TestClub";
+            _idLeague = 1;
         }
         public ClubBuilder WithId(int id)
         {
@@ -26,9 +28,14 @@ namespace UnitTests.Builders
             _name = name;
             return this;
         }
+        public ClubBuilder WithIdLeague(int idLeague)
+        {
+            _idLeague = idLeague;
+            return this;
+        }
         public Club BuildCoreModel()
         {
-            return new Club(_name, _id);
+            return new Club(_name, _id, _idLeague);
         }
     }
 }

@@ -1,0 +1,12 @@
+{
+  "uuid": "b33ed2a2-5fd8-4aaf-ae74-a91dafc11e72",
+  "name": "BDD.Features.EmailTwoFactoryAuthFeature",
+  "children": [
+    "f870e618-a47a-47f0-a0a3-fe702a35dc11"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1732880765758,
+  "stop": 1732880767493
+}

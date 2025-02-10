@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_02\\lab_01\\lab_01.csproj": {}
+    "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\lab_01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_02\\lab_01\\lab_01.csproj": {
+    "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\lab_01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_02\\lab_01\\lab_01.csproj",
+        "projectUniqueName": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\lab_01.csproj",
         "projectName": "lab_01",
-        "projectPath": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_02\\lab_01\\lab_01.csproj",
+        "projectPath": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\lab_01.csproj",
         "packagesPath": "C:\\Users\\abcd2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_02\\lab_01\\obj\\",
+        "outputPath": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abcd2\\AppData\\Roaming\\NuGet\\NuGet.Config",

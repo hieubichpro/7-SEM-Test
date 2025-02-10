@@ -20,6 +20,8 @@ namespace UnitTests.UnitTests.TestBL
     [AllureParentSuite("Services Unit tests")]
     [AllureSuite("MatchServices Unit tests")]
     [AllureSubSuite("MatchService unit tests London Method")]
+    [TestCaseOrderer(ordererTypeName: "UnitTests.Order.RandomOrder",
+        ordererAssemblyName: "UnitTests")]
     public class MatchServiceUnitTests
     {
         private ServiceFixture fixture = new ServiceFixture();

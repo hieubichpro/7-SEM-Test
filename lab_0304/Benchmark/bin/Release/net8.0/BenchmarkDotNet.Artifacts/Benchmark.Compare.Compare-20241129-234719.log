@@ -1,0 +1,5 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 6 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="C:\Users\abcd2\OneDrive\Desktop\testing2024\Benchmark\bin\Release\net8.0\41f39516-1950-46cc-b399-bab708d0185f\obj\Release\net8.0/" /p:OutDir="C:\Users\abcd2\OneDrive\Desktop\testing2024\Benchmark\bin\Release\net8.0\41f39516-1950-46cc-b399-bab708d0185f\bin\Release\net8.0/" /p:OutputPath="C:\Users\abcd2\OneDrive\Desktop\testing2024\Benchmark\bin\Release\net8.0\41f39516-1950-46cc-b399-bab708d0185f\bin\Release\net8.0/" in C:\Users\abcd2\OneDrive\Desktop\testing2024\Benchmark\bin\Release\net8.0\41f39516-1950-46cc-b399-bab708d0185f

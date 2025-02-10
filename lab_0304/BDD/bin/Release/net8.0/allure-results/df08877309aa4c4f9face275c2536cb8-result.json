@@ -1,0 +1,52 @@
+{
+  "uuid": "34966f6d-d740-4706-9f86-be87392d4af2",
+  "historyId": "4ab66b01cf1a0171ad2bf8b6cdbc9700",
+  "testCaseId": "d4f3069e99a093180c72b156deecabaa",
+  "fullName": "BDD:BDD.Features.EmailTwoFactoryAuthFeature.SignIn()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "HIEURUSSIA"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "xUnit.net"
+    },
+    {
+      "name": "testClass",
+      "value": "BDD.Features.EmailTwoFactoryAuthFeature"
+    },
+    {
+      "name": "testMethod",
+      "value": "SignIn"
+    },
+    {
+      "name": "package",
+      "value": "BDD.Features.EmailTwoFactoryAuthFeature"
+    }
+  ],
+  "links": [],
+  "name": "SignIn",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Value cannot be null. (Parameter 'logger')",
+    "trace": "   at System.ThrowHelper.Throw(String paramName)\r\n   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, EventId eventId, Exception exception, String message, Object[] args)\r\n   at Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(ILogger logger, String message, Object[] args)\r\n   at lab_04.DA.UserRepository.readByLogin(String login) in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\lab_04\\lab_01\\DA\\Repositories\\UserRepository.cs:line 33\r\n   at lab_01.BL.Services.AuthService.Login(String login, String password) in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\lab_04\\lab_01\\BL\\Services\\AuthService.cs:line 50\r\n   at BDD.StepDefinitions.EmailTwoFactoryAuthStepDefinitions.WhenUserSendsALoginRequest() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\lab_04\\BDD\\StepDefinitions\\EmailTwoFactoryAuthStepDefinitions.cs:line 61\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()\r\n   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()\r\n   at BDD.Features.EmailTwoFactoryAuthFeature.ScenarioCleanup()\r\n   at BDD.Features.EmailTwoFactoryAuthFeature.SignIn() in C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\lab_04\\BDD\\Features\\EmailTwoFactoryAuth.feature:line 12\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1732881001252,
+  "stop": 1732881003281
+}

@@ -17,33 +17,17 @@ using Xunit;
 
 namespace UnitTests.UnitTests.TestBL
 {
-[AllureOwner("Hieu Bauman")]
+    [AllureOwner("Hieu Bauman")]
     [AllureParentSuite("Services Unit tests")]
     [AllureSuite("LeagueServices Unit tests")]
-[AllureSubSuite("LeagueService unit tests London Method")]
+    [AllureSubSuite("LeagueService unit tests London Method")]
+    [TestCaseOrderer(ordererTypeName: "UnitTests.Order.RandomOrder",
+        ordererAssemblyName: "UnitTests")]
     public class LeagueServiceUnitTests
     {
         private LeagueObjectMother leagueOM = new LeagueObjectMother();
         private ServiceFixture fixture = new ServiceFixture();
         public LeagueServiceUnitTests() { }
-        //[Fact]
-        //public void TestInsertLeagueSuccess()
-        //{
-        //    var leagues = fixture.PrepareLeaguesForTest();
-        //    var league = leagueOM.CreateLeague().WithId(100).WithName("aaa").BuildCoreModel();
-        //    Mock<ILeagueRepository> _leagueRepoMock = new Mock<ILeagueRepository>();
-        //    _leagueRepoMock.Setup(m => m.readbyName(league.Name)).Returns(leagues.FirstOrDefault(l => l.Name == league.Name));
-        //    _leagueRepoMock.Setup(m => m.create(league)).Callback(() =>
-        //    {
-        //        leagues.Add(league);
-        //    });
-        //    var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, null, NullLogger<LeagueService>.Instance);
-
-        //    leagueService.insertLeague(league.Name, league.IdUser);
-
-        //    Assert.Equal(10, leagues.Count);
-        //    _leagueRepoMock.Verify(m => m.create(league), Times.Once());
-        //}
         [Fact]
         public void TestInsertLeagueFailure()
         {
@@ -52,7 +36,7 @@ namespace UnitTests.UnitTests.TestBL
             Mock<ILeagueRepository> _leagueRepoMock = new Mock<ILeagueRepository>();
             _leagueRepoMock.Setup(m => m.readbyName(league.Name)).Returns(leagues.FirstOrDefault(l => l.Name == league.Name));
 
-            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, NullLogger<LeagueService>.Instance);
 
 
             Assert.Throws<LeagueExistException>(() => leagueService.insertLeague(league.Name, league.IdUser));
@@ -69,7 +53,7 @@ namespace UnitTests.UnitTests.TestBL
             {
                 leagues.Remove(league);
             });
-            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, NullLogger<LeagueService>.Instance);
 
             leagueService.deleteLeague(league);
 
@@ -84,7 +68,7 @@ namespace UnitTests.UnitTests.TestBL
             Mock<ILeagueRepository> _leagueRepoMock = new Mock<ILeagueRepository>();
             _leagueRepoMock.Setup(m => m.readById(league.Id)).Returns(leagues.FirstOrDefault(l => l.Id == league.Id));
 
-            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, NullLogger<LeagueService>.Instance);
 
 
             Assert.Throws<LeagueNotFoundException>(() => leagueService.deleteLeague(league));
@@ -97,7 +81,7 @@ namespace UnitTests.UnitTests.TestBL
             var leagues = fixture.PrepareLeaguesForTest();
             Mock<ILeagueRepository> _leagueRepoMock = new Mock<ILeagueRepository>();
             _leagueRepoMock.Setup(m => m.readAll()).Returns(leagues);
-            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, NullLogger<LeagueService>.Instance);
 
             var actual = leagueService.getAll();
 
@@ -116,7 +100,7 @@ namespace UnitTests.UnitTests.TestBL
                 league.Name = "Newname";
                 league.Id = 123;
             });
-            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, NullLogger<LeagueService>.Instance);
 
             leagueService.modifyLeague(league.Id, league.Name, league.IdUser);
 
@@ -133,7 +117,7 @@ namespace UnitTests.UnitTests.TestBL
             Mock<ILeagueRepository> _leagueRepoMock = new Mock<ILeagueRepository>();
             _leagueRepoMock.Setup(m => m.readById(league.Id)).Returns(leagues.FirstOrDefault(l => l.Id == league.Id));
 
-            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, NullLogger<LeagueService>.Instance);
 
 
             Assert.Throws<LeagueNotFoundException>(() => leagueService.modifyLeague(league.Id, league.Name, league.IdUser));
@@ -147,7 +131,7 @@ namespace UnitTests.UnitTests.TestBL
             Mock<ILeagueRepository> _leagueRepoMock = new Mock<ILeagueRepository>();
             _leagueRepoMock.Setup(m => m.readById(league.Id)).Returns(league);
 
-            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, NullLogger<LeagueService>.Instance);
 
             var actual = leagueService.getById(league.Id);
 
@@ -162,7 +146,7 @@ namespace UnitTests.UnitTests.TestBL
             Mock<ILeagueRepository> _leagueRepoMock = new Mock<ILeagueRepository>();
             _leagueRepoMock.Setup(m => m.readById(league.Id)).Returns(leagues.FirstOrDefault(l => l.Id == league.Id));
 
-            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, NullLogger<LeagueService>.Instance);
 
             Assert.Throws<LeagueNotFoundException>(() => leagueService.getById(league.Id));
             _leagueRepoMock.Verify(m => m.readById(league.Id), Times.Once());

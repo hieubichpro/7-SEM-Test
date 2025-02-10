@@ -22,36 +22,20 @@ namespace UnitTests.UnitTests.TestBL.DestroyMethod
     [AllureParentSuite("Services Unit tests")]
     [AllureSuite("LeagueServices Unit tests")]
     [AllureSubSuite("LeagueService unit tests Destroit Method")]
+    [TestCaseOrderer(ordererTypeName: "UnitTests.Order.RandomOrder",
+        ordererAssemblyName: "UnitTests")]
     public class LeagueServiceUnitTests
     {
         private LeagueObjectMother leagueOM = new LeagueObjectMother();
         private DBFixture fixture = new DBFixture();
         public LeagueServiceUnitTests() { }
-        //[Fact]
-        //public void TestInsertLeagueSuccess()
-        //{
-        //    var leagues = fixture.PrepareLeaguesForTest();
-        //    var league = leagueOM.CreateLeague().WithId(100).WithName("aaa").BuildCoreModel();
-        //    Mock<ILeagueRepository> _leagueRepoMock = new Mock<ILeagueRepository>();
-        //    _leagueRepoMock.Setup(m => m.readbyName(league.Name)).Returns(leagues.FirstOrDefault(l => l.Name == league.Name));
-        //    _leagueRepoMock.Setup(m => m.create(league)).Callback(() =>
-        //    {
-        //        leagues.Add(league);
-        //    });
-        //    var leagueService = new LeagueService(_leagueRepoMock.Object, null, null, null, NullLogger<LeagueService>.Instance);
-
-        //    leagueService.insertLeague(league.Name, league.IdUser);
-
-        //    Assert.Equal(10, leagues.Count);
-        //    _leagueRepoMock.Verify(m => m.create(league), Times.Once());
-        //}
         [Fact]
         public void TestInsertLeagueFailureDestroitMethod()
         {
             var leagues = fixture.AddLeagues();
             var league = leagues[0];
             ILeagueRepository _leagueRepo = new LeagueRepository(fixture._dbContextFactory, NullLogger<LeagueRepository>.Instance);
-            var leagueService = new LeagueService(_leagueRepo, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepo, null, null, NullLogger<LeagueService>.Instance);
 
 
             Assert.Throws<LeagueExistException>(() => leagueService.insertLeague(league.Name, league.IdUser));
@@ -62,7 +46,7 @@ namespace UnitTests.UnitTests.TestBL.DestroyMethod
             var leagues = fixture.AddLeagues();
             var league = leagues[0];
             ILeagueRepository _leagueRepo = new LeagueRepository(fixture._dbContextFactory, NullLogger<LeagueRepository>.Instance);
-            var leagueService = new LeagueService(_leagueRepo, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepo, null, null, NullLogger<LeagueService>.Instance);
 
             leagueService.deleteLeague(league);
 
@@ -76,7 +60,7 @@ namespace UnitTests.UnitTests.TestBL.DestroyMethod
             var leagues = fixture.AddLeagues();
             var league = leagueOM.CreateLeague().WithId(100).WithName("aaa").BuildCoreModel();
             ILeagueRepository _leagueRepo = new LeagueRepository(fixture._dbContextFactory, NullLogger<LeagueRepository>.Instance);
-            var leagueService = new LeagueService(_leagueRepo, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepo, null, null, NullLogger<LeagueService>.Instance);
 
 
             Assert.Throws<LeagueNotFoundException>(() => leagueService.deleteLeague(league));
@@ -86,7 +70,7 @@ namespace UnitTests.UnitTests.TestBL.DestroyMethod
         {
             var leagues = fixture.AddLeagues();
             ILeagueRepository _leagueRepo = new LeagueRepository(fixture._dbContextFactory, NullLogger<LeagueRepository>.Instance);
-            var leagueService = new LeagueService(_leagueRepo, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepo, null, null, NullLogger<LeagueService>.Instance);
 
             var actual = leagueService.getAll();
 
@@ -98,7 +82,7 @@ namespace UnitTests.UnitTests.TestBL.DestroyMethod
             var leagues = fixture.AddLeagues();
             var league = leagueOM.CreateLeague().WithId(leagues.First().Id).WithName("abcd").BuildCoreModel();
             ILeagueRepository _leagueRepo = new LeagueRepository(fixture._dbContextFactory, NullLogger<LeagueRepository>.Instance);
-            var leagueService = new LeagueService(_leagueRepo, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepo, null, null, NullLogger<LeagueService>.Instance);
 
             leagueService.modifyLeague(league.Id, league.Name, league.IdUser);
 
@@ -110,7 +94,7 @@ namespace UnitTests.UnitTests.TestBL.DestroyMethod
             var leagues = fixture.AddLeagues();
             var league = leagueOM.CreateLeague().WithId(100).WithName("aaa").BuildCoreModel();
             ILeagueRepository _leagueRepo = new LeagueRepository(fixture._dbContextFactory, NullLogger<LeagueRepository>.Instance);
-            var leagueService = new LeagueService(_leagueRepo, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepo, null, null, NullLogger<LeagueService>.Instance);
 
 
             Assert.Throws<LeagueNotFoundException>(() => leagueService.modifyLeague(league.Id, league.Name, league.IdUser));
@@ -121,7 +105,7 @@ namespace UnitTests.UnitTests.TestBL.DestroyMethod
             var leagues = fixture.AddLeagues();
             var league = leagues.First();
             ILeagueRepository _leagueRepo = new LeagueRepository(fixture._dbContextFactory, NullLogger<LeagueRepository>.Instance);
-            var leagueService = new LeagueService(_leagueRepo, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepo, null, null, NullLogger<LeagueService>.Instance);
 
             var actual = leagueService.getById(league.Id);
 
@@ -133,7 +117,7 @@ namespace UnitTests.UnitTests.TestBL.DestroyMethod
             var leagues = fixture.AddLeagues();
             var league = leagueOM.CreateLeague().WithId(100).WithName("aaa").BuildCoreModel();
             ILeagueRepository _leagueRepo = new LeagueRepository(fixture._dbContextFactory, NullLogger<LeagueRepository>.Instance);
-            var leagueService = new LeagueService(_leagueRepo, null, null, null, NullLogger<LeagueService>.Instance);
+            var leagueService = new LeagueService(_leagueRepo, null, null, NullLogger<LeagueService>.Instance);
 
             Assert.Throws<LeagueNotFoundException>(() => leagueService.getById(league.Id));
         }

@@ -13,11 +13,12 @@ using Xunit;
 
 namespace UnitTests.UnitTests.TestBL
 {
-[AllureOwner("Hieu Bauman")]
+    [AllureOwner("Hieu Bauman")]
     [AllureParentSuite("Services Unit tests")]
     [AllureSuite("UserServices Unit tests")]
-[AllureSubSuite("UserService unit tests London Method")]
-
+    [AllureSubSuite("UserService unit tests London Method")]
+    [TestCaseOrderer(ordererTypeName: "UnitTests.Order.RandomOrder",
+        ordererAssemblyName: "UnitTests")]
     public class UserServiceUnitTests
     {
         private ServiceFixture fixture = new ServiceFixture();
@@ -48,24 +49,6 @@ namespace UnitTests.UnitTests.TestBL
             Assert.Throws<UserNotFoundException>(() => userService.Login(user.Login, user.Password));
             _userRepoMock.Verify(m => m.readByLogin(user.Login), Times.Once());
         }
-        //users.FirstOrDefault(u => u.Login  == user.Login) == null
-        //[Fact]
-        //public void TestRegisterSuccess()
-        //{
-        //    var users = fixture.PrepareUsersForTest();
-        //    var user = userOM.CreateReferee().WithId(100).WithLogin("abcaapp").BuildCoreModel();
-        //    Mock<IUserRepository> _userRepoMock = new Mock<IUserRepository>();
-        //    //_userRepoMock.Setup(m => m.readByLogin(user.Login)).Returns(users.FirstOrDefault(u => u.Login == user.Login));
-        //    _userRepoMock.Setup(m => m.create(user)).Callback(() => users.Add(user));
-
-        //    var userService = new UserService(_userRepoMock.Object, NullLogger<UserService>.Instance);
-
-        //    userService.Register(user.Login, user.Password, user.Role, user.Name);
-
-        //    _userRepoMock.Verify(m => m.create(user), Times.Once());
-        //    //Assert.Equal(11, users.Count);
-        //    //_userRepoMock.Verify(m => m.readByLogin(user.Login), Times.Once());
-        //}
         [Fact]
         public void TestRegisterFailure()
         {

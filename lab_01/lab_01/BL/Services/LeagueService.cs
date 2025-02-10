@@ -1,7 +1,6 @@
 ﻿using lab_01.BL.Exceptions;
 using lab_03.BL.IRepositories;
 using lab_03.BL.Models;
-using lab_9.BL.IRepositories;
 using Microsoft.Extensions.Logging;
 using NLog;
 using System;
@@ -16,14 +15,12 @@ namespace lab_03.BL.Services
         private ILeagueRepository leagueRepo;
         private IMatchRepository matchRepo;
         private IClubRepository clubRepo;
-        private IClubLeagueRepository clubleagueRepo;
         private ILogger<LeagueService> logger;
-        public LeagueService(ILeagueRepository leagueRepo, IMatchRepository matchRepo, IClubRepository clubRepo, IClubLeagueRepository clubleagueRepo, ILogger<LeagueService> logger)
+        public LeagueService(ILeagueRepository leagueRepo, IMatchRepository matchRepo, IClubRepository clubRepo, ILogger<LeagueService> logger)
         {
             this.leagueRepo = leagueRepo;
             this.matchRepo = matchRepo;
             this.clubRepo = clubRepo;
-            this.clubleagueRepo = clubleagueRepo;
             this.logger = logger;
         }
 

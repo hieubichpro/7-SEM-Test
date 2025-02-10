@@ -1,0 +1,1462 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B75D2B-F0AF-4576-AD57-2733960BE093}|BDD\\BDD.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\bdd\\stepdefinitions\\emailtwofactoryauthstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B75D2B-F0AF-4576-AD57-2733960BE093}|BDD\\BDD.csproj|solutionrelative:bdd\\stepdefinitions\\emailtwofactoryauthstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B75D2B-F0AF-4576-AD57-2733960BE093}|BDD\\BDD.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\bdd\\features\\emailtwofactoryauth.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E3B75D2B-F0AF-4576-AD57-2733960BE093}|BDD\\BDD.csproj|solutionrelative:bdd\\features\\emailtwofactoryauth.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\techui\\techui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\techui\\techui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\dbsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\dbsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\benchmark\\compare\\compare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|solutionrelative:benchmark\\compare\\compare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\benchmark\\img\\memory.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|solutionrelative:benchmark\\img\\memory.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\benchmark\\img\\time.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|solutionrelative:benchmark\\img\\time.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\benchmark\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|solutionrelative:benchmark\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\benchmark\\repositories\\dapper\\dapperuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|solutionrelative:benchmark\\repositories\\dapper\\dapperuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\benchmark\\repositories\\efcore\\efuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|solutionrelative:benchmark\\repositories\\efcore\\efuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\benchmark\\repositories\\npgsql\\npgsqluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|solutionrelative:benchmark\\repositories\\npgsql\\npgsqluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\benchmark\\setup\\dbsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|solutionrelative:benchmark\\setup\\dbsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\benchmark\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|solutionrelative:benchmark\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\itegrationaltests\\fixture\\integrationfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|solutionrelative:itegrationaltests\\fixture\\integrationfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FC6247-E6CD-49AC-A4DF-64E1E0AA2D3A}|E2ETests\\E2ETests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\e2etests\\e2etests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69FC6247-E6CD-49AC-A4DF-64E1E0AA2D3A}|E2ETests\\E2ETests.csproj|solutionrelative:e2etests\\e2etests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\itegrationaltests\\integrationaltests\\userintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|solutionrelative:itegrationaltests\\integrationaltests\\userintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\fixture\\servicefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\fixture\\servicefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\fixture\\dbfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\fixture\\dbfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\builders\\userbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\builders\\userbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\da\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\da\\dbcontext\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\dbcontext\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B75D2B-F0AF-4576-AD57-2733960BE093}|BDD\\BDD.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\bdd\\implicitusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B75D2B-F0AF-4576-AD57-2733960BE093}|BDD\\BDD.csproj|solutionrelative:bdd\\implicitusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B75D2B-F0AF-4576-AD57-2733960BE093}|BDD\\BDD.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\bdd\\bdd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E3B75D2B-F0AF-4576-AD57-2733960BE093}|BDD\\BDD.csproj|solutionrelative:bdd\\bdd.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\itegrationaltests\\itegrationaltests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|solutionrelative:itegrationaltests\\itegrationaltests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\da\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\benchmark\\repositories\\efcore\\bmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|solutionrelative:benchmark\\repositories\\efcore\\bmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\benchmark\\repositories\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|solutionrelative:benchmark\\repositories\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FC6247-E6CD-49AC-A4DF-64E1E0AA2D3A}|E2ETests\\E2ETests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\e2etests\\e2etests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{69FC6247-E6CD-49AC-A4DF-64E1E0AA2D3A}|E2ETests\\E2ETests.csproj|solutionrelative:e2etests\\e2etests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\da\\dbcontext\\postgresql\\pgsqldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\dbcontext\\postgresql\\pgsqldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\allureconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\allureconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\services\\clubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\services\\clubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\services\\matchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\services\\matchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\models\\confirmingemailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\models\\confirmingemailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\.nuget\\packages\\allure.net.commons\\2.12.1\\contentfiles\\any\\netstandard2.0\\allureconfig.template.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\lab_01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\lab_01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B75D2B-F0AF-4576-AD57-2733960BE093}|BDD\\BDD.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\bdd\\bdd.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E3B75D2B-F0AF-4576-AD57-2733960BE093}|BDD\\BDD.csproj|solutionrelative:bdd\\bdd.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VS2022\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\unittests\\testbl\\londonmethod\\userserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testbl\\londonmethod\\userserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\unittests\\testbl\\londonmethod\\authserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testbl\\londonmethod\\authserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\unittests\\testbl\\londonmethod\\matchserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testbl\\londonmethod\\matchserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\unittests\\testda\\userrepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testda\\userrepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\unittests\\testbl\\destroymethod\\userserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testbl\\destroymethod\\userserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\objectmothers\\userobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\objectmothers\\userobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\unittests\\testbl\\destroymethod\\clubserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testbl\\destroymethod\\clubserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\da\\dbcontext\\inmemory\\inmemorydbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\dbcontext\\inmemory\\inmemorydbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\unittests\\testbl\\londonmethod\\leagueserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testbl\\londonmethod\\leagueserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\unittests\\testbl\\londonmethod\\clubserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testbl\\londonmethod\\clubserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\unittests\\testda\\clubrepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testda\\clubrepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\benchmark\\benchmark.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7F9516FB-F6C6-44B5-80A6-88E44DA60CE2}|Benchmark\\Benchmark.csproj|solutionrelative:benchmark\\benchmark.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\itegrationaltests\\integrationaltests\\clubintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|solutionrelative:itegrationaltests\\integrationaltests\\clubintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\itegrationaltests\\integrationaltests\\leagueintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|solutionrelative:itegrationaltests\\integrationaltests\\leagueintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\itegrationaltests\\integrationaltests\\matchintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|solutionrelative:itegrationaltests\\integrationaltests\\matchintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69FC6247-E6CD-49AC-A4DF-64E1E0AA2D3A}|E2ETests\\E2ETests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\e2etests\\allureconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{69FC6247-E6CD-49AC-A4DF-64E1E0AA2D3A}|E2ETests\\E2ETests.csproj|solutionrelative:e2etests\\allureconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\models\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\models\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\services\\leagueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\services\\leagueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\irepositories\\iclubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\irepositories\\iclubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\da\\repositories\\clubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\repositories\\clubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\da\\repositories\\matchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\repositories\\matchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\builders\\clubbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\builders\\clubbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\builders\\matchbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\builders\\matchbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\objectmothers\\clubobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\objectmothers\\clubobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\objectmothers\\leagueobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\objectmothers\\leagueobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\itegrationaltests\\allureconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|solutionrelative:itegrationaltests\\allureconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\itegrationaltests\\xunit.runner.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F10792FA-D18C-4E01-A150-22ADCB90F974}|ItegrationalTests\\ItegrationalTests.csproj|solutionrelative:itegrationaltests\\xunit.runner.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\unittests\\testda\\matchrepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testda\\matchrepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\da\\repositories\\leaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\da\\repositories\\leaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\exceptions\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\exceptions\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\logs\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\logs\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\unittests\\testbl\\destroymethod\\matchserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testbl\\destroymethod\\matchserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\order\\randomorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\order\\randomorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\order\\xunit.runner.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\order\\xunit.runner.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\unittests\\testda\\leaguerepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testda\\leaguerepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\unittests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\builders\\leaguebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\builders\\leaguebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\models\\league.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\models\\league.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\irepositories\\ileaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\irepositories\\ileaguerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\unittests\\testbl\\destroymethod\\leagueserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests\\testbl\\destroymethod\\leagueserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\lab_01\\bl\\irepositories\\imatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52371DE0-9EE2-4115-852A-705D3F30FF48}|lab_01\\lab_01.csproj|solutionrelative:lab_01\\bl\\irepositories\\imatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|c:\\users\\abcd2\\onedrive\\desktop\\testing2024\\unittests\\objectmothers\\matchobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B103219-EC53-4CD0-8F91-CC46A96D278F}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\objectmothers\\matchobjectmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\lab_04\\Benchmark\\Setup\\setup.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Compare.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Compare\\Compare.cs",
+              "RelativeDocumentMoniker": "Benchmark\\Compare\\Compare.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Compare\\Compare.cs",
+              "RelativeToolTip": "Benchmark\\Compare\\Compare.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwCsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:55:23.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailTwoFactoryAuth.feature",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\BDD\\Features\\EmailTwoFactoryAuth.feature",
+              "RelativeDocumentMoniker": "BDD\\Features\\EmailTwoFactoryAuth.feature",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\BDD\\Features\\EmailTwoFactoryAuth.feature",
+              "RelativeToolTip": "BDD\\Features\\EmailTwoFactoryAuth.feature",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-11-29T09:29:52.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\Program.cs",
+              "RelativeDocumentMoniker": "lab_01\\Program.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\Program.cs",
+              "RelativeToolTip": "lab_01\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwD8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:53:27.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TechUI.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\TechUI\\TechUI.cs",
+              "RelativeDocumentMoniker": "lab_01\\TechUI\\TechUI.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\TechUI\\TechUI.cs",
+              "RelativeToolTip": "lab_01\\TechUI\\TechUI.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T12:28:27.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbsettings.json",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\dbsettings.json",
+              "RelativeDocumentMoniker": "lab_01\\dbsettings.json",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\dbsettings.json",
+              "RelativeToolTip": "lab_01\\dbsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-09T14:40:37.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Services\\AuthService.cs",
+              "RelativeToolTip": "lab_01\\BL\\Services\\AuthService.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAG8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T06:32:05.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailTwoFactoryAuthStepDefinitions.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\BDD\\StepDefinitions\\EmailTwoFactoryAuthStepDefinitions.cs",
+              "RelativeDocumentMoniker": "BDD\\StepDefinitions\\EmailTwoFactoryAuthStepDefinitions.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\BDD\\StepDefinitions\\EmailTwoFactoryAuthStepDefinitions.cs*",
+              "RelativeToolTip": "BDD\\StepDefinitions\\EmailTwoFactoryAuthStepDefinitions.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T09:30:00.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NpgsqlUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Repositories\\Npgsql\\NpgsqlUserRepository.cs",
+              "RelativeDocumentMoniker": "Benchmark\\Repositories\\Npgsql\\NpgsqlUserRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Repositories\\Npgsql\\NpgsqlUserRepository.cs",
+              "RelativeToolTip": "Benchmark\\Repositories\\Npgsql\\NpgsqlUserRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:55:11.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DapperUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Repositories\\Dapper\\DapperUserRepository.cs",
+              "RelativeDocumentMoniker": "Benchmark\\Repositories\\Dapper\\DapperUserRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Repositories\\Dapper\\DapperUserRepository.cs",
+              "RelativeToolTip": "Benchmark\\Repositories\\Dapper\\DapperUserRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:54:13.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DBSetup.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Setup\\DBSetup.cs",
+              "RelativeDocumentMoniker": "Benchmark\\Setup\\DBSetup.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Setup\\DBSetup.cs",
+              "RelativeToolTip": "Benchmark\\Setup\\DBSetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:52:02.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Program.cs",
+              "RelativeDocumentMoniker": "Benchmark\\Program.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Program.cs",
+              "RelativeToolTip": "Benchmark\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:35:51.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "time.png",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\IMG\\time.png",
+              "RelativeDocumentMoniker": "Benchmark\\IMG\\time.png",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\IMG\\time.png",
+              "RelativeToolTip": "Benchmark\\IMG\\time.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-01-05T21:26:44.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "memory.png",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\IMG\\memory.png",
+              "RelativeDocumentMoniker": "Benchmark\\IMG\\memory.png",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\IMG\\memory.png",
+              "RelativeToolTip": "Benchmark\\IMG\\memory.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-01-05T21:26:50.968Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EfUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Repositories\\EfCore\\EfUserRepository.cs",
+              "RelativeDocumentMoniker": "Benchmark\\Repositories\\EfCore\\EfUserRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Repositories\\EfCore\\EfUserRepository.cs",
+              "RelativeToolTip": "Benchmark\\Repositories\\EfCore\\EfUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T10:54:45.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Benchmark\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Models\\User.cs",
+              "RelativeToolTip": "Benchmark\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T11:15:29.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "E2ETests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\E2ETests\\E2ETests.cs",
+              "RelativeDocumentMoniker": "E2ETests\\E2ETests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\E2ETests\\E2ETests.cs",
+              "RelativeToolTip": "E2ETests\\E2ETests.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBUAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:58:28.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Services\\UserService.cs",
+              "RelativeToolTip": "lab_01\\BL\\Services\\UserService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwEQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:56:25.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ServiceFixture.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Fixture\\ServiceFixture.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Fixture\\ServiceFixture.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Fixture\\ServiceFixture.cs",
+              "RelativeToolTip": "UnitTests\\Fixture\\ServiceFixture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T08:12:30.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\IntegrationalTests\\UserIntegrationTests.cs",
+              "RelativeDocumentMoniker": "ItegrationalTests\\IntegrationalTests\\UserIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\IntegrationalTests\\UserIntegrationTests.cs",
+              "RelativeToolTip": "ItegrationalTests\\IntegrationalTests\\UserIntegrationTests.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAlwDYAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:07:14.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IntegrationFixture.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\Fixture\\IntegrationFixture.cs",
+              "RelativeDocumentMoniker": "ItegrationalTests\\Fixture\\IntegrationFixture.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\Fixture\\IntegrationFixture.cs",
+              "RelativeToolTip": "ItegrationalTests\\Fixture\\IntegrationFixture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:09:55.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DBFixture.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Fixture\\DBFixture.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Fixture\\DBFixture.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Fixture\\DBFixture.cs",
+              "RelativeToolTip": "UnitTests\\Fixture\\DBFixture.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T05:31:57.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Builders\\UserBuilder.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Builders\\UserBuilder.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Builders\\UserBuilder.cs",
+              "RelativeToolTip": "UnitTests\\Builders\\UserBuilder.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAtwDgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:21:30.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\dbContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\dbContext\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\dbContext\\AppDbContext.cs",
+              "RelativeToolTip": "lab_01\\DA\\dbContext\\AppDbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvzEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T15:25:50.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "dbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\dbContext\\dbContextFactory.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\dbContext\\dbContextFactory.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\dbContext\\dbContextFactory.cs",
+              "RelativeToolTip": "lab_01\\DA\\dbContext\\dbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T13:30:50.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ImplicitUsings.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\BDD\\ImplicitUsings.cs",
+              "RelativeDocumentMoniker": "BDD\\ImplicitUsings.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\BDD\\ImplicitUsings.cs",
+              "RelativeToolTip": "BDD\\ImplicitUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T09:42:16.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BDD.csproj",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\BDD\\BDD.csproj",
+              "RelativeDocumentMoniker": "BDD\\BDD.csproj",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\BDD\\BDD.csproj",
+              "RelativeToolTip": "BDD\\BDD.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T09:41:33.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ItegrationalTests.csproj",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\ItegrationalTests.csproj",
+              "RelativeDocumentMoniker": "ItegrationalTests\\ItegrationalTests.csproj",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\ItegrationalTests.csproj",
+              "RelativeToolTip": "ItegrationalTests\\ItegrationalTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-18T14:02:51.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\docker-compose.yml",
+              "RelativeDocumentMoniker": "lab_01\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\docker-compose.yml",
+              "RelativeToolTip": "lab_01\\docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-11-29T09:51:08.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "lab_01\\DA\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAEwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T14:56:05.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BMContext.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Repositories\\EfCore\\BMContext.cs",
+              "RelativeDocumentMoniker": "Benchmark\\Repositories\\EfCore\\BMContext.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Repositories\\EfCore\\BMContext.cs",
+              "RelativeToolTip": "Benchmark\\Repositories\\EfCore\\BMContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwBYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:39:58.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Repositories\\IRepositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Benchmark\\Repositories\\IRepositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Repositories\\IRepositories\\IUserRepository.cs",
+              "RelativeToolTip": "Benchmark\\Repositories\\IRepositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T11:14:56.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "setup.sql",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\lab_04\\Benchmark\\Setup\\setup.sql",
+              "RelativeDocumentMoniker": "..\\7-SEM-HIEU\\lab_04\\Benchmark\\Setup\\setup.sql",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\lab_04\\Benchmark\\Setup\\setup.sql",
+              "RelativeToolTip": "..\\7-SEM-HIEU\\lab_04\\Benchmark\\Setup\\setup.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-12T08:50:40.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "E2ETests.csproj",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\E2ETests\\E2ETests.csproj",
+              "RelativeDocumentMoniker": "E2ETests\\E2ETests.csproj",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\E2ETests\\E2ETests.csproj",
+              "RelativeToolTip": "E2ETests\\E2ETests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-21T13:02:36.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "pgSqlDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\dbContext\\PostgreSQL\\pgSqlDbContextFactory.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\dbContext\\PostgreSQL\\pgSqlDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\dbContext\\PostgreSQL\\pgSqlDbContextFactory.cs",
+              "RelativeToolTip": "lab_01\\DA\\dbContext\\PostgreSQL\\pgSqlDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T13:46:23.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "allureConfig.json",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\allureConfig.json",
+              "RelativeDocumentMoniker": "UnitTests\\allureConfig.json",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\allureConfig.json",
+              "RelativeToolTip": "UnitTests\\allureConfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-18T12:11:11.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Models\\User.cs",
+              "RelativeToolTip": "lab_01\\BL\\Models\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBMAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:57:23.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ClubService.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Services\\ClubService.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Services\\ClubService.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Services\\ClubService.cs",
+              "RelativeToolTip": "lab_01\\BL\\Services\\ClubService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T13:03:56.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MatchService.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Services\\MatchService.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Services\\MatchService.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Services\\MatchService.cs",
+              "RelativeToolTip": "lab_01\\BL\\Services\\MatchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:56:24.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ConfirmingEmailConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Models\\ConfirmingEmailConfiguration.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Models\\ConfirmingEmailConfiguration.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Models\\ConfirmingEmailConfiguration.cs",
+              "RelativeToolTip": "lab_01\\BL\\Models\\ConfirmingEmailConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T06:33:20.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\Dockerfile",
+              "RelativeDocumentMoniker": "lab_01\\Dockerfile",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\Dockerfile",
+              "RelativeToolTip": "lab_01\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-23T15:52:21.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "allureConfig.Template.json",
+              "DocumentMoniker": "C:\\Users\\abcd2\\.nuget\\packages\\allure.net.commons\\2.12.1\\contentFiles\\any\\netstandard2.0\\allureConfig.Template.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\allure.net.commons\\2.12.1\\contentFiles\\any\\netstandard2.0\\allureConfig.Template.json",
+              "ToolTip": "C:\\Users\\abcd2\\.nuget\\packages\\allure.net.commons\\2.12.1\\contentFiles\\any\\netstandard2.0\\allureConfig.Template.json [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\allure.net.commons\\2.12.1\\contentFiles\\any\\netstandard2.0\\allureConfig.Template.json [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-29T09:51:03.417Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "lab_01.csproj",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\lab_01.csproj",
+              "RelativeDocumentMoniker": "lab_01\\lab_01.csproj",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\lab_01.csproj",
+              "RelativeToolTip": "lab_01\\lab_01.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-05T12:53:44.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BDD",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\BDD\\BDD.csproj",
+              "RelativeDocumentMoniker": "BDD\\BDD.csproj",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\BDD\\BDD.csproj",
+              "RelativeToolTip": "BDD\\BDD.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T09:41:57.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Models\\LoginModel.cs",
+              "RelativeToolTip": "lab_01\\BL\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:40:37.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\IRepositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\IRepositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\IRepositories\\IUserRepository.cs",
+              "RelativeToolTip": "lab_01\\BL\\IRepositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:56:34.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "D:\\VS2022\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "D:\\VS2022\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAALAUAAAAAAAAAAApwMgUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-26T21:49:43.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UserServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\LondonMethod\\UserServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestBL\\LondonMethod\\UserServiceUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\LondonMethod\\UserServiceUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestBL\\LondonMethod\\UserServiceUnitTests.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDoAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T15:34:56.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MatchServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\LondonMethod\\MatchServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestBL\\LondonMethod\\MatchServiceUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\LondonMethod\\MatchServiceUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestBL\\LondonMethod\\MatchServiceUnitTests.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwBQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:43:41.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UserObjectMother.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\ObjectMothers\\UserObjectMother.cs",
+              "RelativeDocumentMoniker": "UnitTests\\ObjectMothers\\UserObjectMother.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\ObjectMothers\\UserObjectMother.cs",
+              "RelativeToolTip": "UnitTests\\ObjectMothers\\UserObjectMother.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:46:15.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AuthServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\LondonMethod\\AuthServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestBL\\LondonMethod\\AuthServiceUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\LondonMethod\\AuthServiceUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestBL\\LondonMethod\\AuthServiceUnitTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAMBdwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:37:30.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UserServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\DestroyMethod\\UserServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestBL\\DestroyMethod\\UserServiceUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\DestroyMethod\\UserServiceUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestBL\\DestroyMethod\\UserServiceUnitTests.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAqwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T15:35:20.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ClubServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\DestroyMethod\\ClubServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestBL\\DestroyMethod\\ClubServiceUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\DestroyMethod\\ClubServiceUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestBL\\DestroyMethod\\ClubServiceUnitTests.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAApwC8AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T15:32:53.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UserRepositoryUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestDA\\UserRepositoryUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestDA\\UserRepositoryUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestDA\\UserRepositoryUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestDA\\UserRepositoryUnitTests.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAlwGYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T10:21:41.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "InMemoryDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\dbContext\\InMemory\\InMemoryDbContextFactory.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\dbContext\\InMemory\\InMemoryDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\dbContext\\InMemory\\InMemoryDbContextFactory.cs",
+              "RelativeToolTip": "lab_01\\DA\\dbContext\\InMemory\\InMemoryDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T13:36:24.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "LeagueServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\LondonMethod\\LeagueServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestBL\\LondonMethod\\LeagueServiceUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\LondonMethod\\LeagueServiceUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestBL\\LondonMethod\\LeagueServiceUnitTests.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAhwKQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T13:46:51.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ClubServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\LondonMethod\\ClubServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestBL\\LondonMethod\\ClubServiceUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\LondonMethod\\ClubServiceUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestBL\\LondonMethod\\ClubServiceUnitTests.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowI4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T15:32:19.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ClubRepositoryUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestDA\\ClubRepositoryUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestDA\\ClubRepositoryUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestDA\\ClubRepositoryUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestDA\\ClubRepositoryUnitTests.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwB8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T11:11:32.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Benchmark.csproj",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Benchmark.csproj",
+              "RelativeDocumentMoniker": "Benchmark\\Benchmark.csproj",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\Benchmark\\Benchmark.csproj",
+              "RelativeToolTip": "Benchmark\\Benchmark.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-11T10:35:57.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ClubIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\IntegrationalTests\\ClubIntegrationTests.cs",
+              "RelativeDocumentMoniker": "ItegrationalTests\\IntegrationalTests\\ClubIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\IntegrationalTests\\ClubIntegrationTests.cs",
+              "RelativeToolTip": "ItegrationalTests\\IntegrationalTests\\ClubIntegrationTests.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:07:37.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "allureConfig.json",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\E2ETests\\allureConfig.json",
+              "RelativeDocumentMoniker": "E2ETests\\allureConfig.json",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\E2ETests\\allureConfig.json",
+              "RelativeToolTip": "E2ETests\\allureConfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-03T11:24:17.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "MatchIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\IntegrationalTests\\MatchIntegrationTests.cs",
+              "RelativeDocumentMoniker": "ItegrationalTests\\IntegrationalTests\\MatchIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\IntegrationalTests\\MatchIntegrationTests.cs",
+              "RelativeToolTip": "ItegrationalTests\\IntegrationalTests\\MatchIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwEUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:08:07.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "LeagueIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\IntegrationalTests\\LeagueIntegrationTests.cs",
+              "RelativeDocumentMoniker": "ItegrationalTests\\IntegrationalTests\\LeagueIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\IntegrationalTests\\LeagueIntegrationTests.cs",
+              "RelativeToolTip": "ItegrationalTests\\IntegrationalTests\\LeagueIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwDoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:07:47.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IClubRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\IRepositories\\IClubRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\IRepositories\\IClubRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\IRepositories\\IClubRepository.cs",
+              "RelativeToolTip": "lab_01\\BL\\IRepositories\\IClubRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:54:13.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ClubRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\Repositories\\ClubRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\Repositories\\ClubRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\Repositories\\ClubRepository.cs",
+              "RelativeToolTip": "lab_01\\DA\\Repositories\\ClubRepository.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAqwGUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:56:57.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "LeagueService.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Services\\LeagueService.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Services\\LeagueService.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Services\\LeagueService.cs",
+              "RelativeToolTip": "lab_01\\BL\\Services\\LeagueService.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAQwIgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:57:46.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Club.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Models\\Club.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Models\\Club.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Models\\Club.cs",
+              "RelativeToolTip": "lab_01\\BL\\Models\\Club.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:55:46.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ClubBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Builders\\ClubBuilder.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Builders\\ClubBuilder.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Builders\\ClubBuilder.cs",
+              "RelativeToolTip": "UnitTests\\Builders\\ClubBuilder.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwCUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:35:03.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "MatchBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Builders\\MatchBuilder.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Builders\\MatchBuilder.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Builders\\MatchBuilder.cs",
+              "RelativeToolTip": "UnitTests\\Builders\\MatchBuilder.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAhwBEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:38:23.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "MatchRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\Repositories\\MatchRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\Repositories\\MatchRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\Repositories\\MatchRepository.cs",
+              "RelativeToolTip": "lab_01\\DA\\Repositories\\MatchRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBpwFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:24:36.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ClubObjectMother.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\ObjectMothers\\ClubObjectMother.cs",
+              "RelativeDocumentMoniker": "UnitTests\\ObjectMothers\\ClubObjectMother.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\ObjectMothers\\ClubObjectMother.cs",
+              "RelativeToolTip": "UnitTests\\ObjectMothers\\ClubObjectMother.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:54:40.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "LeagueObjectMother.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\ObjectMothers\\LeagueObjectMother.cs",
+              "RelativeDocumentMoniker": "UnitTests\\ObjectMothers\\LeagueObjectMother.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\ObjectMothers\\LeagueObjectMother.cs",
+              "RelativeToolTip": "UnitTests\\ObjectMothers\\LeagueObjectMother.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:55:30.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "xunit.runner.json",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\xunit.runner.json",
+              "RelativeDocumentMoniker": "ItegrationalTests\\xunit.runner.json",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\xunit.runner.json",
+              "RelativeToolTip": "ItegrationalTests\\xunit.runner.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T11:18:23.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "allureConfig.json",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\allureConfig.json",
+              "RelativeDocumentMoniker": "ItegrationalTests\\allureConfig.json",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\ItegrationalTests\\allureConfig.json",
+              "RelativeToolTip": "ItegrationalTests\\allureConfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T13:38:36.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "MatchRepositoryUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestDA\\MatchRepositoryUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestDA\\MatchRepositoryUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestDA\\MatchRepositoryUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestDA\\MatchRepositoryUnitTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T11:51:54.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "UnitTests.csproj",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests.csproj",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests.csproj",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests.csproj",
+              "RelativeToolTip": "UnitTests\\UnitTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-11T15:14:29.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "LeagueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\Repositories\\LeagueRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\DA\\Repositories\\LeagueRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\DA\\Repositories\\LeagueRepository.cs",
+              "RelativeToolTip": "lab_01\\DA\\Repositories\\LeagueRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBpwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:42:15.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "log.txt",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\logs\\log.txt",
+              "RelativeDocumentMoniker": "lab_01\\logs\\log.txt",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\logs\\log.txt",
+              "RelativeToolTip": "lab_01\\logs\\log.txt",
+              "ViewState": "AgIAAAEAAAAAAAAAAMBtwCUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-09-11T13:37:45.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Exceptions.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Exceptions\\Exceptions.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Exceptions\\Exceptions.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Exceptions\\Exceptions.cs",
+              "RelativeToolTip": "lab_01\\BL\\Exceptions\\Exceptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T11:27:30.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "MatchServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\DestroyMethod\\MatchServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestBL\\DestroyMethod\\MatchServiceUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\DestroyMethod\\MatchServiceUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestBL\\DestroyMethod\\MatchServiceUnitTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:43:13.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "RandomOrder.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Order\\RandomOrder.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Order\\RandomOrder.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Order\\RandomOrder.cs",
+              "RelativeToolTip": "UnitTests\\Order\\RandomOrder.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T09:29:39.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "xunit.runner.json",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Order\\xunit.runner.json",
+              "RelativeDocumentMoniker": "UnitTests\\Order\\xunit.runner.json",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Order\\xunit.runner.json",
+              "RelativeToolTip": "UnitTests\\Order\\xunit.runner.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-20T10:14:24.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "LeagueRepositoryUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestDA\\LeagueRepositoryUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestDA\\LeagueRepositoryUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestDA\\LeagueRepositoryUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestDA\\LeagueRepositoryUnitTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T11:29:37.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "UnitTests",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests.csproj",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests.csproj",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests.csproj",
+              "RelativeToolTip": "UnitTests\\UnitTests.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-20T09:39:59.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "LeagueBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Builders\\LeagueBuilder.cs",
+              "RelativeDocumentMoniker": "UnitTests\\Builders\\LeagueBuilder.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\Builders\\LeagueBuilder.cs",
+              "RelativeToolTip": "UnitTests\\Builders\\LeagueBuilder.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:30:12.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Match.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Models\\Match.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Models\\Match.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Models\\Match.cs",
+              "RelativeToolTip": "lab_01\\BL\\Models\\Match.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:57:23.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "League.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Models\\League.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\Models\\League.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\Models\\League.cs",
+              "RelativeToolTip": "lab_01\\BL\\Models\\League.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:51:38.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "ILeagueRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\IRepositories\\ILeagueRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\IRepositories\\ILeagueRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\IRepositories\\ILeagueRepository.cs",
+              "RelativeToolTip": "lab_01\\BL\\IRepositories\\ILeagueRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:54:17.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "LeagueServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\DestroyMethod\\LeagueServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests\\TestBL\\DestroyMethod\\LeagueServiceUnitTests.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\UnitTests\\TestBL\\DestroyMethod\\LeagueServiceUnitTests.cs",
+              "RelativeToolTip": "UnitTests\\UnitTests\\TestBL\\DestroyMethod\\LeagueServiceUnitTests.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAhwIcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:43:30.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "IMatchRepository.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\IRepositories\\IMatchRepository.cs",
+              "RelativeDocumentMoniker": "lab_01\\BL\\IRepositories\\IMatchRepository.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\BL\\IRepositories\\IMatchRepository.cs",
+              "RelativeToolTip": "lab_01\\BL\\IRepositories\\IMatchRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:54:18.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "MatchObjectMother.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\ObjectMothers\\MatchObjectMother.cs",
+              "RelativeDocumentMoniker": "UnitTests\\ObjectMothers\\MatchObjectMother.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\UnitTests\\ObjectMothers\\MatchObjectMother.cs",
+              "RelativeToolTip": "UnitTests\\ObjectMothers\\MatchObjectMother.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T15:52:21.476Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

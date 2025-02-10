@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Benchmark.Compare.Compare-20250106-002144</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.14.0, Windows 10 (10.0.19045.5247/22H2/2022Update)
+11th Gen Intel Core i7-1165G7 2.80GHz, 1 CPU, 8 logical and 4 physical cores
+.NET SDK 8.0.400
+  [Host]     : .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+  Job-TYVRNG : .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+</code></pre>
+<pre><code>IterationCount=5  LaunchCount=1  
+</code></pre>
+
+<table>
+<thead><tr><th>Method</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Gen0</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>NpgslInsert</td><td>780.0 &mu;s</td><td>151.6 &mu;s</td><td>23.45 &mu;s</td><td>-</td><td>4.71 KB</td>
+</tr><tr><td>NpgslSelect</td><td>900.6 &mu;s</td><td>660.0 &mu;s</td><td>171.40 &mu;s</td><td>-</td><td>3.76 KB</td>
+</tr><tr><td>DapperInsert</td><td>915.2 &mu;s</td><td>370.6 &mu;s</td><td>96.24 &mu;s</td><td>-</td><td>5.01 KB</td>
+</tr><tr><td>DapperSelect</td><td>927.1 &mu;s</td><td>505.7 &mu;s</td><td>131.32 &mu;s</td><td>-</td><td>4.49 KB</td>
+</tr><tr><td>EfCoreSelect</td><td>1,932.0 &mu;s</td><td>1,372.6 &mu;s</td><td>212.42 &mu;s</td><td>7.8125</td><td>56.63 KB</td>
+</tr><tr><td>EfCoreInsert</td><td>4,084.6 &mu;s</td><td>1,031.9 &mu;s</td><td>159.69 &mu;s</td><td>-</td><td>70.93 KB</td>
+</tr></tbody></table>
+</body>
+</html>

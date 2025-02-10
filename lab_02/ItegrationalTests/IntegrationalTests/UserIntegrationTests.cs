@@ -1,4 +1,5 @@
-﻿using ItegrationalTests.Fixture;
+﻿using Allure.Xunit.Attributes;
+using ItegrationalTests.Fixture;
 using lab_03.BL.Models;
 using lab_03.BL.Services;
 using lab_04.DA;
@@ -13,54 +14,65 @@ using Xunit;
 
 namespace ItegrationalTests.IntegrationalTests
 {
-    public class UserIntegrationTests : IntegrationFixture
+    [AllureOwner("Hieu Bauman")]
+    [AllureSuite("Integrational Tests")]
+    [AllureSubSuite("UserIntegrational Tests")]
+    public class UserIntegrationTests
     {
+        private IntegrationFixture _fixture;
         private UserService _userService;
+        private UserObjectMother userOM = new UserObjectMother();
         public UserIntegrationTests()
         {
-            var _userRepo = new UserRepository(_dbContextFactory, NullLogger<UserRepository>.Instance);
+            _fixture = new IntegrationFixture();
+            var _userRepo = new UserRepository(_fixture._dbContextFactory, NullLogger<UserRepository>.Instance);
             _userService = new UserService(_userRepo, NullLogger<UserService>.Instance);
         }
         [SkippableFact]
         public void TestLogin()
         {
-            string login = "admin";
-            string password = "1";
+            Skip.If(IntegrationFixture.SkipTest);
+            //Console.WriteLine(IntegrationFixture.SkipTest);
+            //Console.WriteLine("hehehe" + IntegrationFixture.TestSkipTest);
+            var users = _fixture.AddUsers();
+            var user = users.First();
 
-            var user = _userService.Login(login, password);
+            var actual = _userService.Login(user.Login, user.Password);
 
-            Assert.Equal(login, user.Login);
-            Assert.Equal(password, user.Password);
-            Assert.Equal("Admin", user.Role);
-            Assert.Equal(5, user.Id);
+            Assert.Equal(user.Login, actual.Login);
+            Assert.Equal(user.Password, actual.Password);
         }
         [SkippableFact]
         public void TestRegister()
         {
-            Skip.If(SkipTest);
-            var user = userOM.CreateReferee().WithName("testname").WithLogin($"testlogin {Guid.NewGuid()}".Substring(25)).BuildCoreModel();
-            var cnt = _dbContextFactory.get_db_context().users.Count();
+            Skip.If(IntegrationFixture.SkipTest);
+            //Console.WriteLine(IntegrationFixture.SkipTest);
+            //Console.WriteLine("hehehe" + IntegrationFixture.TestSkipTest);
+
+            var user = userOM.CreateReferee().WithName("testname").WithLogin("testlogin123").BuildCoreModel();
+            var cnt = _fixture._dbContextFactory.get_db_context().users.Count();
 
             _userService.Register(user.Login, user.Password, user.Role, user.Name);
 
-            Assert.Equal(cnt + 1, _dbContextFactory.get_db_context().users.Count());
+            Assert.Equal(cnt + 1, _fixture._dbContextFactory.get_db_context().users.Count());
         }
         [SkippableFact]
         public void TestChangeInfo()
         {
-            Skip.If(SkipTest);
-            var u = userOM.CreateReferee().WithId(1).WithName("mytest").WithLogin("test123").BuildCoreModel();
+            Skip.If(IntegrationFixture.SkipTest);
+            var users = _fixture.AddUsers();
+            var u = userOM.CreateReferee().WithId(users.First().Id).WithName("mytest").WithLogin("test123").BuildCoreModel();
 
             _userService.ChangeInfo(u.Id, u.Login, u.Password, u.Role, u.Name);
 
-            var user = _userService.getbyId(1);
+            var user = _userService.getbyId(users.First().Id);
             Assert.Equal("mytest", user.Name);
             Assert.Equal("test123", user.Login);
         }
         [SkippableFact]
         public void TestGetAll()
         {
-            var users = _dbContextFactory.get_db_context().users.Where(u => u.Role == "Referee");
+            var users = _fixture.AddUsers();
 
             var actual = _userService.getAll();
 

@@ -15,41 +15,18 @@ using UnitTests.ObjectMothers;
 
 namespace UnitTests.UnitTests.TestBL
 {
-[AllureOwner("Hieu Bauman")]
+    [AllureOwner("Hieu Bauman")]
     [AllureParentSuite("Services Unit tests")]
     [AllureSuite("ClubServices Unit tests")]
-[AllureSubSuite("ClubService unit tests London Method")]
+    [AllureSubSuite("ClubService unit tests London Method")]
+    [TestCaseOrderer(ordererTypeName: "UnitTests.Order.RandomOrder",
+        ordererAssemblyName: "UnitTests")]
     public class ClubServiceUnitTests
     {
         private ClubObjectMother clubOM = new ClubObjectMother();
         private ServiceFixture fixture = new ServiceFixture();
         [AllureBefore]
         public ClubServiceUnitTests() { }
-        //[Fact]
-        //public void TestInsertClubSuccess()
-        //{
-        //    var clubs = fixture.PrepareClubsForTest();
-        //    var club = clubOM.CreateClub().WithId(100).BuildCoreModel();
-        //    Mock<IClubRepository> _clubRepoMock = new Mock<IClubRepository>();
-        //    _clubRepoMock.Setup(m => m.create(club)).Callback(() => clubs.Add(club));
-        //    var clubService = new ClubService(_clubRepoMock.Object, NullLogger<ClubService>.Instance);
-
-        //    clubService.insertClub(club.Name);
-
-        //    Assert.Equal(11, clubs.Count);
-        //    _clubRepoMock.Verify(m => m.create(club), Times.Once());
-        //}
-        //[Fact]
-        //public void TestInsertClubFailure()
-        //{
-        //    var clubs = fixture.PrepareClubsForTest();
-        //    var club = clubOM.CreateClub().WithId(1).BuildCoreModel();
-        //    Mock<IClubRepository> _clubRepoMock = new Mock<IClubRepository>();
-        //    _clubRepoMock.Setup(m => m.create(club)).Callback(() => clubs.Add(club));
-        //    var clubService = new ClubService(_clubRepoMock.Object, NullLogger<ClubService>.Instance);
-
-        //    Assert.Throws<ClubExistException>(() => clubService.insertClub(club.Name));
-        //}
         [Fact]
         public void TestGetIdClubByNameSuccess()
         {

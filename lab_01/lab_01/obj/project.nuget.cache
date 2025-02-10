@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZnHAh70Yi6U=",
+  "dgSpecHash": "UmGNzlsYZIY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\abcd2\\OneDrive\\Desktop\\7-SEM-HIEU\\7-SEM-Test\\lab_01\\lab_01\\lab_01.csproj",
+  "projectFilePath": "C:\\Users\\abcd2\\OneDrive\\Desktop\\testing2024\\lab_01\\lab_01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abcd2\\.nuget\\packages\\allure.net.commons\\2.12.1\\allure.net.commons.2.12.1.nupkg.sha512",
     "C:\\Users\\abcd2\\.nuget\\packages\\allure.xunit\\2.12.1\\allure.xunit.2.12.1.nupkg.sha512",

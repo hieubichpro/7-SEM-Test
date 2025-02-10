@@ -1,0 +1,397 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 4 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\obj\Release\net8.0/" /p:OutDir="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\bin\Release\net8.0/" /p:OutputPath="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\bin\Release\net8.0/" in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f
+// command took 1.8 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\obj\Release\net8.0/" /p:OutDir="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\bin\Release\net8.0/" /p:OutputPath="C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\bin\Release\net8.0/" --output "C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\bin\Release\net8.0/" in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f
+// command took 5.95 sec and exited with 0
+// ***** Done, took 00:00:07 (7.86 sec)   *****
+// Found 4 benchmarks:
+//   Compare.NpgslInsert: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+//   Compare.NpgslSelect: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+//   Compare.DapperInsert: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+//   Compare.DapperSelect: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Compare.NpgslInsert: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 46fd3e6c-9e2a-4880-a324-40be31660d5f.dll --anonymousPipes 2300 2312 --benchmarkName Benchmark.Compare.Compare.NpgslInsert --job "IterationCount=3, LaunchCount=1" --benchmarkId 0 in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX-512F+CD+BW+DQ+VL+VBMI,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-NPWCZB(IterationCount=3, LaunchCount=1)
+
+[testcontainers.org 00:00:00.18] Connected to Docker:
+  Host: npipe://./pipe/docker_engine
+  Server Version: 26.1.4
+  Kernel Version: 5.15.153.1-microsoft-standard-WSL2
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 3.76 GB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+[testcontainers.org 00:00:00.43] Docker container 635eac720235 created
+[testcontainers.org 00:00:00.50] Start Docker container 635eac720235
+[testcontainers.org 00:00:01.91] Wait for Docker container 635eac720235 to complete readiness checks
+[testcontainers.org 00:00:01.92] Docker container 635eac720235 ready
+[testcontainers.org 00:00:02.00] Docker container 7fa32b6ea3ea created
+[testcontainers.org 00:00:02.01] Start Docker container 7fa32b6ea3ea
+[testcontainers.org 00:00:03.34] Wait for Docker container 7fa32b6ea3ea to complete readiness checks
+[testcontainers.org 00:00:03.35] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container 7fa32b6ea3ea
+[testcontainers.org 00:00:04.42] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container 7fa32b6ea3ea
+[testcontainers.org 00:00:04.47] Docker container 7fa32b6ea3ea ready
+OverheadJitting  1: 1 op, 184800.00 ns, 184.8000 us/op
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> Npgsql.PostgresException (0x80004005): 42P01: relation "public.user" does not exist
+
+POSITION: 13
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Benchmark.Repositories.Npgsql.NpgsqlUserRepository.InsertUser(String login, String password, String role, String name) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Repositories\Npgsql\NpgsqlUserRepository.cs:line 31
+   at Benchmark.Compare.Compare.NpgslInsert() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Compare\Compare.cs:line 37
+   at BenchmarkDotNet.Helpers.AwaitHelper.GetResult(Task task)
+   at BenchmarkDotNet.Autogenerated.Runnable_0.<.ctor>b__3_4() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 198
+   at BenchmarkDotNet.Autogenerated.Runnable_0.WorkloadActionNoUnroll(Int64 invokeCount) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 312
+   at BenchmarkDotNet.Engines.Engine.Measure(Action`1 action, Int64 invokeCount)
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineFactory.Jit(Engine engine, Int32 jitIndex, Int32 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineFactory.CreateReadyToRun(EngineParameters engineParameters)
+   at BenchmarkDotNet.Autogenerated.Runnable_0.Run(IHost host, String benchmarkName) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 177
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "public.user" does not exist
+    Position: 13
+    File: parse_relation.c
+    Line: 1428
+    Routine: parserOpenTable
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 57
+// AfterAll
+No Workload Results were obtained from the run.
+// Benchmark Process 23636 has exited with code -1.
+
+// ** Remained 3 (75,0 %) benchmark(s) to run. Estimated finish 2024-11-29 16:46 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Compare.NpgslSelect: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 46fd3e6c-9e2a-4880-a324-40be31660d5f.dll --anonymousPipes 2244 1624 --benchmarkName Benchmark.Compare.Compare.NpgslSelect --job "IterationCount=3, LaunchCount=1" --benchmarkId 1 in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX-512F+CD+BW+DQ+VL+VBMI,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-DASEEW(IterationCount=3, LaunchCount=1)
+
+[testcontainers.org 00:00:00.14] Connected to Docker:
+  Host: npipe://./pipe/docker_engine
+  Server Version: 26.1.4
+  Kernel Version: 5.15.153.1-microsoft-standard-WSL2
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 3.76 GB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+[testcontainers.org 00:00:00.30] Docker container 2608c06cf7f5 created
+[testcontainers.org 00:00:00.36] Start Docker container 2608c06cf7f5
+[testcontainers.org 00:00:01.68] Wait for Docker container 2608c06cf7f5 to complete readiness checks
+[testcontainers.org 00:00:01.68] Docker container 2608c06cf7f5 ready
+[testcontainers.org 00:00:01.75] Docker container e547587c6272 created
+[testcontainers.org 00:00:01.78] Start Docker container e547587c6272
+[testcontainers.org 00:00:03.16] Wait for Docker container e547587c6272 to complete readiness checks
+[testcontainers.org 00:00:03.17] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container e547587c6272
+[testcontainers.org 00:00:03.26] Docker container e547587c6272 ready
+OverheadJitting  1: 1 op, 240500.00 ns, 240.5000 us/op
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> Npgsql.PostgresException (0x80004005): 42P01: relation "public.user" does not exist
+
+POSITION: 15
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Benchmark.Repositories.Npgsql.NpgsqlUserRepository.SelectUser(String login) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Repositories\Npgsql\NpgsqlUserRepository.cs:line 46
+   at Benchmark.Compare.Compare.NpgslSelect() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Compare\Compare.cs:line 44
+   at BenchmarkDotNet.Helpers.AwaitHelper.GetResult[T](Task`1 task)
+   at BenchmarkDotNet.Autogenerated.Runnable_1.<.ctor>b__3_4() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 391
+   at BenchmarkDotNet.Autogenerated.Runnable_1.WorkloadActionNoUnroll(Int64 invokeCount) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 507
+   at BenchmarkDotNet.Engines.Engine.Measure(Action`1 action, Int64 invokeCount)
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineFactory.Jit(Engine engine, Int32 jitIndex, Int32 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineFactory.CreateReadyToRun(EngineParameters engineParameters)
+   at BenchmarkDotNet.Autogenerated.Runnable_1.Run(IHost host, String benchmarkName) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 370
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "public.user" does not exist
+    Position: 15
+    File: parse_relation.c
+    Line: 1428
+    Routine: parserOpenTable
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 57
+// AfterAll
+No Workload Results were obtained from the run.
+// Benchmark Process 21392 has exited with code -1.
+
+// ** Remained 2 (50,0 %) benchmark(s) to run. Estimated finish 2024-11-29 16:46 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Compare.DapperInsert: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 46fd3e6c-9e2a-4880-a324-40be31660d5f.dll --anonymousPipes 2244 1624 --benchmarkName Benchmark.Compare.Compare.DapperInsert --job "IterationCount=3, LaunchCount=1" --benchmarkId 2 in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX-512F+CD+BW+DQ+VL+VBMI,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-AMYEQI(IterationCount=3, LaunchCount=1)
+
+[testcontainers.org 00:00:00.14] Connected to Docker:
+  Host: npipe://./pipe/docker_engine
+  Server Version: 26.1.4
+  Kernel Version: 5.15.153.1-microsoft-standard-WSL2
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 3.76 GB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+[testcontainers.org 00:00:00.31] Docker container 676b188f5f6e created
+[testcontainers.org 00:00:00.36] Start Docker container 676b188f5f6e
+[testcontainers.org 00:00:01.66] Wait for Docker container 676b188f5f6e to complete readiness checks
+[testcontainers.org 00:00:01.67] Docker container 676b188f5f6e ready
+[testcontainers.org 00:00:01.73] Docker container 94023c5046f5 created
+[testcontainers.org 00:00:01.75] Start Docker container 94023c5046f5
+[testcontainers.org 00:00:03.07] Wait for Docker container 94023c5046f5 to complete readiness checks
+[testcontainers.org 00:00:03.07] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container 94023c5046f5
+[testcontainers.org 00:00:04.15] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container 94023c5046f5
+[testcontainers.org 00:00:04.20] Docker container 94023c5046f5 ready
+OverheadJitting  1: 1 op, 274400.00 ns, 274.4000 us/op
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> Npgsql.PostgresException (0x80004005): 42P01: relation "public.user" does not exist
+
+POSITION: 13
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Benchmark.Repositories.Dapper.DapperUserRepository.InsertUser(String login, String password, String role, String name) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Repositories\Dapper\DapperUserRepository.cs:line 23
+   at Benchmark.Compare.Compare.DapperInsert() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Compare\Compare.cs:line 53
+   at BenchmarkDotNet.Helpers.AwaitHelper.GetResult(Task task)
+   at BenchmarkDotNet.Autogenerated.Runnable_2.<.ctor>b__3_4() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 589
+   at BenchmarkDotNet.Autogenerated.Runnable_2.WorkloadActionNoUnroll(Int64 invokeCount) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 703
+   at BenchmarkDotNet.Engines.Engine.Measure(Action`1 action, Int64 invokeCount)
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineFactory.Jit(Engine engine, Int32 jitIndex, Int32 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineFactory.CreateReadyToRun(EngineParameters engineParameters)
+   at BenchmarkDotNet.Autogenerated.Runnable_2.Run(IHost host, String benchmarkName) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 568
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "public.user" does not exist
+    Position: 13
+    File: parse_relation.c
+    Line: 1428
+    Routine: parserOpenTable
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 57
+// AfterAll
+No Workload Results were obtained from the run.
+// Benchmark Process 20888 has exited with code -1.
+
+// ** Remained 1 (25,0 %) benchmark(s) to run. Estimated finish 2024-11-29 16:46 (0h 0m from now) **
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Compare.DapperSelect: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 46fd3e6c-9e2a-4880-a324-40be31660d5f.dll --anonymousPipes 2116 2140 --benchmarkName Benchmark.Compare.Compare.DapperSelect --job "IterationCount=3, LaunchCount=1" --benchmarkId 3 in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.14.0
+// Runtime=.NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX-512F+CD+BW+DQ+VL+VBMI,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: Job-EJHROO(IterationCount=3, LaunchCount=1)
+
+[testcontainers.org 00:00:00.13] Connected to Docker:
+  Host: npipe://./pipe/docker_engine
+  Server Version: 26.1.4
+  Kernel Version: 5.15.153.1-microsoft-standard-WSL2
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 3.76 GB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+[testcontainers.org 00:00:00.30] Docker container 73af6be1b054 created
+[testcontainers.org 00:00:00.33] Start Docker container 73af6be1b054
+[testcontainers.org 00:00:01.67] Wait for Docker container 73af6be1b054 to complete readiness checks
+[testcontainers.org 00:00:01.68] Docker container 73af6be1b054 ready
+[testcontainers.org 00:00:01.75] Docker container 15012f1a31ef created
+[testcontainers.org 00:00:01.76] Start Docker container 15012f1a31ef
+[testcontainers.org 00:00:03.42] Wait for Docker container 15012f1a31ef to complete readiness checks
+[testcontainers.org 00:00:03.43] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container 15012f1a31ef
+[testcontainers.org 00:00:04.51] Execute "pg_isready --host localhost --dbname BENCHMARK_testdb --username postgres" at Docker container 15012f1a31ef
+[testcontainers.org 00:00:04.56] Docker container 15012f1a31ef ready
+OverheadJitting  1: 1 op, 211200.00 ns, 211.2000 us/op
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> Npgsql.PostgresException (0x80004005): 42P01: relation "public.user" does not exist
+
+POSITION: 15
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 489
+   at Benchmark.Repositories.Dapper.DapperUserRepository.SelectUser(String login) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Repositories\Dapper\DapperUserRepository.cs:line 42
+   at Benchmark.Repositories.Dapper.DapperUserRepository.SelectUser(String login) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Repositories\Dapper\DapperUserRepository.cs:line 42
+   at Benchmark.Compare.Compare.DapperSelect() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\Compare\Compare.cs:line 60
+   at BenchmarkDotNet.Helpers.AwaitHelper.GetResult[T](Task`1 task)
+   at BenchmarkDotNet.Autogenerated.Runnable_3.<.ctor>b__3_4() in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 782
+   at BenchmarkDotNet.Autogenerated.Runnable_3.WorkloadActionNoUnroll(Int64 invokeCount) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 898
+   at BenchmarkDotNet.Engines.Engine.Measure(Action`1 action, Int64 invokeCount)
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineFactory.Jit(Engine engine, Int32 jitIndex, Int32 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineFactory.CreateReadyToRun(EngineParameters engineParameters)
+   at BenchmarkDotNet.Autogenerated.Runnable_3.Run(IHost host, String benchmarkName) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 761
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "public.user" does not exist
+    Position: 15
+    File: parse_relation.c
+    Line: 1428
+    Routine: parserOpenTable
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\Benchmark\bin\Release\net8.0\46fd3e6c-9e2a-4880-a324-40be31660d5f\46fd3e6c-9e2a-4880-a324-40be31660d5f.notcs:line 57
+// AfterAll
+No Workload Results were obtained from the run.
+// Benchmark Process 18544 has exited with code -1.
+
+// ** Remained 0 (0,0 %) benchmark(s) to run. Estimated finish 2024-11-29 16:46 (0h 0m from now) **
+Successfully reverted power plan (GUID: 49ef8fc0-bb7f-488e-b6a0-f1fc77ec649b FriendlyName: Dell)
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Benchmark.Compare.Compare-report.csv
+  BenchmarkDotNet.Artifacts\results\Benchmark.Compare.Compare-report-github.md
+  BenchmarkDotNet.Artifacts\results\Benchmark.Compare.Compare-report.html
+  BenchmarkDotNet.Artifacts\results\Benchmark.Compare.Compare-report-default.md
+  BenchmarkDotNet.Artifacts\results\Benchmark.Compare.Compare-measurements.csv
+RPlotExporter couldn't find Rscript.exe in your PATH and no R_HOME environment variable is defined
+  BenchmarkDotNet.Artifacts\results\BuildPlots.R
+
+// * Detailed results *
+Compare.NpgslInsert: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+Runtime = .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+There are not any results runs
+
+Compare.NpgslSelect: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+Runtime = .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+There are not any results runs
+
+Compare.DapperInsert: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+Runtime = .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+There are not any results runs
+
+Compare.DapperSelect: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+Runtime = .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI; GC = Concurrent Workstation
+There are not any results runs
+
+// * Summary *
+
+BenchmarkDotNet v0.14.0, Windows 10 (10.0.19045.5131/22H2/2022Update)
+11th Gen Intel Core i7-1165G7 2.80GHz, 1 CPU, 8 logical and 4 physical cores
+.NET SDK 8.0.400
+  [Host]     : .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+  Job-NWVGIT : .NET 8.0.8 (8.0.824.36612), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+
+IterationCount=3  LaunchCount=1  
+
+| Method       | Mean | Error |
+|------------- |-----:|------:|
+| NpgslInsert  |   NA |    NA |
+| NpgslSelect  |   NA |    NA |
+| DapperInsert |   NA |    NA |
+| DapperSelect |   NA |    NA |
+
+Benchmarks with issues:
+  Compare.NpgslInsert: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+  Compare.NpgslSelect: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+  Compare.DapperInsert: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+  Compare.DapperSelect: Job-NWVGIT(IterationCount=3, LaunchCount=1)
+
+// * Warnings *
+Environment
+  Summary -> Detected error exit code from one of the benchmarks. It might be caused by following antivirus software:
+        - Windows Defender (windowsdefender://)
+Use InProcessEmitToolchain or InProcessNoEmitToolchain to avoid new process creation.
+
+
+// * Legends *
+  Mean  : Arithmetic mean of all measurements
+  Error : Half of 99.9% confidence interval
+  1 ns  : 1 Nanosecond (0.000000001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:00:18 (18.49 sec), executed benchmarks: 4
+
+Global total time: 00:00:26 (26.69 sec), executed benchmarks: 4
+// * Artifacts cleanup *
+Artifacts cleanup is finished

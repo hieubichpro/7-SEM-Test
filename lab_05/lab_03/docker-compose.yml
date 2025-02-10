@@ -1,0 +1,101 @@
+version: "3.7"
+
+# services:
+#   postgres:
+#     image: postgres
+#     restart: always
+#     environment:
+#       POSTGRES_USER: postgres
+#       POSTGRES_PASSWORD: 123456789
+#       POSTGRES_DB: Web2024
+#     volumes:
+#       - postgres-data:/var/lib/postgresql/data
+#     networks:
+#       - postgres
+
+#   webapi:
+#     image: hieubauman/myleague:v1
+#     container_name: webapi
+#     build:
+#       dockerfile: Dockerfile
+#     depends_on:
+#       - postgres
+#     networks:
+#       - postgres
+#       - nginx_network
+#     ports:
+#       - "8081:80"
+
+#   pgadmin:
+#     image: dpage/pgadmin4
+#     restart: always
+#     environment:
+#       PGADMIN_DEFAULT_EMAIL: pg@admin.com
+#       PGADMIN_DEFAULT_PASSWORD: aaa
+#       PGADMIN_LISTEN_PORT: 5050
+#     ports:
+#       - "5050:80"
+#     networks:
+#       - postgres
+#       - nginx_network
+
+#   nginx:
+#     image: nginx
+#     image: hieubauman/myleague_nginx:v2
+#     container_name: nginx_container
+#     depends_on:
+#       - pgadmin
+#       - webapi
+#     volumes:
+#       - ./nginx/my_nginx.conf:/etc/nginx/nginx.conf
+#       - ./static:/static
+#     ports:
+#       - "81:81"
+#     ports:
+#       - "80:80"
+#     networks:
+#       - nginx_network
+
+#   prometheus:
+#     image: prom/prometheus:latest
+#     container_name: prometheus
+#     ports:
+#       - 9090:9090
+#     command:
+#       - --config.file=/etc/prometheus/prometheus.yml
+#     volumes:
+#       - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+#     depends_on:
+#       - backend
+
+# volumes:
+#   postgres-data:
+# networks:
+#   postgres:
+#     driver: bridge
+#   nginx_network:
+#     driver: bridge
+services:
+  # webapi:
+  #   # image: hieubauman/myleague:v1
+  #   container_name: webapi
+  #   build:
+  #     dockerfile: Dockerfile
+  #   networks:
+  #     - otel
+  #   ports:
+  #     - "8081:80"
+  #   environment:
+  #     - OTEL_EXPORTER_OTLP_ENDPOINT=http://my_dashboard:18888
+
+  league_dashboard:
+    # image: mcr.microsoft.com/dotnet/nightly/aspire-dashboard:lastest
+    image: mcr.microsoft.com/dotnet/aspire-dashboard:9.0
+    container_name: my_dashboard
+    ports:
+      - 18888:18888
+      - 4317:18889
+    networks:
+      - otel
+networks:
+  otel:

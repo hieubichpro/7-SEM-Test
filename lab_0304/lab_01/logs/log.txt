@@ -1,0 +1,138 @@
+2024-09-11 13:37:34Z [Information] login started
+2024-09-11 13:37:34Z [Information] started read user by login
+2024-09-11 13:37:34Z [Information] ended read user by login
+2024-09-11 13:37:35Z [Information] login sucess
+2024-09-11 16:05:46Z [Information] register started
+2024-09-11 16:05:46Z [Information] started read user by login
+2024-09-11 16:05:46Z [Information] ended read user by login
+2024-09-11 16:05:47Z [Information] started create user
+2024-09-11 16:05:47Z [Information] ended create user
+2024-09-11 16:05:47Z [Information] register success
+2024-09-11 16:06:06Z [Information] login started
+2024-09-11 16:06:06Z [Information] started read user by login
+2024-09-11 16:06:06Z [Information] ended read user by login
+2024-09-11 16:06:06Z [Error] user doesn't exists
+2024-09-11 16:06:46Z [Information] login started
+2024-09-11 16:06:46Z [Information] started read user by login
+2024-09-11 16:06:46Z [Information] ended read user by login
+2024-09-11 16:06:47Z [Information] login sucess
+2024-09-12 15:41:48Z [Information] register started
+2024-09-12 15:41:48Z [Information] started read user by login
+2024-09-12 15:41:48Z [Information] ended read user by login
+2024-09-12 15:41:49Z [Information] started create user
+2024-09-12 15:41:50Z [Information] ended create user
+2024-09-12 15:41:50Z [Information] register success
+2024-09-12 15:42:43Z [Information] login started
+2024-09-12 15:42:43Z [Information] started read user by login
+2024-09-12 15:42:43Z [Information] ended read user by login
+2024-09-12 15:42:43Z [Error] password not correct
+2024-09-12 15:42:57Z [Information] login started
+2024-09-12 15:42:57Z [Information] started read user by login
+2024-09-12 15:42:57Z [Information] ended read user by login
+2024-09-12 15:42:58Z [Information] login sucess
+2024-09-12 21:30:43Z [Information] register started
+2024-09-12 21:30:43Z [Information] started read user by login
+2024-09-12 21:30:44Z [Information] ended read user by login
+2024-09-12 21:30:46Z [Information] started create user
+2024-09-12 21:30:46Z [Information] ended create user
+2024-09-12 21:30:46Z [Information] register success
+2024-09-12 21:31:04Z [Information] login started
+2024-09-12 21:31:04Z [Information] started read user by login
+2024-09-12 21:31:04Z [Information] ended read user by login
+2024-09-12 21:31:04Z [Information] login sucess
+2024-09-18 15:41:35Z [Information] login started
+2024-09-18 15:41:35Z [Information] started read user by login
+2024-09-18 15:41:35Z [Information] ended read user by login
+2024-09-18 15:41:36Z [Information] login sucess
+2024-11-26 20:59:23Z [Information] login started
+2024-11-26 20:59:23Z [Information] started read user by login
+2024-11-26 20:59:23Z [Information] ended read user by login
+2024-11-26 20:59:24Z [Information] login sucess
+2024-11-26 21:04:39Z [Information] login started
+2024-11-26 21:04:39Z [Information] started read user by login
+2024-11-26 21:04:39Z [Information] ended read user by login
+2024-11-26 21:04:40Z [Information] login sucess
+2024-11-26 21:13:34Z [Information] login started
+2024-11-26 21:13:34Z [Information] started read user by login
+2024-11-26 21:13:35Z [Information] ended read user by login
+2024-11-26 21:13:36Z [Information] login sucess
+2024-11-26 21:13:39Z [Error] Error while sending code to "minhhieuk19@gmail.com"
+MailKit.Security.AuthenticationException: 535: 5.7.0 NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.0 NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.Authenticate(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(Encoding encoding, String userName, String password, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(String userName, String password, CancellationToken cancellationToken)
+   at lab_01.BL.Services.AuthService.SendCode(User user, String code) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\lab_01\BL\Services\AuthService.cs:line 123
+2024-11-26 21:17:02Z [Information] started read user by login
+2024-11-26 21:17:02Z [Information] ended read user by login
+2024-11-26 21:18:36Z [Information] started read user by login
+2024-11-26 21:18:36Z [Information] ended read user by login
+2024-11-26 21:18:46Z [Information] started read user by login
+2024-11-26 21:18:46Z [Information] ended read user by login
+2024-11-26 21:20:14Z [Information] started read user by login
+2024-11-26 21:20:14Z [Information] ended read user by login
+2024-11-26 21:20:52Z [Information] started read user by login
+2024-11-26 21:20:52Z [Information] ended read user by login
+2024-11-26 21:20:55Z [Error] Error while sending code to "minhhieuk19@gmail.com"
+MailKit.Security.AuthenticationException: 535: 5.7.0 NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.0 NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.Authenticate(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(Encoding encoding, String userName, String password, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(String userName, String password, CancellationToken cancellationToken)
+   at lab_01.BL.Services.AuthService.SendCode(User user, String code) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\lab_01\BL\Services\AuthService.cs:line 123
+2024-11-26 21:23:05Z [Information] started read user by login
+2024-11-26 21:23:05Z [Information] ended read user by login
+2024-11-26 21:23:08Z [Error] Error while sending code to "minhhieuk19@gmail.com"
+MailKit.Security.AuthenticationException: 535: 5.7.0 NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.0 NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.Authenticate(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(Encoding encoding, String userName, String password, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(String userName, String password, CancellationToken cancellationToken)
+   at lab_01.BL.Services.AuthService.SendCode(User user, String code) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\lab_01\BL\Services\AuthService.cs:line 123
+2024-11-26 21:42:18Z [Information] started read user by login
+2024-11-26 21:42:18Z [Information] ended read user by login
+2024-11-26 21:42:23Z [Error] Error while sending code to "xf@student.bmstu.ru"
+MailKit.Security.AuthenticationException: 535: 5.7.0 NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.0 NEOBHODIM parol prilozheniya https://help.mail.ru/mail/security/protection/external / Application password is REQUIRED
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.Authenticate(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(Encoding encoding, String userName, String password, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(String userName, String password, CancellationToken cancellationToken)
+   at lab_01.BL.Services.AuthService.SendCode(User user, String code) in C:\Users\abcd2\OneDrive\Desktop\7-SEM-HIEU\lab_04\lab_01\BL\Services\AuthService.cs:line 123
+2024-11-26 21:47:44Z [Information] started read user by login
+2024-11-26 21:47:45Z [Information] ended read user by login
+2024-11-26 21:50:11Z [Information] started read user by login
+2024-11-26 21:50:12Z [Information] ended read user by login
+2024-11-27 14:14:30Z [Information] started read user by login
+2024-11-27 14:14:30Z [Information] ended read user by login
+2024-11-27 14:15:12Z [Information] confirm email started
+2024-11-27 14:15:12Z [Information] started read user by id
+2024-11-27 14:15:12Z [Information] ended read user by id
+2024-11-27 14:15:12Z [Information] started update user
+2024-11-27 14:15:12Z [Information] ended update user
+2024-11-27 14:15:12Z [Information] confirm email ended
+2024-11-27 14:15:30Z [Information] started read user by login
+2024-11-27 14:15:30Z [Information] ended read user by login
+2024-11-27 14:15:42Z [Information] started read user by login
+2024-11-27 14:15:42Z [Information] ended read user by login
+2024-11-27 14:16:00Z [Information] confirm email started
+2024-11-27 14:16:00Z [Information] started read user by id
+2024-11-27 14:16:00Z [Information] ended read user by id
+2024-11-27 14:16:00Z [Information] started update user
+2024-11-27 14:16:01Z [Information] ended update user
+2024-11-27 14:16:01Z [Information] confirm email ended
+2025-01-05 21:31:50Z [Information] register started
+2025-01-05 21:31:50Z [Information] started read user by login
+2025-01-05 21:31:51Z [Information] ended read user by login
+2025-01-05 21:31:51Z [Information] started create user
+2025-01-05 21:33:52Z [Information] started read user by login
+2025-01-05 21:33:52Z [Information] ended read user by login
+2025-01-05 21:34:15Z [Information] confirm email started
+2025-01-05 21:34:15Z [Information] started read user by id
+2025-01-05 21:34:15Z [Information] ended read user by id
+2025-01-05 21:34:15Z [Information] started update user
+2025-01-05 21:34:15Z [Information] ended update user
+2025-01-05 21:34:15Z [Information] confirm email ended

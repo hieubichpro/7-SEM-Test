@@ -10,7 +10,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\Unit
 		{52371DE0-9EE2-4115-852A-705D3F30FF48} = {52371DE0-9EE2-4115-852A-705D3F30FF48}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItegrationalTests", "ItegrationalTests\ItegrationalTests.csproj", "{F10792FA-D18C-4E01-A150-22ADCB90F974}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ItegrationalTests", "ItegrationalTests\ItegrationalTests.csproj", "{F10792FA-D18C-4E01-A150-22ADCB90F974}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E2ETests", "E2ETests\E2ETests.csproj", "{69FC6247-E6CD-49AC-A4DF-64E1E0AA2D3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,10 @@ Global
 		{F10792FA-D18C-4E01-A150-22ADCB90F974}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F10792FA-D18C-4E01-A150-22ADCB90F974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F10792FA-D18C-4E01-A150-22ADCB90F974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69FC6247-E6CD-49AC-A4DF-64E1E0AA2D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69FC6247-E6CD-49AC-A4DF-64E1E0AA2D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69FC6247-E6CD-49AC-A4DF-64E1E0AA2D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69FC6247-E6CD-49AC-A4DF-64E1E0AA2D3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
